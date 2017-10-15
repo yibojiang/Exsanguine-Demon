@@ -1,0 +1,19 @@
+<PhysicsPlugin>
+    <ExporterSettings ExportPhysXScene="true" PhysXSceneFileFormat="xml" ExportAPEXClothing="true" APEXClothingFileFormat=".apx" APEXClothingExportCtp="false" APEXClothingExportCtw="false" APEXReverseWinding="false" APEXClothingAddHulls="true" APEXClothingOmitMeshSubpartName="true" />
+    <GraphicsExport File="" />
+    <PhysicsExport SDK="3.4.0" PhysXScene="cloth.xml" />
+    <ClothingTool SDK="1.4.0" CTP="" />
+    <SceneParameters>
+        <AnimationRange Start="0" End="0" FrameRate="60" FrameSubStepCount="0" />
+        <LengthUnit Type="centimeters" />
+        <GroundPlane Enabled="true" Direction="0 1 0" Height="0.000000" ContactShellDepth="0.025000" />
+        <Gravity Enabled="true" Value="0 -981 0" />
+        <Simulation SolverIteration="8" SimulationLoop="Reset Simulation" MomentumEnable="true" AnimationEnable="true" AnimationLoop="Continue Animation" />
+    </SceneParameters>
+    <SceneObjects>
+        <APEXClothing Attach="BottomsClothing" File="cloth.apx">
+            <Actor GraphicalLOD="Bottoms" PhysicalLOD="1.000000" SlowStartEnabled="true" SlowStartSpeed="1000.000000" WindSpeed="0.000000" WindPitch="0.000000" WindYaw="0.000000" />
+        </APEXClothing>
+        <RigidBody Attach="groundPlane" Type="Static" Position="0 0 0" SwitchEnabled="false" SwitchAtFrame="0" Velocity="0 0 0" Spin="0 0 0" />
+    </SceneObjects>
+</PhysicsPlugin>

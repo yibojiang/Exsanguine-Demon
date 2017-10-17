@@ -50,7 +50,7 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 Import/*
 
-Plugins/UnrealEnginePython/*
+Plugins/*
 
 # Binary Files
 Binaries/*

@@ -1,0 +1,11 @@
+{
+	"Changelist" : 3586342,
+	"CompatibleChangelist" : 3573198,
+	"BuildId" : "3665371c-35da-46d7-844b-511714c0034a",
+	"Modules" : 
+	{
+		"PythonConsole" : "UE4Editor-PythonConsole.dylib",
+		"PythonEditor" : "UE4Editor-PythonEditor.dylib",
+		"UnrealEnginePython" : "UE4Editor-UnrealEnginePython.dylib"
+	}
+}

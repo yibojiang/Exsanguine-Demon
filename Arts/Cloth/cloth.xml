@@ -6,7 +6,7 @@
 		<Speed >0</Speed>
 	</Scale>
 	<PxMaterial >
-		<Id >2207663870576</Id>
+		<Id >1817932936208</Id>
 		<DynamicFriction >0.5</DynamicFriction>
 		<StaticFriction >0.5</StaticFriction>
 		<Restitution >1</Restitution>
@@ -14,7 +14,7 @@
 		<RestitutionCombineMode >eMIN</RestitutionCombineMode>
 	</PxMaterial>
 	<PxMaterial >
-		<Id >2207663870656</Id>
+		<Id >1817932936288</Id>
 		<DynamicFriction >0.2</DynamicFriction>
 		<StaticFriction >0.2</StaticFriction>
 		<Restitution >0.6</Restitution>
@@ -22,7 +22,7 @@
 		<RestitutionCombineMode >eAVERAGE</RestitutionCombineMode>
 	</PxMaterial>
 	<PxRigidStatic >
-		<Id >2207663840000</Id>
+		<Id >1817932966784</Id>
 		<Name >groundPlane</Name>
 		<ActorFlags >eVISUALIZATION</ActorFlags>
 		<DominanceGroup >0</DominanceGroup>
@@ -37,7 +37,7 @@
 				<SimulationFilterData >4294967295 4294967295 4294967295 4294967295</SimulationFilterData>
 				<QueryFilterData >0 0 0 0</QueryFilterData>
 				<Materials >
-					<PxMaterialRef >2207663870576</PxMaterialRef>
+					<PxMaterialRef >1817932936208</PxMaterialRef>
 				</Materials>
 				<ContactOffset >0.025</ContactOffset>
 				<RestOffset >0</RestOffset>

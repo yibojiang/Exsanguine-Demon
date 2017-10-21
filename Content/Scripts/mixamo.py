@@ -145,6 +145,50 @@ class RootMotionFixer:
 
         new_anim.save_package()
 
+     def split_hips_v2(self, animation, bone='Hips'):
+        self.choosen_skeleton = None
+        # first ask for which skeleton to use:
+        self.window = SWindow(title='Choose your new Skeleton', modal=True, sizing_rule=1)(
+                     SObjectPropertyEntryBox(allowed_class=Skeleton, on_object_changed=self.set_skeleton)
+                 )
+        self.window.add_modal()
+        if not self.choosen_skeleton:
+            raise DialogException('Please specify a Skeleton for retargeting')
+
+        factory = AnimSequenceFactory()
+        factory.TargetSkeleton = self.choosen_skeleton
+        
+        base_path = animation.get_path_name()
+        package_name = ue.get_path(base_path)
+        object_name = ue.get_base_filename(base_path)
+
+        new_anim = factory.factory_create_new(package_name + '/' + object_name + '_rooted')
+
+        new_anim.NumFrames = animation.NumFrames
+        new_anim.SequenceLength = animation.SequenceLength
+
+        for index, name in enumerate(animation.AnimationTrackNames):
+            data = animation.get_raw_animation_track(index)
+            if name == bone:
+                # extract root motion
+                root_motion = [position - data.pos_keys[0] for position in data.pos_keys]
+
+                # remove root motion from original track
+                data.pos_keys = [data.pos_keys[0]]
+                new_anim.add_new_raw_track(name, data)
+
+                # create a new track (the root motion one)
+                root_data = FRawAnimSequenceTrack()
+                root_data.pos_keys = root_motion
+                # ensure empty rotations !
+                root_data.rot_keys = [FQuat()]
+        
+                 # add  the track
+                new_anim.add_new_raw_track('root', root_data)
+            else:
+                new_anim.add_new_raw_track(name, data)
+
+        new_anim.save_package()
 
     def run_tasks(self, selected_assets):
         # asset_data is an FAssetData instance.It is not a UObject !
@@ -152,7 +196,7 @@ class RootMotionFixer:
             if asset_data.asset_class == 'SkeletalMesh':
                 self.add_root_to_skeleton(asset_data.get_asset())
             elif asset_data.asset_class == 'AnimSequence':
-                self.split_hips(asset_data.get_asset())
+                self.split_hips_v2(asset_data.get_asset())
             else:
                 raise DialogException('Only Skeletal Meshes and Anim Sequences are supported')
 

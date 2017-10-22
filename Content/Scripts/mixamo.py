@@ -141,6 +141,7 @@ class RootMotionFixer:
 
         new_anim.NumFrames = animation.NumFrames
         new_anim.SequenceLength = animation.SequenceLength
+        # new_anim.bEnableRootMotion = True
 
         for index, name in enumerate(animation.AnimationTrackNames):
             data = animation.get_raw_animation_track(index)

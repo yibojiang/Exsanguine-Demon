@@ -2,6 +2,7 @@ import unreal_engine as ue
 from unreal_engine.classes import SkeletalMesh, Skeleton, AnimSequence, AnimSequenceFactory
 from unreal_engine import FTransform, FRawAnimSequenceTrack, FQuat
 from unreal_engine import SWindow, SObjectPropertyEntryBox
+import math
 
 class DialogException(Exception):
     def __init__(self, message):
@@ -100,12 +101,31 @@ class RootMotionFixer:
         self.choosen_skeleton = asset_data.get_asset()
         self.window.request_destroy()
 
+    def euler_to_quaternion(self, pitch, roll, yaw):
+        cy = math.cos(math.radians(yaw * 0.5));
+        sy = math.sin(math.radians(yaw * 0.5));
+        cr = math.cos(math.radians(roll * 0.5));
+        sr = math.sin(math.radians(roll * 0.5));
+        cp = math.cos(math.radians(pitch * 0.5));
+        sp = math.sin(math.radians(pitch * 0.5));
+        
+        q = FQuat()
+        q.x = cy * sr * cp - sy * cr * sp
+        q.y = cy * cr * sp + sy * sr * cp
+        q.z = sy * cr * cp - cy * sr * sp
+        q.w = cy * cr * cp + sy * sr * sp
+        return q
+
+
     def split_hips(self, animation, bone='Hips'):
         self.choosen_skeleton = None
         # first ask for which skeleton to use:
-        self.window = SWindow(title='Choose your new Skeleton', modal=True, sizing_rule=1)(
+        # self.window = SWindow(title='Choose your new Skeleton', modal=True, sizing_rule=1)(
+        #              SObjectPropertyEntryBox(allowed_class=Skeleton, on_object_changed=self.set_skeleton)
+        #          )
+        self.window = SWindow(modal=True, sizing_rule=1)(
                      SObjectPropertyEntryBox(allowed_class=Skeleton, on_object_changed=self.set_skeleton)
-                 )
+                 )         
         self.window.add_modal()
         if not self.choosen_skeleton:
             raise DialogException('Please specify a Skeleton for retargeting')
@@ -121,22 +141,40 @@ class RootMotionFixer:
 
         new_anim.NumFrames = animation.NumFrames
         new_anim.SequenceLength = animation.SequenceLength
+        # new_anim.bEnableRootMotion = True
 
         for index, name in enumerate(animation.AnimationTrackNames):
             data = animation.get_raw_animation_track(index)
             if name == bone:
                 # extract root motion
-                root_motion = [position - data.pos_keys[0] for position in data.pos_keys]
+                # root_motion = [position - data.pos_keys[0] for position in data.pos_keys]
+                root_motion = [ue.FVector(position.x - data.pos_keys[0].x, position.y - data.pos_keys[0].y, 0 ) for position in data.pos_keys]
+                # print(root_motion)
+                # root_motion = [ue.FVector(position.x,position.y,0) for position in data.pos_keys]
+                root_rots = [self.euler_to_quaternion(0, 0, rotation.euler().z) for rotation in data.rot_keys]
 
+                # print(root_rots)
+                    
                 # remove root motion from original track
-                data.pos_keys = [data.pos_keys[0]]
+                # data.pos_keys = [data.pos_keys[0]]
+                data.pos_keys = [ue.FVector(data.pos_keys[0].x,data.pos_keys[0].x,position.z) for position in data.pos_keys]
+                
+                # data.rot_keys = [self.euler_to_quaternion(rotation.euler().x, rotation.euler().y, rotation.euler().z) for rotation in data.rot_keys]
+                data.rot_keys = [self.euler_to_quaternion(-rotation.euler().y, -rotation.euler().x, 0) for rotation in data.rot_keys]
+                # data.rot_keys = [FQuat()]
                 new_anim.add_new_raw_track(name, data)
 
                 # create a new track (the root motion one)
                 root_data = FRawAnimSequenceTrack()
                 root_data.pos_keys = root_motion
+
+                # root is z
+                # hip is y
+
                 # ensure empty rotations !
-                root_data.rot_keys = [FQuat()]
+                # root_data.rot_keys = [FQuat()]
+                root_data.rot_keys = root_rots
+                
         
                  # add  the track
                 new_anim.add_new_raw_track('root', root_data)
@@ -161,7 +199,15 @@ class RootMotionFixer:
         menu.add_menu_entry('fix root motion', 'fix root motion', self.run_tasks, selected_assets)
         menu.end_section()
     
-    
+root_motion_fixer=RootMotionFixer()
+for uobject in ue.get_selected_assets():
+    if uobject.is_a(SkeletalMesh):
+        root_motion_fixer.add_root_to_skeleton(uobject)
+    elif uobject.is_a(AnimSequence):
+        root_motion_fixer.split_hips(uobject)
+    else:
+        raise DialogException('Only Skeletal Meshes and Anim Sequences are supported')
+
 # add a context menu
-ue.add_asset_view_context_menu_extension(RootMotionFixer())
-ue.log('Mixamo Root Motion Fixer registered')
+# ue.add_asset_view_context_menu_extension(RootMotionFixer())
+# ue.log('Mixamo Root Motion Fixer registered')

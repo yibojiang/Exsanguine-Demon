@@ -1,0 +1,1805 @@
+Begin Object Class=/Script/Engine.Material Name="M_HairSheet_Master2"
+   Begin Object Class=/Script/Engine.MaterialExpressionAbs Name="MaterialExpressionAbs_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCameraVectorWS Name="MaterialExpressionCameraVectorWS_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_25"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant2Vector Name="MaterialExpressionConstant2Vector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCustom Name="MaterialExpressionCustom_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCustom Name="MaterialExpressionCustom_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_32"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_33"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_34"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMakeMaterialAttributes Name="MaterialExpressionMakeMaterialAttributes_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_21"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_22"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionQualitySwitch Name="MaterialExpressionQualitySwitch_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionQualitySwitch Name="MaterialExpressionQualitySwitch_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionQualitySwitch Name="MaterialExpressionQualitySwitch_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_114"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_115"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticBoolParameter Name="MaterialExpressionStaticBoolParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitch Name="MaterialExpressionStaticSwitch_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_95"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexColor Name="MaterialExpressionVertexColor_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVertexNormalWS Name="MaterialExpressionVertexNormalWS_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAbs_0"
+      Input=(Expression=MaterialExpressionDotProduct'M_HairSheet_Master2:MaterialExpressionDotProduct_0')
+      MaterialExpressionEditorX=-5020
+      MaterialExpressionEditorY=126
+      MaterialExpressionGuid=0103F4A440BDD3843D5832B2FC0B6F61
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_7')
+      B=(Expression=MaterialExpressionStaticSwitch'M_HairSheet_Master2:MaterialExpressionStaticSwitch_2')
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=-976
+      MaterialExpressionGuid=05F1BAA84B03FD180B6D74B49562E3C4
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_1')
+      B=(Expression=MaterialExpressionStaticSwitchParameter'M_HairSheet_Master2:MaterialExpressionStaticSwitchParameter_0')
+      MaterialExpressionEditorX=-2225
+      MaterialExpressionEditorY=1948
+      MaterialExpressionGuid=2CA7CB6E45BC553F048FBABBD360E9AE
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_10"
+      A=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_9')
+      ConstB=-0.500000
+      MaterialExpressionEditorX=-1920
+      MaterialExpressionEditorY=1024
+      MaterialExpressionGuid=CEC62AA146C5DA369AE2D0B5618E1B24
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_2"
+      A=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_4')
+      ConstB=-1.000000
+      MaterialExpressionEditorX=-2416
+      MaterialExpressionEditorY=2240
+      MaterialExpressionGuid=2BFB87194F669DBD737BC48D6BE01D9B
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_3"
+      A=(Expression=MaterialExpressionConstant'M_HairSheet_Master2:MaterialExpressionConstant_25')
+      B=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_5')
+      MaterialExpressionEditorX=1386
+      MaterialExpressionEditorY=902
+      MaterialExpressionGuid=F07D3B75487357D862C1CF8AB3502AC7
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_4"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'M_HairSheet_Master2:MaterialExpressionMaterialFunctionCall_1')
+      B=(Expression=MaterialExpressionComponentMask'M_HairSheet_Master2:MaterialExpressionComponentMask_0')
+      MaterialExpressionEditorX=-4156
+      MaterialExpressionEditorY=-1330
+      MaterialExpressionGuid=5E848D8F457E9D20955BFEAB093FDF0C
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_5"
+      A=(Expression=MaterialExpressionCustom'M_HairSheet_Master2:MaterialExpressionCustom_1')
+      B=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_14')
+      ConstB=0.000000
+      MaterialExpressionEditorX=-3772
+      MaterialExpressionEditorY=-1250
+      MaterialExpressionGuid=49AE976344EC5044338ED3A1C49AAD30
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_6"
+      A=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_6')
+      ConstB=-0.500000
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionEditorY=1296
+      MaterialExpressionGuid=006E8A43433A019EFE647DB654B3BFE6
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_8"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'M_HairSheet_Master2:MaterialExpressionMaterialFunctionCall_2')
+      B=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_15')
+      MaterialExpressionEditorX=-4364
+      MaterialExpressionEditorY=-1090
+      MaterialExpressionGuid=D94E701D4C6D67ACADE42198F732B774
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_9"
+      A=(Expression=MaterialExpressionDivide'M_HairSheet_Master2:MaterialExpressionDivide_0')
+      B=(Expression=MaterialExpressionStaticSwitch'M_HairSheet_Master2:MaterialExpressionStaticSwitch_1')
+      ConstB=0.500000
+      MaterialExpressionEditorX=-2016
+      MaterialExpressionEditorY=976
+      MaterialExpressionGuid=9E63D42F49049666F21D37A49EF225F7
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionCameraVectorWS_0"
+      MaterialExpressionEditorX=-5324
+      MaterialExpressionEditorY=110
+      MaterialExpressionGuid=762566EF444E00BE33F0FEAA35CF04DD
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_0"
+      Input=(Expression=MaterialExpressionSubtract'M_HairSheet_Master2:MaterialExpressionSubtract_0')
+      MaterialExpressionEditorX=-3219
+      MaterialExpressionEditorY=813
+      MaterialExpressionGuid=941B7E1F4986A3965BAC67A7776DA282
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_1"
+      Input=(Expression=MaterialExpressionStaticSwitchParameter'M_HairSheet_Master2:MaterialExpressionStaticSwitchParameter_2')
+      MinDefault=0.001000
+      MaxDefault=0.999000
+      MaterialExpressionEditorX=752
+      MaterialExpressionEditorY=-576
+      MaterialExpressionGuid=2F11BF70414AE1156B6F089AAABBC2D3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=560
+      SizeY=352
+      Text="BacklightOcclusion"
+      MaterialExpressionEditorX=-276
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=9EF3B7A540C2D685E39BFEA67F40C36B
+      Material=Material'M_HairSheet_Master2'
+      Desc="Seems like not active anymore"
+   End Object
+   Begin Object Name="MaterialExpressionComment_1"
+      SizeX=240
+      SizeY=832
+      Text="Bottom Layer"
+      MaterialExpressionEditorX=-4062
+      MaterialExpressionEditorY=220
+      MaterialExpressionGuid=992184944FBF603A841CA881A6AEF27C
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_10"
+      SizeX=984
+      SizeY=312
+      Text="Edge Mask"
+      MaterialExpressionEditorX=-5372
+      MaterialExpressionEditorY=46
+      MaterialExpressionGuid=36C3A43847E722F700C4D4ABE4EAE42B
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_11"
+      SizeX=1562
+      SizeY=673
+      Text="Animated Dither"
+      MaterialExpressionEditorX=-5020
+      MaterialExpressionEditorY=-1522
+      MaterialExpressionGuid=84F688334DA2CB7BED751595A66423E8
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_12"
+      SizeX=842
+      SizeY=455
+      Text="Use Textures for color"
+      MaterialExpressionEditorX=-2035
+      MaterialExpressionEditorY=-1889
+      MaterialExpressionGuid=55777CC048E2672AA18E55AC35A3A359
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_13"
+      SizeX=370
+      SizeY=234
+      Text="Reduce Aliasing on low quaality materials"
+      MaterialExpressionEditorX=944
+      MaterialExpressionEditorY=606
+      MaterialExpressionGuid=F2EE269F426F164CC31B53A0F7A5CEE3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_14"
+      SizeX=1348
+      SizeY=812
+      Text="Flames"
+      MaterialExpressionEditorX=-402
+      MaterialExpressionEditorY=1854
+      MaterialExpressionGuid=165378384DCD32CAAC94CD84B9143AB1
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_15"
+      SizeX=256
+      SizeY=192
+      Text="Opacity Mask"
+      MaterialExpressionEditorX=-2288
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=5FFC9F0D49D83AA101F0B7AD3A1BF6C0
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_16"
+      SizeX=387
+      SizeY=196
+      Text="contrast depth value"
+      MaterialExpressionEditorX=-4976
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=99279D7D49BCE1FA2962DBA168BFCD64
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_2"
+      SizeX=1024
+      SizeY=784
+      Text="Tangent"
+      MaterialExpressionEditorX=-2752
+      MaterialExpressionEditorY=1744
+      MaterialExpressionGuid=88DDDE814C40F4AE87F3C3AF341A41AE
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_3"
+      SizeX=474
+      SizeY=265
+      Text="PDO"
+      MaterialExpressionEditorX=-2112
+      MaterialExpressionEditorY=976
+      MaterialExpressionGuid=4E584A1447A9E54423FFC6AD88DE61A8
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_4"
+      SizeX=1312
+      SizeY=609
+      Text="Variation"
+      MaterialExpressionEditorX=-1273
+      MaterialExpressionEditorY=-628
+      MaterialExpressionGuid=AF45BE814D1011C820FFDC80BBCD9C1F
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_5"
+      SizeX=513
+      SizeY=317
+      Text="Noise"
+      MaterialExpressionEditorX=-2416
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=220161284F3470C01F0BAEBBCB60029D
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_6"
+      SizeX=760
+      SizeY=276
+      Text="Reduce aliasing on Low quality materials"
+      MaterialExpressionEditorX=-2013
+      MaterialExpressionEditorY=238
+      MaterialExpressionGuid=61D6694F4E4906942E9ADDA1C1139E3F
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_7"
+      SizeX=1018
+      SizeY=463
+      Text="Color"
+      MaterialExpressionEditorX=-1504
+      MaterialExpressionEditorY=-1216
+      MaterialExpressionGuid=7A9E512A4C3596E640A7FF8D0D11F1DC
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_8"
+      SizeX=903
+      SizeY=242
+      Text="5 translucency steps, high frequency regular pattern"
+      MaterialExpressionEditorX=-4844
+      MaterialExpressionEditorY=-1458
+      MaterialExpressionGuid=9489C172452A9B5590AC008E78B34476
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComment_9"
+      SizeX=1045
+      SizeY=187
+      Text="random noise to break up the 5 steps"
+      MaterialExpressionEditorX=-4972
+      MaterialExpressionEditorY=-1186
+      MaterialExpressionGuid=7F8ABB7A451F16C83E0214B55AB6F31C
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_0"
+      Input=(Expression=MaterialExpressionCustom'M_HairSheet_Master2:MaterialExpressionCustom_0')
+      R=True
+      MaterialExpressionEditorX=-4348
+      MaterialExpressionEditorY=-1298
+      MaterialExpressionGuid=F92DF84542C15B22594898AAAD173D84
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      MaterialExpressionEditorX=994
+      MaterialExpressionEditorY=686
+      MaterialExpressionGuid=6C79A2B24CDC5A3D6772D5A01D63DF2B
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=2.000000
+      MaterialExpressionEditorX=-1963
+      MaterialExpressionEditorY=388
+      MaterialExpressionGuid=C1F6759647029781BE9848B72370E7A7
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_11"
+      R=1.000000
+      MaterialExpressionEditorX=-4536
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=C604A2B244DF29621C298E8AD5B52440
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_25"
+      MaterialExpressionEditorX=784
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=DD331B4B4F913AAE42E7EBAC82CA8536
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=2.000000
+      MaterialExpressionEditorX=-4926
+      MaterialExpressionEditorY=434
+      MaterialExpressionGuid=9D3137194C918C74B8FD7BB3DF0F8100
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_0"
+      R=1.000000
+      G=1.000000
+      MaterialExpressionEditorX=-4668
+      MaterialExpressionEditorY=-1410
+      MaterialExpressionGuid=0BC0D3AA47F9BC7C4D4C61A0B3EB1CBD
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant2Vector_1"
+      R=64.000000
+      G=64.000000
+      MaterialExpressionEditorX=-4844
+      MaterialExpressionEditorY=-1154
+      MaterialExpressionGuid=5F583E844F2CE4248A43E7AC0BF97E80
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_1"
+      Constant=(R=1.000000,G=1.000000,B=0.000000,A=0.000000)
+      MaterialExpressionEditorX=-2688
+      MaterialExpressionEditorY=2400
+      MaterialExpressionGuid=43E744B548C8B1AA524A019B96276235
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_2"
+      Constant=(R=1.000000,G=0.000000,B=0.000000,A=0.000000)
+      MaterialExpressionEditorX=-832
+      MaterialExpressionEditorY=-288
+      MaterialExpressionGuid=6538A527400D29D32CB8528D12EEE3D3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionCustom_0"
+      Code="View.TemporalAAParams"
+      OutputType=CMOT_Float2
+      Description="TemporalAA SampleID"
+      MaterialExpressionEditorX=-4556
+      MaterialExpressionEditorY=-1298
+      MaterialExpressionGuid=214575904AF61FBA1FAC8BB95AEBCCE2
+      Material=Material'M_HairSheet_Master2'
+      Desc="\n*** Original source before expression upgrade ***\nView.TemporalAAParams\n*** Original source before expression upgrade ***\nFrame.TemporalAAParams"
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionCustom_1"
+      Code="((uint)(p.x) + 2 * (uint)(p.y)) % 5"
+      OutputType=CMOT_Float1
+      Inputs(0)=(InputName="p",Input=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_4'))
+      MaterialExpressionEditorX=-3996
+      MaterialExpressionEditorY=-1282
+      MaterialExpressionGuid=6D6AA1EE4676928BA8FA98B8A575E192
+      Material=Material'M_HairSheet_Master2'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionDivide_0"
+      A=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_5')
+      ConstB=6.000000
+      MaterialExpressionEditorX=-3596
+      MaterialExpressionEditorY=-1234
+      MaterialExpressionGuid=85B746C5431716FD3DCF1799E0172E41
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_0"
+      A=(Expression=MaterialExpressionCameraVectorWS'M_HairSheet_Master2:MaterialExpressionCameraVectorWS_0')
+      B=(Expression=MaterialExpressionVertexNormalWS'M_HairSheet_Master2:MaterialExpressionVertexNormalWS_0')
+      MaterialExpressionEditorX=-5116
+      MaterialExpressionEditorY=142
+      MaterialExpressionGuid=E2888F364A80CCE85083B9A3BC802CA4
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionVectorParameter'M_HairSheet_Master2:MaterialExpressionVectorParameter_3',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'M_HairSheet_Master2:MaterialExpressionVectorParameter_1',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_8',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-2272
+      MaterialExpressionEditorY=-1136
+      MaterialExpressionGuid=FFCBC4544E246F0A4BB3E69A530AD4A1
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionVectorParameter'M_HairSheet_Master2:MaterialExpressionVectorParameter_4',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'M_HairSheet_Master2:MaterialExpressionVectorParameter_5',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_16',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-2384
+      MaterialExpressionEditorY=1904
+      MaterialExpressionGuid=A312943448C1CA878FEB0CA6560720B7
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_10"
+      A=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_10')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'M_HairSheet_Master2:MaterialExpressionMaterialFunctionCall_0')
+      MaterialExpressionEditorX=-4544
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=4A271736406F2ED7B6D129B6FA2F085D
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_11"
+      A=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_5')
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_11')
+      Alpha=(Expression=MaterialExpressionPower'M_HairSheet_Master2:MaterialExpressionPower_1')
+      MaterialExpressionEditorX=134
+      MaterialExpressionEditorY=412
+      MaterialExpressionGuid=6BEAC0B0480E5F51AA2EAD9CF0E55B48
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      A=(Expression=MaterialExpressionPower'M_HairSheet_Master2:MaterialExpressionPower_0')
+      Alpha=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_10')
+      MaterialExpressionEditorX=-4496
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=AF851AEC48A34DA0EDE3ADB52930ED75
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_3"
+      A=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_3')
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_9')
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_8',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-1376
+      MaterialExpressionEditorY=1760
+      MaterialExpressionGuid=C4AB536D4BCEF1C26240899853E401BA
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_32"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_0')
+      B=(Expression=MaterialExpressionVectorParameter'M_HairSheet_Master2:MaterialExpressionVectorParameter_95',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_9',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-2112
+      MaterialExpressionEditorY=-1088
+      MaterialExpressionGuid=7DC6F705486C3D4D9B3307BEA71085EF
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_33"
+      A=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_1')
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_114')
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_9',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=640
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=C91065FB4C5FE3D8AF2D7A91C5854092
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_34"
+      A=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_6')
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_115')
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_9',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=656
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=41886C754FFC1DED8D4DDFAD162BAF93
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_4"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_1',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_4',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_8',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-1735
+      MaterialExpressionEditorY=-1710
+      MaterialExpressionGuid=3365AD2F435EC09C662206A4CBC2E12F
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_5"
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_16',OutputIndex=1,Mask=1,MaskR=1)
+      ConstA=0.500000
+      ConstB=1.500000
+      MaterialExpressionEditorX=-1223
+      MaterialExpressionEditorY=-280
+      MaterialExpressionGuid=07E8B8A3467B72603166DE8950EEF899
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_6"
+      B=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_5')
+      Alpha=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_7')
+      ConstA=1.000000
+      MaterialExpressionEditorX=-928
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=E878F50045C16A05370E2A95293981BE
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_7"
+      B=(Expression=MaterialExpressionConstant3Vector'M_HairSheet_Master2:MaterialExpressionConstant3Vector_2')
+      Alpha=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_12')
+      ConstA=1.000000
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=FCA9E0C047E510CC592C9A92D4DF194F
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMakeMaterialAttributes_6"
+      BaseColor=(Expression=MaterialExpressionClamp'M_HairSheet_Master2:MaterialExpressionClamp_1')
+      Metallic=(Expression=MaterialExpressionStaticSwitchParameter'M_HairSheet_Master2:MaterialExpressionStaticSwitchParameter_8')
+      Roughness=(Expression=MaterialExpressionStaticSwitchParameter'M_HairSheet_Master2:MaterialExpressionStaticSwitchParameter_9')
+      EmissiveColor=(Expression=MaterialExpressionStaticSwitch'M_HairSheet_Master2:MaterialExpressionStaticSwitch_0')
+      OpacityMask=(Expression=MaterialExpressionQualitySwitch'M_HairSheet_Master2:MaterialExpressionQualitySwitch_0')
+      Normal=(Expression=MaterialExpressionNormalize'M_HairSheet_Master2:MaterialExpressionNormalize_0')
+      ClearCoat=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_11')
+      Refraction=(Mask=1,MaskR=1,MaskG=1)
+      PixelDepthOffset=(Expression=MaterialExpressionQualitySwitch'M_HairSheet_Master2:MaterialExpressionQualitySwitch_9')
+      MaterialExpressionEditorX=1344
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=91ED841546CF8DEEA041A396FC9D8586
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast'
+      FunctionInputs(0)=(ExpressionInputId=95C9DA0E48D34168E34AD3A607BAA34E,Input=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_13',InputName="In"))
+      FunctionInputs(1)=(ExpressionInputId=3C3E177E485D8FFFC35D1482F0A20020,Input=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_8',InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=5067ED8C4A2EFE82DB33F99EBE37E80E,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-4748
+      MaterialExpressionEditorY=142
+      MaterialExpressionGuid=93F1690D46C8D88F14FADA89C839CB1E
+      Material=Material'M_HairSheet_Master2'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.ScreenAlignedPixelToPixelUVs'
+      FunctionInputs(0)=(ExpressionInputId=FE3F43CA4BAB40996D1DA48E4876C403,Input=(Expression=MaterialExpressionConstant2Vector'M_HairSheet_Master2:MaterialExpressionConstant2Vector_0',InputName="TextureResolution"))
+      FunctionOutputs(0)=(ExpressionOutputId=0B62F82A4407238F0BA4FE86805D8B50,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-4316
+      MaterialExpressionEditorY=-1410
+      MaterialExpressionGuid=482DB4C5465F50CED565F7BE2397EDE1
+      Material=Material'M_HairSheet_Master2'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_10"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast'
+      FunctionInputs(0)=(ExpressionInputId=95C9DA0E48D34168E34AD3A607BAA34E,Input=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_12',InputName="In"))
+      FunctionInputs(1)=(ExpressionInputId=3C3E177E485D8FFFC35D1482F0A20020,Input=(Expression=MaterialExpressionConstant'M_HairSheet_Master2:MaterialExpressionConstant_1',InputName="Contrast"))
+      FunctionOutputs(0)=(ExpressionOutputId=5067ED8C4A2EFE82DB33F99EBE37E80E,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1884
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=D0AE207E40620290337106915F843222
+      Material=Material'M_HairSheet_Master2'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.ScreenAlignedPixelToPixelUVs'
+      FunctionInputs(0)=(ExpressionInputId=FE3F43CA4BAB40996D1DA48E4876C403,Input=(Expression=MaterialExpressionConstant2Vector'M_HairSheet_Master2:MaterialExpressionConstant2Vector_1',InputName="TextureResolution"))
+      FunctionOutputs(0)=(ExpressionOutputId=0B62F82A4407238F0BA4FE86805D8B50,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-4492
+      MaterialExpressionEditorY=-1154
+      MaterialExpressionGuid=D7C4607E4EBE347A859C0BBF73849EDA
+      Material=Material'M_HairSheet_Master2'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_3"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Math/MultiplyAdd.MultiplyAdd'
+      FunctionInputs(0)=(ExpressionInputId=6365A65843D5BF2AAE06679A5164DD8F,Input=(Expression=MaterialExpressionStaticSwitchParameter'M_HairSheet_Master2:MaterialExpressionStaticSwitchParameter_1',InputName="Base"))
+      FunctionInputs(1)=(ExpressionInputId=FD8EE93F41DE641FB6C1DF8FFBD146A4,Input=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_22',InputName="Add"))
+      FunctionOutputs(0)=(ExpressionOutputId=91B53E9B42980001E4BCF6860281A1E4,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=208
+      MaterialExpressionEditorY=-448
+      MaterialExpressionGuid=15F7299A48ED129457471CB2CE23F7E3
+      Material=Material'M_HairSheet_Master2'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_5"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/HueShift.HueShift'
+      FunctionInputs(0)=(ExpressionInputId=AC2B9A554C8F2FC44CAFC38DEECA8B27,Input=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_16',OutputIndex=1,InputName="Hue Shift Percentage",Mask=1,MaskR=1))
+      FunctionInputs(1)=(ExpressionInputId=7357D1CC481540757C89D685B6F4ED36,Input=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_7',InputName="Texture"))
+      FunctionOutputs(0)=(ExpressionOutputId=52E5E332482A8447B8F4679D4758D2F3,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-544
+      MaterialExpressionEditorY=-336
+      MaterialExpressionGuid=472DD6484401A47B7978289971D59FFD
+      Material=Material'M_HairSheet_Master2'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_2')
+      B=(Expression=MaterialExpressionConstant3Vector'M_HairSheet_Master2:MaterialExpressionConstant3Vector_1')
+      MaterialExpressionEditorX=-2128
+      MaterialExpressionEditorY=2160
+      MaterialExpressionGuid=AB335B004244809C109BAFBFA458C26B
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_16')
+      B=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_0')
+      MaterialExpressionEditorX=-496
+      MaterialExpressionEditorY=-976
+      MaterialExpressionGuid=BA8DA8244D8CAEEEAFB91F8810556311
+      Material=Material'M_HairSheet_Master2'
+      Desc="base color"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_11"
+      A=(Expression=MaterialExpressionTextureCoordinate'M_HairSheet_Master2:MaterialExpressionTextureCoordinate_1')
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_17')
+      MaterialExpressionEditorX=-2208
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=0A1E76EB42D4B12E3B838A82174BD04D
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_12"
+      A=(Expression=MaterialExpressionQualitySwitch'M_HairSheet_Master2:MaterialExpressionQualitySwitch_10')
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_12',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-2192
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=ECB3D5D841D75FF54B4B788F995E22C1
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_13"
+      A=(Expression=MaterialExpressionAbs'M_HairSheet_Master2:MaterialExpressionAbs_0')
+      ConstB=1.500000
+      MaterialExpressionEditorX=-4924
+      MaterialExpressionEditorY=126
+      MaterialExpressionGuid=19F761214F2E7ABA4E4A758F3900BFC6
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_14"
+      A=(Expression=MaterialExpressionTextureSample'M_HairSheet_Master2:MaterialExpressionTextureSample_1',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-3964
+      MaterialExpressionEditorY=-1138
+      MaterialExpressionGuid=20ACF2AB409224033E310B8311A5DBBF
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_15"
+      A=(Expression=MaterialExpressionTime'M_HairSheet_Master2:MaterialExpressionTime_0')
+      ConstB=0.100000
+      MaterialExpressionEditorX=-4508
+      MaterialExpressionEditorY=-978
+      MaterialExpressionGuid=61AA75F34445A4CB56FA83B8A3B8FA66
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_1')
+      B=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_6')
+      MaterialExpressionEditorX=-522
+      MaterialExpressionEditorY=-519
+      MaterialExpressionGuid=8C960ACD40FDBA0E9E3353B6EDF60FE3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_21"
+      A=(Expression=MaterialExpressionVertexColor'M_HairSheet_Master2:MaterialExpressionVertexColor_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_14')
+      MaterialExpressionEditorX=-64
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=425416E744C7BB18FA4D568711782B3E
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_22"
+      A=(Expression=MaterialExpressionStaticSwitchParameter'M_HairSheet_Master2:MaterialExpressionStaticSwitchParameter_1')
+      B=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_21')
+      MaterialExpressionEditorX=32
+      MaterialExpressionEditorY=-160
+      MaterialExpressionGuid=6BDFCAF54B24BCE8809A80A35FCEABBE
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_10')
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_9')
+      MaterialExpressionEditorX=-1776
+      MaterialExpressionEditorY=1088
+      MaterialExpressionGuid=674598684167B550658A1D897E37CF04
+      Material=Material'M_HairSheet_Master2'
+      Desc="PDO"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstB=2.000000
+      MaterialExpressionEditorX=-2557
+      MaterialExpressionEditorY=2216
+      MaterialExpressionGuid=C13653F944B87E2AB088FB8587CE130F
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_5"
+      A=(Expression=MaterialExpressionVectorParameter'M_HairSheet_Master2:MaterialExpressionVectorParameter_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_2')
+      MaterialExpressionEditorX=1323
+      MaterialExpressionEditorY=1165
+      MaterialExpressionGuid=5D025C5D4BB7F11644CE909890703F33
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_6"
+      A=(Expression=MaterialExpressionDivide'M_HairSheet_Master2:MaterialExpressionDivide_0')
+      B=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_3')
+      MaterialExpressionEditorX=-1248
+      MaterialExpressionEditorY=1232
+      MaterialExpressionGuid=C626A8D048E722E56E45DA92E7346BF5
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_7"
+      A=(Expression=MaterialExpressionStaticSwitch'M_HairSheet_Master2:MaterialExpressionStaticSwitch_2')
+      B=(Expression=MaterialExpressionTextureSample'M_HairSheet_Master2:MaterialExpressionTextureSample_0',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=-912
+      MaterialExpressionGuid=F8CB23274A4111479B9CC6922796A029
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_8"
+      A=(Expression=MaterialExpressionStaticSwitchParameter'M_HairSheet_Master2:MaterialExpressionStaticSwitchParameter_5')
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_2',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-1893
+      MaterialExpressionEditorY=-979
+      MaterialExpressionGuid=C8D2B5324DDD543E4D26CC90C70D1608
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_9"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'M_HairSheet_Master2:MaterialExpressionMaterialFunctionCall_5')
+      B=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_2')
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=5E5C1E3245880C5AE4FF3396BC97747B
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_0"
+      VectorInput=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_1')
+      MaterialExpressionEditorX=-2144
+      MaterialExpressionEditorY=1952
+      MaterialExpressionGuid=F93513EF4BC1C7AF9E9CA9B357D11357
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_5"
+      Input=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_3',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-3568
+      MaterialExpressionEditorY=960
+      MaterialExpressionGuid=7E30E6A54D9619846E32D184E588C4FD
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionPower_0"
+      Base=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_3',OutputIndex=1,Mask=1,MaskR=1)
+      Exponent=(Expression=MaterialExpressionConstant'M_HairSheet_Master2:MaterialExpressionConstant_6')
+      ConstExponent=4.000000
+      MaterialExpressionEditorX=-4734
+      MaterialExpressionEditorY=450
+      MaterialExpressionGuid=81B8E39E4C54CA394E1FCE8DB95EDCE3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionPower_1"
+      Base=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_8',OutputIndex=1,Mask=1,MaskR=1)
+      Exponent=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_0')
+      MaterialExpressionEditorX=-106
+      MaterialExpressionEditorY=460
+      MaterialExpressionGuid=D746C1AC424913217F07F7800B60C0C6
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionQualitySwitch_0"
+      Default=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_12')
+      Inputs(0)=(Expression=MaterialExpressionMaterialFunctionCall'M_HairSheet_Master2:MaterialExpressionMaterialFunctionCall_10')
+      MaterialExpressionEditorX=-1431
+      MaterialExpressionEditorY=330
+      MaterialExpressionGuid=9514D5284D946A18F14BE8B32B24804A
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionQualitySwitch_10"
+      Default=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_2')
+      Inputs(0)=(Expression=MaterialExpressionConstant'M_HairSheet_Master2:MaterialExpressionConstant_11')
+      MaterialExpressionEditorX=-4314
+      MaterialExpressionEditorY=-44
+      MaterialExpressionGuid=62C7293441F8747F74B91A98BBEA2C69
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionQualitySwitch_9"
+      Default=(Expression=MaterialExpressionStaticSwitch'M_HairSheet_Master2:MaterialExpressionStaticSwitch_4')
+      Inputs(0)=(Expression=MaterialExpressionConstant'M_HairSheet_Master2:MaterialExpressionConstant_0')
+      MaterialExpressionEditorX=1136
+      MaterialExpressionEditorY=656
+      MaterialExpressionGuid=6E60020F49625FC8397EB9B30A6577E4
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="TipPower"
+      ExpressionGUID=2A11FE8243A40424A033A886EF2A291B
+      MaterialExpressionEditorX=-234
+      MaterialExpressionEditorY=540
+      MaterialExpressionGuid=A77B660645CDDC7FA65FB19411B1CD1D
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.200000
+      ParameterName="Scatter"
+      ExpressionGUID=C7B9E2134CA222BD080060811056BDC5
+      MaterialExpressionEditorX=400
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=7FC2C8CB49E5718558F8179713331E03
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_10"
+      ParameterName="EdgeMaskMin"
+      ExpressionGUID=5FF5B237478998497E3DB48F1A6DA948
+      MaterialExpressionEditorX=-4704
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=3D80DB6E4374CC65A0DDF890CD8C776A
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_11"
+      DefaultValue=0.800000
+      ParameterName="OcclusionAmtRootTip"
+      ExpressionGUID=8AB02BA749E9D89A4457988646BC4334
+      MaterialExpressionEditorX=-46
+      MaterialExpressionEditorY=418
+      MaterialExpressionGuid=FB73ECC84DD2B8C99E0AB6939A2D238F
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_114"
+      DefaultValue=0.150000
+      ParameterName="DyeScatter"
+      ExpressionGUID=C4EF608F4BBB14DFA173B9845F3D91D0
+      MaterialExpressionEditorX=304
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=7FC2C8CB49E5718558F8179713331E03
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_115"
+      DefaultValue=0.500000
+      ParameterName="DyeRoughness"
+      ExpressionGUID=D47B179A40A6524D38E58998E5B4A126
+      MaterialExpressionEditorX=432
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=7FC2C8CB49E5718558F8179713331E03
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_12"
+      ParameterName="RandomHueVariation"
+      ExpressionGUID=07D1E4794F16CDED1ED3D48E3E7F00A5
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=6EBD297E44530E226F42D1B96BA7D847
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_14"
+      DefaultValue=1.000000
+      ParameterName="VertexColorStrength"
+      ExpressionGUID=ADB5DDDF4E9272111FED8BA28D952D92
+      MaterialExpressionEditorX=-288
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=7FC2C8CB49E5718558F8179713331E03
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_16"
+      DefaultValue=0.800000
+      ParameterName="Brightness"
+      ExpressionGUID=096480984782476909D0018777ACBABE
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=-1024
+      MaterialExpressionGuid=D64D048C4B21FBC503171B9C62523E7D
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_17"
+      DefaultValue=24.000000
+      ParameterName="Noisetiling"
+      ExpressionGUID=FE71565448FC132CC703A29268BDDEC6
+      MaterialExpressionEditorX=-2368
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=63FD2C9F4A41BDB55FA568A86F463F8A
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      ParameterName="HairEmissiveBrightness"
+      ExpressionGUID=F9C3D67C41C3D8E8F3ABD3ABF35F1F47
+      MaterialExpressionEditorX=1117
+      MaterialExpressionEditorY=1245
+      MaterialExpressionGuid=0202B250476D067C116216B620457749
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=1.000000
+      ParameterName="PixelDepthOffset_Root"
+      ExpressionGUID=921F1DEC49FD45BC5E18EFB6FBAFD4C5
+      MaterialExpressionEditorX=-1584
+      MaterialExpressionEditorY=1680
+      MaterialExpressionGuid=1320B61B4B017FDBC14661B0C08BE5EC
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=-1.000000
+      ParameterName="MipBias"
+      ExpressionGUID=EC05369A441EA4584ADD8FAB80CE191E
+      MaterialExpressionEditorX=-4603
+      MaterialExpressionEditorY=842
+      MaterialExpressionGuid=E145832D4EAF68599FE768A7D7E18D7B
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      ParameterName="OcclusionAmtRoot"
+      ExpressionGUID=149AC2C54A068738AC23B990144CC4D9
+      MaterialExpressionEditorX=-46
+      MaterialExpressionEditorY=354
+      MaterialExpressionGuid=FB73ECC84DD2B8C99E0AB6939A2D238F
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_6"
+      DefaultValue=0.380000
+      ParameterName="Roughness"
+      ExpressionGUID=4BD5101845CA870F08328B9CBC7860C3
+      MaterialExpressionEditorX=480
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=BDF67BFA415095F26E14198B291B58B4
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_7"
+      ParameterName="RandomValueVariation"
+      ExpressionGUID=BC7A7F1949C536DCA59B129CDB3C7E20
+      MaterialExpressionEditorX=-1200
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=6EBD297E44530E226F42D1B96BA7D847
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      DefaultValue=1.000000
+      ParameterName="EdgeMaskContrast"
+      ExpressionGUID=2BD56FED42FB5D3F06E1009E06276DDC
+      MaterialExpressionEditorX=-4940
+      MaterialExpressionEditorY=238
+      MaterialExpressionGuid=D8361A5240EE33638FC936A9705F0D0A
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_9"
+      DefaultValue=1.000000
+      ParameterName="PixelDepthOffset"
+      ExpressionGUID=0A7CD1CE42D44ECF44DB32B41BC826DB
+      MaterialExpressionEditorX=-2000
+      MaterialExpressionEditorY=1136
+      MaterialExpressionGuid=1320B61B4B017FDBC14661B0C08BE5EC
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_0"
+      ParameterName="Eyebrow"
+      ExpressionGUID=D855959B446F137E000AAE8AE0F3A989
+      MaterialExpressionEditorX=-1360
+      MaterialExpressionEditorY=1952
+      MaterialExpressionGuid=1ED2DA6D4C7FE7A24A4070939185AB62
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_1"
+      ParameterName="Use2ndChannelUVForBaseColorTextures"
+      ExpressionGUID=215D03394C36A92F9B8B2A903F4583AE
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=-928
+      MaterialExpressionGuid=BA1201234AC272D05AFA1E891A4451AB
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_2"
+      ParameterName="SubtractTipFromDepth"
+      ExpressionGUID=84C2858B4C1836066FEAC6BD70FD29F3
+      MaterialExpressionEditorX=-3200
+      MaterialExpressionEditorY=960
+      MaterialExpressionGuid=033A75154CF12AC8B5FF51B8EF082DDB
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_3"
+      ParameterName="UseDiffuseBaseColor"
+      ExpressionGUID=4D5827174DB6E660D4DBB58F9E76E1DF
+      MaterialExpressionEditorX=-1888
+      MaterialExpressionEditorY=-800
+      MaterialExpressionGuid=BA1201234AC272D05AFA1E891A4451AB
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_4"
+      ParameterName="isEmissive"
+      ExpressionGUID=AF7BF12246747A17648C65865D2564D8
+      MaterialExpressionEditorX=1600
+      MaterialExpressionEditorY=976
+      MaterialExpressionGuid=227D76614CBF78A5F620E0AF67A8BC03
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticBoolParameter_6"
+      ParameterName="UseSecondUVChannel_Dye"
+      ExpressionGUID=E7FC8C7D42B33AADCED53AA219218C55
+      MaterialExpressionEditorX=-3824
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=2552779A4FA4CB4E91FB7EA9E86E8F36
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_0"
+      A=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_3')
+      B=(Expression=MaterialExpressionConstant'M_HairSheet_Master2:MaterialExpressionConstant_25')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'M_HairSheet_Master2:MaterialExpressionStaticBoolParameter_4')
+      MaterialExpressionEditorX=1629
+      MaterialExpressionEditorY=794
+      MaterialExpressionGuid=0054B98345FC9639B2D90793B1E44B8D
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_1"
+      A=(Expression=MaterialExpressionClamp'M_HairSheet_Master2:MaterialExpressionClamp_0')
+      B=(Expression=MaterialExpressionOneMinus'M_HairSheet_Master2:MaterialExpressionOneMinus_5')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'M_HairSheet_Master2:MaterialExpressionStaticBoolParameter_2')
+      MaterialExpressionEditorX=-3008
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=E53FD16F49EDE56BD73321879A6A5D73
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_2"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_4')
+      B=(Expression=MaterialExpressionStaticSwitch'M_HairSheet_Master2:MaterialExpressionStaticSwitch_3')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'M_HairSheet_Master2:MaterialExpressionStaticBoolParameter_1')
+      MaterialExpressionEditorX=-1072
+      MaterialExpressionEditorY=-1008
+      MaterialExpressionGuid=CEBF859E461F71DA6D0A869C17467280
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_3"
+      A=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_8')
+      B=(Expression=MaterialExpressionStaticSwitchParameter'M_HairSheet_Master2:MaterialExpressionStaticSwitchParameter_5')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'M_HairSheet_Master2:MaterialExpressionStaticBoolParameter_3')
+      MaterialExpressionEditorX=-1536
+      MaterialExpressionEditorY=-880
+      MaterialExpressionGuid=CEBF859E461F71DA6D0A869C17467280
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_4"
+      A=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_6')
+      B=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_3')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'M_HairSheet_Master2:MaterialExpressionStaticBoolParameter_0')
+      MaterialExpressionEditorX=-848
+      MaterialExpressionEditorY=1488
+      MaterialExpressionGuid=D4396DF943ED588EE8B9C799C29A8252
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitch_5"
+      A=(Expression=MaterialExpressionTextureCoordinate'M_HairSheet_Master2:MaterialExpressionTextureCoordinate_8')
+      B=(Expression=MaterialExpressionTextureCoordinate'M_HairSheet_Master2:MaterialExpressionTextureCoordinate_9')
+      Value=(Expression=MaterialExpressionStaticBoolParameter'M_HairSheet_Master2:MaterialExpressionStaticBoolParameter_6')
+      MaterialExpressionEditorX=-3600
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=2AAC84594EA1E9C50B411BB6459C87B9
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_0"
+      A=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_0')
+      B=(Expression=MaterialExpressionVectorParameter'M_HairSheet_Master2:MaterialExpressionVectorParameter_2',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ParameterName="useFlowMapTexture"
+      ExpressionGUID=57C36CA540E0CFE147E83BBDA95D5775
+      MaterialExpressionEditorX=-1968
+      MaterialExpressionEditorY=2240
+      MaterialExpressionGuid=C66828B54308C14DA16A3299D9AA8CE5
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_1"
+      A=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_9')
+      B=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_1')
+      ParameterName="Variation"
+      ExpressionGUID=C654225049486D9C058FA5AD4C94CCAA
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=-576
+      MaterialExpressionGuid=52F19882430E75796F155C9449A1C44E
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_2"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'M_HairSheet_Master2:MaterialExpressionMaterialFunctionCall_3')
+      B=(Expression=MaterialExpressionStaticSwitchParameter'M_HairSheet_Master2:MaterialExpressionStaticSwitchParameter_1')
+      ParameterName="UsesVertexColors"
+      ExpressionGUID=C5601B5B4B4F58B790944BAD85F59B08
+      MaterialExpressionEditorX=544
+      MaterialExpressionEditorY=-592
+      MaterialExpressionGuid=F48063524F94482C810CE6AFD097B12B
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_5"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_32')
+      B=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_0')
+      ParameterName="isDyed"
+      ExpressionGUID=8B7176C94EB9C4915C65279CB211E4A5
+      MaterialExpressionEditorX=-1952
+      MaterialExpressionEditorY=-1184
+      MaterialExpressionGuid=EB9BEDE546B03FC2EC3818B46575FCB3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_8"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_33')
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_1')
+      ParameterName="isDyed"
+      ExpressionGUID=B871437940125D5CEACAB48D63A9391C
+      MaterialExpressionEditorX=848
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=EB9BEDE546B03FC2EC3818B46575FCB3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_9"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_HairSheet_Master2:MaterialExpressionLinearInterpolate_34')
+      B=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_6')
+      ParameterName="isDyed"
+      ExpressionGUID=B34BF8DE4CED88D14A0167B6D289D047
+      MaterialExpressionEditorX=864
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=EB9BEDE546B03FC2EC3818B46575FCB3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_0"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'M_HairSheet_Master2:MaterialExpressionTextureSampleParameter2D_8',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionOneMinus'M_HairSheet_Master2:MaterialExpressionOneMinus_5')
+      MaterialExpressionEditorX=-3372
+      MaterialExpressionEditorY=800
+      MaterialExpressionGuid=4078026643D35E823E40AA9BC36351EE
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      CoordinateIndex=1
+      MaterialExpressionEditorX=-2210
+      MaterialExpressionEditorY=-1781
+      MaterialExpressionGuid=FCD10B844634BE77D96297A691CD982A
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_1"
+      MaterialExpressionEditorX=-2368
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=9364C8DC422AD8C10701FBA28FFC265D
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_8"
+      CoordinateIndex=1
+      MaterialExpressionEditorX=-3904
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=81A2B140465FE5D16D78308B49C8E0DF
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_9"
+      MaterialExpressionEditorX=-3904
+      MaterialExpressionEditorY=-336
+      MaterialExpressionGuid=81A2B140465FE5D16D78308B49C8E0DF
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionMultiply'M_HairSheet_Master2:MaterialExpressionMultiply_11')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+      SamplerType=SAMPLERTYPE_LinearGrayscale
+      MaterialExpressionEditorX=-2096
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=183C464441EE2DFEEABA7BA421D2B79A
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Expression=MaterialExpressionAdd'M_HairSheet_Master2:MaterialExpressionAdd_8')
+      Texture=Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+      SamplerType=SAMPLERTYPE_LinearGrayscale
+      MaterialExpressionEditorX=-4252
+      MaterialExpressionEditorY=-1170
+      MaterialExpressionGuid=4ACC443E4AF2573E77CBF1B92644C812
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="FlowMapTexture"
+      ExpressionGUID=BA2879F444C715B5C368E18AC1E1B787
+      Texture=Texture2D'/Game/Bust/Textures/T_Hair_Flow.T_Hair_Flow'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-2800
+      MaterialExpressionEditorY=2144
+      MaterialExpressionGuid=3B95BF1B4E7870200A4274877F6B974C
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="2ndUVRootColor"
+      ExpressionGUID=00CE32914B6F2EE409D42988B3D45961
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'M_HairSheet_Master2:MaterialExpressionTextureCoordinate_0')
+      Texture=Texture2D'/Engine/EditorMaterials/Cascade/CASC_Solo_On.CASC_Solo_On'
+      MaterialExpressionEditorX=-1983
+      MaterialExpressionEditorY=-1839
+      MaterialExpressionGuid=B29AB8F94EBBDF54AB54CFA4060EDB52
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_12"
+      ParameterName="Alpha"
+      ExpressionGUID=0B7DA2004BA8429733D5A38481DBACC3
+      MipValue=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_4')
+      MipValueMode=TMVM_MipBias
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'/Game/Bust/Textures/HairClump02_Alpha.HairClump02_Alpha'
+      SamplerType=SAMPLERTYPE_LinearGrayscale
+      MaterialExpressionEditorX=-4012
+      MaterialExpressionEditorY=446
+      MaterialExpressionGuid=1C438831481970E3D5D54CA677070449
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_16"
+      ParameterName="Unique_Hair_Value"
+      ExpressionGUID=D31E7ADE4CA3E4C30B83C98158196E21
+      MipValue=(Expression=MaterialExpressionScalarParameter'M_HairSheet_Master2:MaterialExpressionScalarParameter_4')
+      MipValueMode=TMVM_MipBias
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'/Game/Bust/Textures/HairClump02_ID.HairClump02_ID'
+      SamplerType=SAMPLERTYPE_LinearGrayscale
+      MaterialExpressionEditorX=-3984
+      MaterialExpressionEditorY=640
+      MaterialExpressionGuid=408241FE4B52D20AF4D273A50A083166
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_2"
+      ParameterName="Diffuse"
+      ExpressionGUID=188E162247D6B97A37D91F89C7B1EA4A
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'/Engine/EngineResources/Black.Black'
+      MaterialExpressionEditorX=-2096
+      MaterialExpressionEditorY=-976
+      MaterialExpressionGuid=B29AB8F94EBBDF54AB54CFA4060EDB52
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_3"
+      ParameterName="Depth"
+      ExpressionGUID=819F880B49E077ED8D42F69D2061B8F2
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'/Game/Bust/Textures/HairClump02_Depth.HairClump02_Depth'
+      SamplerType=SAMPLERTYPE_LinearGrayscale
+      MaterialExpressionEditorX=-4016
+      MaterialExpressionEditorY=848
+      MaterialExpressionGuid=1AB6AD2E44D0258D615119959E91B47B
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_4"
+      ParameterName="2ndUVTipColor"
+      ExpressionGUID=F21C988F4340C3489A468699E2217DB9
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'M_HairSheet_Master2:MaterialExpressionTextureCoordinate_0')
+      Texture=Texture2D'/Engine/EditorMaterials/Cascade/CASC_Solo_On.CASC_Solo_On'
+      MaterialExpressionEditorX=-1985
+      MaterialExpressionEditorY=-1660
+      MaterialExpressionGuid=B29AB8F94EBBDF54AB54CFA4060EDB52
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_8"
+      ParameterName="Root"
+      ExpressionGUID=EB43E3C14E8E470F5F7157BD1AFDBDDB
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'/Game/Bust/Textures/HairClump02_Roots.HairClump02_Roots'
+      SamplerType=SAMPLERTYPE_LinearGrayscale
+      MaterialExpressionEditorX=-4012
+      MaterialExpressionEditorY=270
+      MaterialExpressionGuid=1EC258254F0892F83C07F087453AE1D3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_9"
+      ParameterName="DyeMask"
+      ExpressionGUID=B079CCBA4856F5CC92CD8383CDBD7551
+      Coordinates=(Expression=MaterialExpressionStaticSwitch'M_HairSheet_Master2:MaterialExpressionStaticSwitch_5')
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'/Game/Bust/Textures/HairClump02_DyeMask.HairClump02_DyeMask'
+      MaterialExpressionEditorX=-3408
+      MaterialExpressionEditorY=-160
+      MaterialExpressionGuid=1EC258254F0892F83C07F087453AE1D3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      bOverride_Period=True
+      Period=1.000000
+      MaterialExpressionEditorX=-4716
+      MaterialExpressionEditorY=-978
+      MaterialExpressionGuid=6861D41146F730A3FFA26D969547D46D
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=20.000000,G=17.232893,B=11.000000,A=1.000000)
+      ParameterName="HairEmissiveColor"
+      ExpressionGUID=1E3E53E448822F850D00D594062A9EF6
+      MaterialExpressionEditorX=1136
+      MaterialExpressionEditorY=1056
+      MaterialExpressionGuid=290015414BEF4CF9E3E6D880109EEBAC
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      DefaultValue=(R=0.109804,G=0.074510,B=0.050980,A=1.000000)
+      ParameterName="TipColor"
+      ExpressionGUID=F84A30DE45011066789EF5A21CBB3B31
+      MaterialExpressionEditorX=-2528
+      MaterialExpressionEditorY=-1216
+      MaterialExpressionGuid=1D4EDEA6434401636E867AA03A8E5B82
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.000000,G=-1.000000,B=0.000000,A=1.000000)
+      ParameterName="Tangent"
+      ExpressionGUID=D6A5AAFE4BC7011F88B33BA2DB42E496
+      MaterialExpressionEditorX=-2272
+      MaterialExpressionEditorY=2304
+      MaterialExpressionGuid=50D8ACF44EA8503D60D83B89101A8509
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      DefaultValue=(R=0.109804,G=0.074510,B=0.047059,A=1.000000)
+      ParameterName="RootColor"
+      ExpressionGUID=DC249B64470A8231F7B877A5EDDE4A96
+      MaterialExpressionEditorX=-2528
+      MaterialExpressionEditorY=-1392
+      MaterialExpressionGuid=1D4EDEA6434401636E867AA03A8E5B82
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_4"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.300000,A=1.000000)
+      ParameterName="TangentA"
+      ExpressionGUID=54113371467CC35E01DBCE85CD9267D1
+      MaterialExpressionEditorX=-2640
+      MaterialExpressionEditorY=1776
+      MaterialExpressionGuid=CD914AFC4B82D45A60375285E5117D03
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_5"
+      DefaultValue=(R=0.000000,G=0.000000,B=-0.300000,A=1.000000)
+      ParameterName="TangentB"
+      ExpressionGUID=7B56E1C24271327706B12097D336D260
+      MaterialExpressionEditorX=-2640
+      MaterialExpressionEditorY=1952
+      MaterialExpressionGuid=79111A6E49F4D96AB3B0C4AF0E8C419A
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_95"
+      DefaultValue=(R=0.052451,G=0.318650,B=0.415000,A=1.000000)
+      ParameterName="DyeColor"
+      ExpressionGUID=62C22C8C4312322157FF64A95285D4F4
+      MaterialExpressionEditorX=-2512
+      MaterialExpressionEditorY=-944
+      MaterialExpressionGuid=1D4EDEA6434401636E867AA03A8E5B82
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionVertexColor_0"
+      MaterialExpressionEditorX=-288
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=EA625EEE4FEB20B9DF78BBA44A8639B7
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="MaterialExpressionVertexNormalWS_0"
+      MaterialExpressionEditorX=-5324
+      MaterialExpressionEditorY=206
+      MaterialExpressionGuid=117BD038482FA4A1D83F95A068EB4CC3
+      Material=Material'M_HairSheet_Master2'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BlendMode=BLEND_Masked
+   ShadingModel=MSM_Hair
+   MaterialAttributes=(Expression=MaterialExpressionMakeMaterialAttributes'MaterialExpressionMakeMaterialAttributes_6')
+   TwoSided=True
+   DitherOpacityMask=True
+   NumCustomizedUVs=1
+   TranslucencyLightingMode=TLM_SurfacePerPixelLighting
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   bUsedWithMorphTargets=True
+   bUsedWithClothing=True
+   EditorX=2736
+   EditorY=48
+   Expressions(0)=MaterialExpressionMakeMaterialAttributes'MaterialExpressionMakeMaterialAttributes_6'
+   Expressions(1)=MaterialExpressionClamp'MaterialExpressionClamp_1'
+   Expressions(2)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_1'
+   Expressions(3)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_6'
+   Expressions(4)=MaterialExpressionNormalize'MaterialExpressionNormalize_0'
+   Expressions(5)=MaterialExpressionMultiply'MaterialExpressionMultiply_12'
+   Expressions(6)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_11'
+   Expressions(7)=MaterialExpressionMultiply'MaterialExpressionMultiply_3'
+   Expressions(8)=MaterialExpressionMultiply'MaterialExpressionMultiply_1'
+   Expressions(9)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_5'
+   Expressions(10)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   Expressions(11)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_3'
+   Expressions(12)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_1'
+   Expressions(13)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_1'
+   Expressions(14)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_9'
+   Expressions(15)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_0'
+   Expressions(16)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_1'
+   Expressions(17)=MaterialExpressionMultiply'MaterialExpressionMultiply_7'
+   Expressions(18)=MaterialExpressionAdd'MaterialExpressionAdd_0'
+   Expressions(19)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_4'
+   Expressions(20)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_5'
+   Expressions(21)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_16'
+   Expressions(22)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_8'
+   Expressions(23)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_16'
+   Expressions(24)=MaterialExpressionMultiply'MaterialExpressionMultiply_11'
+   Expressions(25)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_17'
+   Expressions(26)=MaterialExpressionDotProduct'MaterialExpressionDotProduct_0'
+   Expressions(27)=MaterialExpressionCameraVectorWS'MaterialExpressionCameraVectorWS_0'
+   Expressions(28)=MaterialExpressionVertexNormalWS'MaterialExpressionVertexNormalWS_0'
+   Expressions(29)=MaterialExpressionAbs'MaterialExpressionAbs_0'
+   Expressions(30)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_2'
+   Expressions(31)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_0'
+   Expressions(32)=MaterialExpressionMultiply'MaterialExpressionMultiply_13'
+   Expressions(33)=MaterialExpressionComponentMask'MaterialExpressionComponentMask_0'
+   Expressions(34)=MaterialExpressionAdd'MaterialExpressionAdd_4'
+   Expressions(35)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_1'
+   Expressions(36)=MaterialExpressionCustom'MaterialExpressionCustom_0'
+   Expressions(37)=MaterialExpressionConstant2Vector'MaterialExpressionConstant2Vector_0'
+   Expressions(38)=MaterialExpressionConstant2Vector'MaterialExpressionConstant2Vector_1'
+   Expressions(39)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_2'
+   Expressions(40)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_1'
+   Expressions(41)=MaterialExpressionAdd'MaterialExpressionAdd_5'
+   Expressions(42)=MaterialExpressionDivide'MaterialExpressionDivide_0'
+   Expressions(43)=MaterialExpressionCustom'MaterialExpressionCustom_1'
+   Expressions(44)=MaterialExpressionMultiply'MaterialExpressionMultiply_14'
+   Expressions(45)=MaterialExpressionAdd'MaterialExpressionAdd_8'
+   Expressions(46)=MaterialExpressionTime'MaterialExpressionTime_0'
+   Expressions(47)=MaterialExpressionAdd'MaterialExpressionAdd_9'
+   Expressions(48)=MaterialExpressionAdd'MaterialExpressionAdd_10'
+   Expressions(49)=MaterialExpressionMultiply'MaterialExpressionMultiply_15'
+   Expressions(50)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_12'
+   Expressions(51)=MaterialExpressionAdd'MaterialExpressionAdd_1'
+   Expressions(52)=MaterialExpressionMultiply'MaterialExpressionMultiply_0'
+   Expressions(53)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_4'
+   Expressions(54)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_3'
+   Expressions(55)=MaterialExpressionOneMinus'MaterialExpressionOneMinus_5'
+   Expressions(56)=MaterialExpressionPower'MaterialExpressionPower_0'
+   Expressions(57)=MaterialExpressionConstant'MaterialExpressionConstant_6'
+   Expressions(58)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_8'
+   Expressions(59)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_10'
+   Expressions(60)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_10'
+   Expressions(61)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_11'
+   Expressions(62)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_1'
+   Expressions(63)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_4'
+   Expressions(64)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_4'
+   Expressions(65)=MaterialExpressionStaticSwitch'MaterialExpressionStaticSwitch_2'
+   Expressions(66)=MaterialExpressionStaticBoolParameter'MaterialExpressionStaticBoolParameter_1'
+   Expressions(67)=MaterialExpressionSubtract'MaterialExpressionSubtract_0'
+   Expressions(68)=MaterialExpressionStaticSwitch'MaterialExpressionStaticSwitch_1'
+   Expressions(69)=MaterialExpressionClamp'MaterialExpressionClamp_0'
+   Expressions(70)=MaterialExpressionStaticBoolParameter'MaterialExpressionStaticBoolParameter_2'
+   Expressions(71)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_0'
+   Expressions(72)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_2'
+   Expressions(73)=MaterialExpressionStaticSwitchParameter'MaterialExpressionStaticSwitchParameter_0'
+   Expressions(74)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_0'
+   Expressions(75)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_1'
+   Expressions(76)=MaterialExpressionMultiply'MaterialExpressionMultiply_4'
+   Expressions(77)=MaterialExpressionAdd'MaterialExpressionAdd_2'
+   Expressions(78)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_5'
+   Expressions(79)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_6'
+   Expressions(80)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_7'
+   Expressions(81)=MaterialExpressionMultiply'MaterialExpressionMultiply_2'
+   Expressions(82)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_5'
+   Expressions(83)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_12'
+   Expressions(84)=MaterialExpressionMultiply'MaterialExpressionMultiply_9'
+   Expressions(85)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_2'
+   Expressions(86)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_7'
+   Expressions(87)=MaterialExpressionStaticSwitchParameter'MaterialExpressionStaticSwitchParameter_1'
+   Expressions(88)=MaterialExpressionVertexColor'MaterialExpressionVertexColor_0'
+   Expressions(89)=MaterialExpressionStaticSwitchParameter'MaterialExpressionStaticSwitchParameter_2'
+   Expressions(90)=MaterialExpressionMultiply'MaterialExpressionMultiply_21'
+   Expressions(91)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_14'
+   Expressions(92)=MaterialExpressionMultiply'MaterialExpressionMultiply_22'
+   Expressions(93)=MaterialExpressionPower'MaterialExpressionPower_1'
+   Expressions(94)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0'
+   Expressions(95)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_3'
+   Expressions(96)=MaterialExpressionQualitySwitch'MaterialExpressionQualitySwitch_9'
+   Expressions(97)=MaterialExpressionQualitySwitch'MaterialExpressionQualitySwitch_10'
+   Expressions(98)=MaterialExpressionConstant'MaterialExpressionConstant_11'
+   Expressions(99)=MaterialExpressionConstant'MaterialExpressionConstant_0'
+   Expressions(100)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_10'
+   Expressions(101)=MaterialExpressionQualitySwitch'MaterialExpressionQualitySwitch_0'
+   Expressions(102)=MaterialExpressionConstant'MaterialExpressionConstant_1'
+   Expressions(103)=MaterialExpressionStaticBoolParameter'MaterialExpressionStaticBoolParameter_3'
+   Expressions(104)=MaterialExpressionStaticSwitch'MaterialExpressionStaticSwitch_3'
+   Expressions(105)=MaterialExpressionMultiply'MaterialExpressionMultiply_8'
+   Expressions(106)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_2'
+   Expressions(107)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_115'
+   Expressions(108)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_34'
+   Expressions(109)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_33'
+   Expressions(110)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_114'
+   Expressions(111)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_9'
+   Expressions(112)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_9'
+   Expressions(113)=MaterialExpressionStaticSwitch'MaterialExpressionStaticSwitch_5'
+   Expressions(114)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_8'
+   Expressions(115)=MaterialExpressionStaticBoolParameter'MaterialExpressionStaticBoolParameter_6'
+   Expressions(116)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_32'
+   Expressions(117)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_95'
+   Expressions(118)=MaterialExpressionStaticSwitchParameter'MaterialExpressionStaticSwitchParameter_5'
+   Expressions(119)=MaterialExpressionStaticSwitchParameter'MaterialExpressionStaticSwitchParameter_8'
+   Expressions(120)=MaterialExpressionStaticSwitchParameter'MaterialExpressionStaticSwitchParameter_9'
+   Expressions(121)=MaterialExpressionConstant'MaterialExpressionConstant_25'
+   Expressions(122)=MaterialExpressionAdd'MaterialExpressionAdd_3'
+   Expressions(123)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_0'
+   Expressions(124)=MaterialExpressionStaticBoolParameter'MaterialExpressionStaticBoolParameter_4'
+   Expressions(125)=MaterialExpressionStaticSwitch'MaterialExpressionStaticSwitch_0'
+   Expressions(126)=MaterialExpressionMultiply'MaterialExpressionMultiply_5'
+   Expressions(127)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_2'
+   Expressions(128)=MaterialExpressionStaticBoolParameter'MaterialExpressionStaticBoolParameter_0'
+   Expressions(129)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_3'
+   Expressions(130)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_3'
+   Expressions(131)=MaterialExpressionMultiply'MaterialExpressionMultiply_6'
+   Expressions(132)=MaterialExpressionAdd'MaterialExpressionAdd_6'
+   Expressions(133)=MaterialExpressionStaticSwitch'MaterialExpressionStaticSwitch_4'
+   EditorComments(0)=MaterialExpressionComment'MaterialExpressionComment_2'
+   EditorComments(1)=MaterialExpressionComment'MaterialExpressionComment_3'
+   EditorComments(2)=MaterialExpressionComment'MaterialExpressionComment_5'
+   EditorComments(3)=MaterialExpressionComment'MaterialExpressionComment_7'
+   EditorComments(4)=MaterialExpressionComment'MaterialExpressionComment_8'
+   EditorComments(5)=MaterialExpressionComment'MaterialExpressionComment_9'
+   EditorComments(6)=MaterialExpressionComment'MaterialExpressionComment_10'
+   EditorComments(7)=MaterialExpressionComment'MaterialExpressionComment_11'
+   EditorComments(8)=MaterialExpressionComment'MaterialExpressionComment_1'
+   EditorComments(9)=MaterialExpressionComment'MaterialExpressionComment_15'
+   EditorComments(10)=MaterialExpressionComment'MaterialExpressionComment_16'
+   EditorComments(11)=MaterialExpressionComment'MaterialExpressionComment_0'
+   EditorComments(12)=MaterialExpressionComment'MaterialExpressionComment_12'
+   EditorComments(13)=MaterialExpressionComment'MaterialExpressionComment_4'
+   EditorComments(14)=MaterialExpressionComment'MaterialExpressionComment_6'
+   EditorComments(15)=MaterialExpressionComment'MaterialExpressionComment_13'
+   EditorComments(16)=MaterialExpressionComment'MaterialExpressionComment_14'
+   MaterialFunctionInfos(0)=(StateId=3FA44BF2462D624CFA2229876FE1F968,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast')
+   MaterialFunctionInfos(1)=(StateId=B7C71B914E2BB667772D6CBE2AB55665,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient')
+   MaterialFunctionInfos(2)=(StateId=2B56DB804F48246A212DB9A22383A57A,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.ScreenAlignedPixelToPixelUVs')
+   MaterialFunctionInfos(3)=(StateId=2B56DB804F48246A212DB9A22383A57A,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.ScreenAlignedPixelToPixelUVs')
+   MaterialFunctionInfos(4)=(StateId=B6067F674AC0092A9D7DF581EBEEE180,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/HueShift.HueShift')
+   MaterialFunctionInfos(5)=(StateId=270427584D037C386A8326BA756B6AEF,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Math/MultiplyAdd.MultiplyAdd')
+   MaterialFunctionInfos(6)=(StateId=3FA44BF2462D624CFA2229876FE1F968,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.CheapContrast')
+   MaterialFunctionInfos(7)=(StateId=B7C71B914E2BB667772D6CBE2AB55665,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.LinearGradient')
+   bUseMaterialAttributes=True
+   StateId=888DA1764A126B5509E00E971F13614A
+   ReferencedTextureGuids(0)=66645B3A4287B44F3D050FB3814E47CA
+   ReferencedTextureGuids(1)=A055A92F4A821E84E97C4A9301EA9E5C
+   ReferencedTextureGuids(2)=307757E1458E615C7D97A39E32219707
+   ReferencedTextureGuids(3)=D7F821394C5D26FBB9BFC5B84B25B193
+   ReferencedTextureGuids(4)=0C36FE0140296FF533AC4380094FD69D
+   PreviewMesh=/Game/Bust/StaticMeshes/hairHead_HairSplines.hairHead_HairSplines
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=BFBC24B740B845EE94692881716B2FCA
+End Object

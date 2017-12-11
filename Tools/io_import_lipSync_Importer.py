@@ -437,7 +437,7 @@ class btn_lipsyncer_batch(bpy.types.Operator):
             if obj.type=="MESH":
                 scn.objects.active = obj
                 print(bpy.context.active_object)
-                obj.animation_data_clear()
+                bpy.context.active_object.animation_data_clear()
                 if obj.type=="MESH":
                     if obj.data.shape_keys!=None:
                         if scn.fpath!='': lipsyncer()

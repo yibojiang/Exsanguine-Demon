@@ -1,0 +1,36 @@
+lipsync version 1
+/private/var/ninja/Documents/Projects/Psycho/Sounds/Chapter1_fix/DX_Doctor_8.wav
+24
+120
+1
+	Voice 1
+	Take a rest  Have a nice day 
+	1
+		Take a rest  Have a nice day 
+		15
+		62
+		7
+			Take 15 17 3
+				15 etc
+				16 E
+				17 etc
+			a 18 19 1
+				18 AI
+			rest 20 32 4
+				20 etc
+				23 E
+				27 etc
+				30 etc
+			Have 44 49 3
+				44 etc
+				46 AI
+				48 FV
+			a 50 51 1
+				50 AI
+			nice 52 56 3
+				52 etc
+				54 AI
+				55 etc
+			day 57 62 2
+				57 etc
+				60 E

@@ -1,0 +1,36 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_EyeRefractive_Bust"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=E08433584BF064A682CC40B738565140
+   Parent=Material'/Game/Bust/Materials/M_EyeRefractive.M_EyeRefractive'
+   ScalarParameterValues(0)=(ParameterName="AO",ParameterValue=0.475000,ExpressionGUID=955D3239403F86A30ACF34AA5951E699)
+   ScalarParameterValues(1)=(ParameterName="FlattenNormal",ParameterValue=0.900000,ExpressionGUID=F26F95C6448D7E19FEFF9AAA095C17C8)
+   ScalarParameterValues(2)=(ParameterName="Iris UV Radius",ParameterValue=0.145000,ExpressionGUID=E9BEC1BC4F39E1D4C27A0BAC57616B21)
+   ScalarParameterValues(3)=(ParameterName="IrisBRightness",ParameterValue=0.980000,ExpressionGUID=241ACA254B1DB6392D70A3A7A685291F)
+   ScalarParameterValues(4)=(ParameterName="IrisRoughness",ExpressionGUID=B2A3980F49E404E1D0D137A8EE4A99A5)
+   ScalarParameterValues(5)=(ParameterName="LimbusDarkScale",ParameterValue=2.000000,ExpressionGUID=7B0E8B204945CBF3F6AAE7A8FCD06B6F)
+   ScalarParameterValues(6)=(ParameterName="LimbusPow",ParameterValue=40.000000,ExpressionGUID=A5284EE143933435A7E5D5B5C4F51513)
+   ScalarParameterValues(7)=(ParameterName="NormalUVScale",ParameterValue=2.400000,ExpressionGUID=F040C4F9419A1202A051F59586E162D2)
+   ScalarParameterValues(8)=(ParameterName="PupilScale",ParameterValue=0.650000,ExpressionGUID=22262F5348FF0D93D157E4B5F21C9A73)
+   ScalarParameterValues(9)=(ParameterName="ScleraBrightness",ParameterValue=1.200000,ExpressionGUID=D1F896A34E14B6A8991104BC6B9A0B64)
+   ScalarParameterValues(10)=(ParameterName="ScleraRougness",ExpressionGUID=2AB785784B2CC089E3371CA9E7E8CE03)
+   ScalarParameterValues(11)=(ParameterName="SpecularityIris",ParameterValue=1.000000,ExpressionGUID=19DBF0254EB670CB0BBDF4B89315FED8)
+   ScalarParameterValues(12)=(ParameterName="SpecularityScelera",ParameterValue=1.000000,ExpressionGUID=B884882845A6D4CB360E3E90A58F6018)
+   ScalarParameterValues(13)=(ParameterName="Veins",ParameterValue=0.900000,ExpressionGUID=04BABA4F4C6F5AE4C71C18A4711CB3EB)
+   ScalarParameterValues(14)=(ParameterName="RefractionDepthBias")
+   TextureParameterValues(0)=(ParameterName="IrisColor",ParameterValue=Texture2D'/Game/Bust/Textures/UE4_Demo_Eye_Iris.UE4_Demo_Eye_Iris',ExpressionGUID=00E78A4B4B1A5CE53EEBA691B4D1718E)
+   TextureParameterValues(1)=(ParameterName="NormalMap",ParameterValue=Texture2D'/Game/Bust/Textures/T_Eye_Wet_Normal.T_Eye_Wet_Normal',ExpressionGUID=FCEAEE024158A0FDB0A1DCAD9E899A00)
+   TextureParameterValues(2)=(ParameterName="ScleraColor",ParameterValue=Texture2D'/Game/Bust/Textures/S_EyeScleraBaseColor.S_EyeScleraBaseColor',ExpressionGUID=4435CF954E14505263619CBDDB14B601)
+   VectorParameterValues(0)=(ParameterName="Sclera inner color",ParameterValue=(R=0.855000,G=0.675905,B=0.636975,A=0.000000),ExpressionGUID=83DE5D684AB1F14FDFAB6BB34ED54CE1)
+   VectorParameterValues(1)=(ParameterName="Sclera outer color",ParameterValue=(R=0.775000,G=0.116250,B=0.000000,A=1.000000),ExpressionGUID=C4DC457649E29EF44DD14BACCDC75A20)
+   ReferencedTextureGuids(0)=02B123404DE9C65F21409B96A7347A90
+   ReferencedTextureGuids(1)=0F12149E46D6C86058D450BDA3DCFFBB
+   ReferencedTextureGuids(2)=335F0346499495360E1655A9AAFE576B
+   ReferencedTextureGuids(3)=9DA762FA434D5C1B41FAB1BDFCCC238A
+   ReferencedTextureGuids(4)=0D54DCCB437CB94F143DE091B6CF3B8C
+   ReferencedTextureGuids(5)=547D0495440B2E34C37301A521988930
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=8E82764242D3690BE1FF91A3204F2E6B
+End Object

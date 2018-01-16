@@ -1,0 +1,232 @@
+Begin Object Class=/Script/Engine.Material Name="M_Skin_Bust"
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_25"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_37"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_38"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_7"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_TenLayerBlend.MatLayerBlend_TenLayerBlend'
+      FunctionInputs(0)=(ExpressionInputId=9D0ADB9541CF6860FF5AEBA36FDDFEC8,Input=(InputName="Layer10"))
+      FunctionInputs(1)=(ExpressionInputId=2A0F0DD14615FD9B59CD05A31A540142,Input=(OutputIndex=3,InputName="Layer10_Mask",Mask=1,MaskB=1))
+      FunctionInputs(2)=(ExpressionInputId=B33C81A243D6952955FB3CAEBE60B744,Input=(OutputIndex=-1,InputName="Layer9"))
+      FunctionInputs(3)=(ExpressionInputId=A2C2248A4631D4F6CB7ED1A07E6AFE74,Input=(OutputIndex=-1,InputName="Layer9_Mask"))
+      FunctionInputs(4)=(ExpressionInputId=D953569B4AA4070168325499F9177A98,Input=(InputName="Layer8"))
+      FunctionInputs(5)=(ExpressionInputId=942B109545436BD6B4BC6AA002A1CA48,Input=(OutputIndex=1,InputName="Layer8_Mask\n",Mask=1,MaskR=1))
+      FunctionInputs(6)=(ExpressionInputId=5AA93BDD41C7AFDF9F9E8C9677E3455A,Input=(InputName="Layer7"))
+      FunctionInputs(7)=(ExpressionInputId=6B70FBBB432B135AB3AE9BA5BD0937F9,Input=(OutputIndex=2,InputName="Layer7_Mask",Mask=1,MaskG=1))
+      FunctionInputs(8)=(ExpressionInputId=276DD04347A9FE6778C84E9FA5F412B7,Input=(InputName="Layer6"))
+      FunctionInputs(9)=(ExpressionInputId=90BA729C4A2EE837DA738399F4694296,Input=(OutputIndex=3,InputName="Layer6_Mask\n",Mask=1,MaskB=1))
+      FunctionInputs(10)=(ExpressionInputId=F0764344418207CF3E4727822CECBB9C,Input=(InputName="Layer5"))
+      FunctionInputs(11)=(ExpressionInputId=5426C26E46D7379F5126E188D76A7EC0,Input=(OutputIndex=4,InputName="Layer5_Mask",Mask=1,MaskA=1))
+      FunctionInputs(12)=(ExpressionInputId=F8D07F7048A557CCF4A616807C16A1CC,Input=(InputName="Layer4"))
+      FunctionInputs(13)=(ExpressionInputId=83AC7C7646B82D0B28CCDCB800FB19D7,Input=(OutputIndex=1,InputName="Layer4_Mask",Mask=1,MaskR=1))
+      FunctionInputs(14)=(ExpressionInputId=B06B997C40F47FDE90EEDDB0A0DFBCFF,Input=(InputName="Layer3"))
+      FunctionInputs(15)=(ExpressionInputId=A7F17E784A5FDC440BA3B0AC54399F9E,Input=(OutputIndex=2,InputName="Layer3_Mask",Mask=1,MaskG=1))
+      FunctionInputs(16)=(ExpressionInputId=D5FCC2C442DA1A8B418CFCB4D3E6C7BD,Input=(InputName="Layer2"))
+      FunctionInputs(17)=(ExpressionInputId=0794112B4F1E6051EC801188BCEADCDA,Input=(OutputIndex=3,InputName="Layer2_Mask",Mask=1,MaskB=1))
+      FunctionInputs(18)=(ExpressionInputId=560A9DCF4532E53F7CCC149B7968DF01,Input=(InputName="Layer1"))
+      FunctionInputs(19)=(ExpressionInputId=368DF6CD477F0CC8CC09E29E1FD47F86,Input=(OutputIndex=4,InputName="Layer1_Mask",Mask=1,MaskA=1))
+      FunctionInputs(20)=(ExpressionInputId=748149B04D48DFCB82BF879813434CA3,Input=(Expression=MaterialExpressionMaterialFunctionCall'M_Skin_Bust:MaterialExpressionMaterialFunctionCall_16',InputName="Background"))
+      FunctionInputs(21)=(ExpressionInputId=DDE94EC04723993DBF07C2BA55511E4F,Input=(Expression=MaterialExpressionTextureSample'M_Skin_Bust:MaterialExpressionTextureSample_3',InputName="<BakedNormal>",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=59396F3E42588C22FF7CC0AE2D20A27C,Output=(OutputName="Blended Material"))
+      MaterialExpressionEditorX=544
+      MaterialExpressionEditorY=-336
+      MaterialExpressionGuid=A3571CA144FF6C04EA1C7EB8C32D0391
+      Material=Material'M_Skin_Bust'
+      Outputs(0)=(OutputName="Blended Material")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_16"
+      MaterialFunction=MaterialFunction'/Game/Bust/MaterialFunctions/ML_Skin_Bust.ML_Skin_Bust'
+      FunctionInputs(0)=(ExpressionInputId=3C20BDAD4ABFCB799850FA91DF5CF00D,Input=(Expression=MaterialExpressionTextureSample'M_Skin_Bust:MaterialExpressionTextureSample_5',OutputIndex=2,InputName="Scatter",Mask=1,MaskG=1))
+      FunctionInputs(1)=(ExpressionInputId=A7E1F7504C90759BD641A796B3F7713C,Input=(Expression=MaterialExpressionTextureSample'M_Skin_Bust:MaterialExpressionTextureSample_7',InputName="BaseColor",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(2)=(ExpressionInputId=2D98E1434030A3F22A4FC2A0D6F2BE03,Input=(Expression=MaterialExpressionScalarParameter'M_Skin_Bust:MaterialExpressionScalarParameter_4',InputName="BaseColorScale"))
+      FunctionInputs(3)=(ExpressionInputId=99474C394D3791C181B043B9D34CDA7D,Input=(Expression=MaterialExpressionTextureSample'M_Skin_Bust:MaterialExpressionTextureSample_0',OutputIndex=2,InputName="Specular",Mask=1,MaskG=1))
+      FunctionInputs(4)=(ExpressionInputId=D6D9FAA1475CEE381A44B2A7F5EE1543,Input=(Expression=MaterialExpressionTextureSample'M_Skin_Bust:MaterialExpressionTextureSample_7',OutputIndex=4,InputName="Roughness",Mask=1,MaskA=1))
+      FunctionInputs(5)=(ExpressionInputId=22F407814F3D2EB844941DAE5CEA4682,Input=(Expression=MaterialExpressionScalarParameter'M_Skin_Bust:MaterialExpressionScalarParameter_5',InputName="RoughnessScale"))
+      FunctionInputs(6)=(ExpressionInputId=24764E034A0161FDED8683B6EBD64912,Input=(Expression=MaterialExpressionScalarParameter'M_Skin_Bust:MaterialExpressionScalarParameter_12',InputName="Scatter Min"))
+      FunctionInputs(7)=(ExpressionInputId=B752B5344111ACF1EC8555BB1D8BD944,Input=(Expression=MaterialExpressionScalarParameter'M_Skin_Bust:MaterialExpressionScalarParameter_11',InputName="Scatter Max"))
+      FunctionInputs(8)=(ExpressionInputId=203A5A7C4A848BE7BF7AA3A38FF9F64F,Input=(Expression=MaterialExpressionScalarParameter'M_Skin_Bust:MaterialExpressionScalarParameter_25',InputName="DetailScale"))
+      FunctionInputs(9)=(ExpressionInputId=5D98204D4C9D5A793675DC966DAD4C05,Input=(Expression=MaterialExpressionScalarParameter'M_Skin_Bust:MaterialExpressionScalarParameter_26',InputName="DetailAmount"))
+      FunctionInputs(10)=(ExpressionInputId=A5A8B84E417A5672EF2F36930E9AF560,Input=(Expression=MaterialExpressionScalarParameter'M_Skin_Bust:MaterialExpressionScalarParameter_37',InputName="SpecularMin"))
+      FunctionInputs(11)=(ExpressionInputId=6E49F7ED4C57446BB959D89C9F9A66A5,Input=(Expression=MaterialExpressionScalarParameter'M_Skin_Bust:MaterialExpressionScalarParameter_38',InputName="SpecularMax"))
+      FunctionInputs(12)=(ExpressionInputId=8537F9B4472E2B194D8503B1800DA3F6,Input=(InputName="Normals",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=1937BAC94AE04F26567D929D02360CB6,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=96
+      MaterialExpressionEditorY=-304
+      MaterialExpressionGuid=F8A9C302465E1FE3958D7B9BF68502A6
+      Material=Material'M_Skin_Bust'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_11"
+      DefaultValue=2.658399
+      ParameterName="Scatter max"
+      ExpressionGUID=0B412E694B36ECF02225E0A9ED6608F2
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=48
+      MaterialExpressionGuid=A0FC69F748152D8679F2E6B633473A0D
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_12"
+      DefaultValue=0.773724
+      ParameterName="Scatter min"
+      ExpressionGUID=850B88E74A60AE8007D23DA98BCC0BD3
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=A0FC69F748152D8679F2E6B633473A0D
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_25"
+      DefaultValue=25.000000
+      ParameterName="DetailScale"
+      ExpressionGUID=F7E08885480FB0530F47BF9998035B6F
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=903E702A47E8B9791AD06BA6ADAFAA6A
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_26"
+      DefaultValue=0.600000
+      ParameterName="DetailAmount"
+      ExpressionGUID=E8EC5A2040566E91332E37A07D7DAA03
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=0B0A5CCD44E8B50BD2A538A1FFB01F01
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_37"
+      ParameterName="SpecularMin"
+      ExpressionGUID=B7455B6A4DD9DE219825E4AC7DA549F6
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=2EDAC21A4C200F56C693209D9FEB8E80
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_38"
+      DefaultValue=5.000000
+      ParameterName="SpecularMax"
+      ExpressionGUID=8D0F2E6C417C92B10154B59AF93B0607
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=2EDAC21A4C200F56C693209D9FEB8E80
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=0.650000
+      ParameterName="BaseColorBrightness"
+      ExpressionGUID=366F286548CD931E18BDD7994FC78070
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=B29B5BBB46E8E8AE86F8059B8B1812F6
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=1.000000
+      SliderMax=2.000000
+      ParameterName="Roughness"
+      ExpressionGUID=40404CCE4F0DD57114C681838B594F80
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=B29B5BBB46E8E8AE86F8059B8B1812F6
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'/Game/Bust/Textures/CH2_exp04_merged_spec_f_FC_FINAL.CH2_exp04_merged_spec_f_FC_FINAL'
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=-704
+      MaterialExpressionGuid=130E944D49C0BE767891B29BE1B759F7
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      SamplerSource=SSM_Wrap_WorldGroupSettings
+      Texture=Texture2D'/Game/Bust/Textures/UE4_Demo_Head__normals.UE4_Demo_Head__normals'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=288
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=8D2E9ED84ADF7FEDC91319B96B0E4000
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_5"
+      Texture=Texture2D'/Game/Bust/Textures/UE4_Demo_Head_BackScatter.UE4_Demo_Head_BackScatter'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=-496
+      MaterialExpressionGuid=6C1058F241FC199C99C7DC8E77305819
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_7"
+      Texture=Texture2D'/Game/Bust/Textures/UE4_Demo_Head_D.UE4_Demo_Head_D'
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=-912
+      MaterialExpressionGuid=B91F13BE472F19DE0518B3BE17A22DC3
+      Material=Material'M_Skin_Bust'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_7',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_3',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   ShadingModel=MSM_SubsurfaceProfile
+   MaterialAttributes=(Expression=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_0')
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   bUsedWithMorphTargets=True
+   bUsedWithClothing=True
+   EditorX=880
+   EditorY=-336
+   Expressions(0)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_3'
+   Expressions(1)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_0'
+   Expressions(2)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_16'
+   Expressions(3)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_4'
+   Expressions(4)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_5'
+   Expressions(5)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_7'
+   Expressions(6)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_0'
+   Expressions(7)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_11'
+   Expressions(8)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_12'
+   Expressions(9)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_5'
+   Expressions(10)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_26'
+   Expressions(11)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_25'
+   Expressions(12)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_38'
+   Expressions(13)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_37'
+   MaterialFunctionInfos(0)=(StateId=1CCB5A6440B504111DD67C8D3DE6EF19,Function=MaterialFunction'/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_TenLayerBlend.MatLayerBlend_TenLayerBlend')
+   MaterialFunctionInfos(1)=(StateId=B02E81A04092159AB744CD947740987B,Function=MaterialFunction'/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.MatLayerBlend_Standard')
+   MaterialFunctionInfos(2)=(StateId=F5C2D4774BA63455E32B4B960D7674B6,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.BlendAngleCorrectedNormals')
+   MaterialFunctionInfos(3)=(StateId=9EE175314982DA7BEFCEB5A79C74D1E9,Function=MaterialFunction'/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_BakedNormal.MatLayerBlend_BakedNormal')
+   MaterialFunctionInfos(4)=(StateId=577E012C4DAEA10D9A5484B88C05C5D2,Function=MaterialFunction'/Game/Bust/MaterialFunctions/ML_Skin_Bust.ML_Skin_Bust')
+   MaterialFunctionInfos(5)=(StateId=F5C2D4774BA63455E32B4B960D7674B6,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.BlendAngleCorrectedNormals')
+   bUseMaterialAttributes=True
+   StateId=3CEF53A644EF5CCEA2ED02B213BC079F
+   ReferencedTextureGuids(0)=90E6A3974C99C105180E718E9F5C17A1
+   ReferencedTextureGuids(1)=4266DA824E1420D01A9332B28B05A96A
+   ReferencedTextureGuids(2)=30B64C2543BA6A59847503B13C80850A
+   ReferencedTextureGuids(3)=1FF71A754B32D3CB62E3EA887C506EC9
+   ReferencedTextureGuids(4)=BE5F638D45FD4B7B612A088743CA9381
+   ReferencedTextureGuids(5)=0EC1E7F24F7ECBF046A3E786CC93715D
+   SubsurfaceProfile=SubsurfaceProfile'/Game/Bust/DataTypes/SSP_TwinBlast_Skin_Bust.SSP_TwinBlast_Skin_Bust'
+   PreviewMesh=/Game/Developers/HaarmPieterDuiker/TwinBlast_Bust/Mesh/TwinBlast_UE4_Demo_Head_Bust.TwinBlast_UE4_Demo_Head_Bust
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=E0A4014F4A45C1937F1EF09373585E89
+End Object

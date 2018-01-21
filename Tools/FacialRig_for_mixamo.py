@@ -1,7 +1,11 @@
 import bpy
+
+# Doctor
 #keys = {"Body": 'Key.004', "Beards": 'Key.001', 'Eyelashes': 'Key.002', 'Moustaches': 'Key', 'default': 'Key.003'}
+
+# Adam
 keys = {"Body": 'Key.001','Eyelashes': 'Key', 'default1': 'Key.002'}
-#keys = {'Beards': 'Key.001'}
+
 for key, val in keys.items():
     for block_key, block_val in bpy.data.shape_keys[val].key_blocks.items():
         bpy.data.shape_keys[val].key_blocks[block_key].value = 0

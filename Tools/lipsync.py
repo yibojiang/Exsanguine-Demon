@@ -381,6 +381,31 @@ def lipsyncer(obj):
     f=open(bpy.path.abspath(scn.fpath)) # importing file
     f.readline() # reading the 1st line that we don"t need
 
+    min_frame = 9999
+    max_frame = -1
+
+    for line in f:
+        # removing new lines
+        lsta = re.split("\n+", line)
+
+        # building a list of frames & shapes indexes
+        lst = re.split(":? ", lsta[0])# making a list of a frame & number
+        frame = int(lst[0])
+        if (frame < min_frame):
+            min_frame = frame
+
+        if (frame > max_frame):
+            max_frame = frame
+        
+    scn.offset = -min_frame + scn.easeIn;
+    scn.frame_end = (max_frame - min_frame) + scn.easeIn + scn.easeOut
+    print("min_frame: ", min_frame)
+    print("max_frame: ", max_frame)
+    print("offset: ", scn.offset)
+    print("frame_end: ", scn.frame_end)
+
+    f=open(bpy.path.abspath(scn.fpath)) # importing file
+    f.readline() # reading the 1st line that we don"t need
     for line in f:
 
         # removing new lines
@@ -392,6 +417,7 @@ def lipsyncer(obj):
 
         for key in obj.data.shape_keys.key_blocks:
             if lst[1] == key.name:
+                print("create key")
                 createShapekey(obj, key.name, frame)
 
 # creating keys with offset and eases for a phonem @ the frame
@@ -441,6 +467,7 @@ def createShapekey(obj, phoneme, frame):
 
 def lipsync_batch():
     scn = bpy.context.scene
+    scn.offset = 20
 
     # scn.fpath = "/var/ninja/Documents/Projects/Psycho/Sounds/Chapter1_data/Adam1.dat"
     scn.fpath = sys.argv[-2::][0]

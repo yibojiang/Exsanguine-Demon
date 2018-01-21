@@ -9,5 +9,5 @@
 watchmedo shell-command \
     --patterns="*.dat" \
     --recursive \
-    --command='./lipsync.sh "${watch_src_path}"' \
-    /private/var/ninja/Documents/Projects/Psycho/Sounds/Adam/Story
+    --command='`pwd`/Tools/lipsync.sh "${watch_src_path}"' \
+    `pwd`/Sounds/Characters

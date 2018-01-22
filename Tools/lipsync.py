@@ -470,7 +470,7 @@ def lipsync_batch():
     scn.offset = 20
 
     # scn.fpath = "/var/ninja/Documents/Projects/Psycho/Sounds/Chapter1_data/Adam1.dat"
-    scn.fpath = sys.argv[-2::][0]
+    # scn.fpath = sys.argv[-2::][0]
     print("dat file: ", scn.fpath)
     for obj in scn.objects:
         if obj.type=="MESH":
@@ -519,8 +519,6 @@ def lipsync_batch():
                              )
     return {'FINISHED'}
 
-
+scn = bpy.context.scene
+scn.fpath = sys.argv[-2::][0]
 lipsync_batch()
-# print(sys.argv[-1::])
-# print(len(sys.argv))
-# print(sys.argv[-1::])

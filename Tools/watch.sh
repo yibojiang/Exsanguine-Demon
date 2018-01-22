@@ -7,7 +7,7 @@
 #     .
 
 watchmedo shell-command \
-    --patterns="*.dat" \
+    --patterns="*.dat;*.fbx" \
     --recursive \
-    --command='`pwd`/Tools/lipsync.sh "${watch_src_path}"' \
-    `pwd`/Sounds/Characters
+    --command='`pwd`/Tools/run.sh "${watch_src_path}"' \
+    `pwd`

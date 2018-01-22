@@ -7,7 +7,8 @@ BLENDER_PATH="/private/var/ninja/Applications/blender-2.79-macOS-10.6/blender.ap
 
 
 SRC_PATH=$1
-echo $SRC_PATH
+
+# echo $SRC_PATH
 
 ADAM_FOLDER="/Adam/"
 if [ ! "${SRC_PATH/$ADAM_FOLDER}" = "$SRC_PATH" ] ; then
@@ -21,8 +22,6 @@ BLENDER_SCENE="`pwd`/Arts/Model/doctor.blend"
 echo "Doctor folder"
 fi
 
-
-# EXPORT_PATH="/private/var/ninja/Documents/Projects/Psycho/Arts/Lipsync/fff.fbx"
 EXPORT_PATH="${SRC_PATH%.*}.fbx"
 echo $SRC_PATH
 if [ -e "$SRC_PATH" ]

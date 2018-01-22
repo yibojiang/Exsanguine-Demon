@@ -26,6 +26,16 @@ if [ -e "$SRC_PATH" ]; then
 			fi
 		fi
 
+		SCAN_FOLDER="/Model/"
+		
+		if [ ! "${SRC_PATH/$SCAN_FOLDER}" = "$SRC_PATH" ] ; then
+			echo "Model asset."
+			if [ "${FILE_NAME/$SUFFIX}" = "$FILE_NAME" ] ; then
+				mkdir -p "$DIR/RootMotion"
+				$BLENDER_PATH --background --python "Tools/rootmotion_fix.py" "$SRC_PATH" "$EXPORT_PATH"
+			fi
+		fi
+
 	fi
 
 	if [ $EXTENSION = "dat" ] ; then
@@ -37,17 +47,19 @@ if [ -e "$SRC_PATH" ]; then
 
 			if [ ! "${SRC_PATH/$ADAM_FOLDER}" = "$SRC_PATH" ] ; then
 				echo "Adam folder"
-				BLENDER_SCENE="`pwd`/Arts/Model/adam.blend"
+				# BLENDER_SCENE="`pwd`/Arts/Model/adam.blend"
+				MODEL_PATH=`pwd`/Arts/Model/RootMotion/adam_nofoot_root.fbx
 			fi
 
 			Doctor_FOLDER="/Doctor/"
 			if [ ! "${SRC_PATH/$Doctor_FOLDER}" = "$SRC_PATH" ] ; then
-				BLENDER_SCENE="`pwd`/Arts/Model/doctor.blend"
+				# BLENDER_SCENE="`pwd`/Arts/Model/doctor.blend"
+				MODEL_PATH=`pwd`/Arts/Model/RootMotion/doctor_root.fbx
 				echo "Doctor folder"
 			fi
 
 			EXPORT_PATH="${SRC_PATH%.*}.fbx"
-			$BLENDER_PATH $BLENDER_SCENE --background --python "Tools/lipsync.py" "$SRC_PATH" "$EXPORT_PATH"
+			$BLENDER_PATH --background --python "Tools/lipsync.py" "$SRC_PATH" "$EXPORT_PATH" "$MODEL_PATH"
 		fi
 	fi
 else

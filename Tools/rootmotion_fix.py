@@ -33,6 +33,7 @@ global apply_restoffset
 global apply_kneefix
 global hip_to_root
 global batch_hip_to_root
+global facial_rig
 
 def remove_namespace(s=''):
     """function for removing all namespaces from strings, objects or even armatrure bones"""
@@ -315,6 +316,305 @@ def hip_to_root(armature, use_x=True, use_y=True, use_z=True, on_ground=True, sc
 
     return 1
 
+def facial_rig():
+    mesh_name = ["Body", "Beards", 'Eyelashes', 'Moustaches', 'default']
+
+    for name in mesh_name:
+        if name in bpy.data.objects:
+            for block_key, block_val in bpy.data.objects[name].data.shape_keys.key_blocks.items():
+                bpy.data.objects[name].data.shape_keys.key_blocks[block_key].value = 0
+            # etc
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0.3
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0.3
+            if 'UpperLipUp_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipUp_Right"].value = 0.4
+            if 'UpperLipUp_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipUp_Left"].value = 0.4
+            if 'LowerLipDown_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipDown_Right"].value = 0.8
+            if 'LowerLipDown_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipDown_Left"].value = 0.8
+            if 'MouthUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthUp"].value = 0.1
+
+            if (not 'etc' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='etc',from_mix=True)
+            
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0
+            if 'UpperLipUp_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipUp_Right"].value = 0
+            if 'UpperLipUp_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipUp_Left"].value = 0
+            if 'LowerLipDown_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipDown_Right"].value = 0
+            if 'LowerLipDown_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipDown_Left"].value = 0
+            if 'MouthUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthUp"].value = 0
+
+            # U
+            if 'LowerLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipOut"].value = 1
+            if 'UpperLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipOut"].value = 1
+            if 'MouthWhistle_NarrowAdjust_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Right"].value = 1
+            if 'MouthWhistle_NarrowAdjust_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Left"].value = 1
+            if 'Midmouth_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Left"].value = 0.4
+            if 'Midmouth_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Right"].value = 0.4
+            if 'MouthNarrow_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Left"].value = 0.6
+            if 'MouthNarrow_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Right"].value = 0.6
+
+            if (not 'U' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='U',from_mix=True)
+
+            if 'LowerLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipOut"].value = 0
+            if 'UpperLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipOut"].value = 0
+            if 'MouthWhistle_NarrowAdjust_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Right"].value = 0
+            if 'MouthWhistle_NarrowAdjust_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Left"].value = 0
+            if 'Midmouth_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Left"].value = 0
+            if 'Midmouth_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Right"].value = 0
+            if 'MouthNarrow_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Left"].value = 0
+            if 'MouthNarrow_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Right"].value = 0
+
+            # MBP
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0.4
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0.4
+            if 'Frown_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Frown_Left"].value = 0.5
+            if 'Frown_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Frown_Right"].value = 0.5
+
+            if (not 'MBP' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='MBP',from_mix=True)
+
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0
+            if 'Frown_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Frown_Left"].value = 0
+            if 'Frown_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Frown_Right"].value = 0
+
+            # O
+            if 'LowerLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipOut"].value = 0.4
+            if 'UpperLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipOut"].value = 0.4
+            if 'MouthWhistle_NarrowAdjust_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Right"].value = 0.5
+            if 'MouthWhistle_NarrowAdjust_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Left"].value = 0.4
+            if 'MouthOpen' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthOpen"].value = 0.4
+            if 'Midmouth_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Left"].value = 0.5
+            if 'Midmouth_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Right"].value = 0.5
+
+            if (not 'O' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='O',from_mix=True)
+
+            if 'LowerLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipOut"].value = 0
+            if 'UpperLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipOut"].value = 0
+            if 'MouthWhistle_NarrowAdjust_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Right"].value = 0
+            if 'MouthWhistle_NarrowAdjust_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Left"].value = 0
+            if 'MouthOpen' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthOpen"].value = 0
+            if 'Midmouth_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Left"].value = 0
+            if 'Midmouth_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Right"].value = 0
+
+            # AI
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0.3
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0.3
+            if 'MouthOpen' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthOpen"].value = 0.5
+            if 'MouthUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthUp"].value = 0.2
+
+            if 'AI' in bpy.data.objects[name].data.shape_keys.key_blocks:
+                bpy.data.objects[name].shape_key_remove(bpy.data.objects[name].data.shape_keys.key_blocks['AI'])
+
+            if (not 'AI' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='AI',from_mix=True)
+
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0
+            if 'MouthOpen' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthOpen"].value = 0
+            if 'MouthUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthUp"].value = 0
+
+            # E
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0.1
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0.1
+            if 'UpperLipUp_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipUp_Right"].value = 0.3
+            if 'UpperLipUp_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipUp_Left"].value = 0.3
+            if 'LowerLipDown_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipDown_Right"].value = 1
+            if 'LowerLipDown_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipDown_Left"].value = 1
+            if 'MouthUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthUp"].value = 0.2
+            
+            if (not 'E' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='E',from_mix=True)
+
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0
+            if 'UpperLipUp_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipUp_Right"].value = 0
+            if 'UpperLipUp_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipUp_Left"].value = 0
+            if 'LowerLipDown_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipDown_Right"].value = 0
+            if 'LowerLipDown_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipDown_Left"].value = 0
+            if 'MouthUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthUp"].value = 0
+
+            # WQ
+            if 'MouthNarrow_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Left"].value = 1
+            if 'MouthNarrow_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Right"].value = 1
+            if 'LowerLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipOut"].value = 1
+            if 'UpperLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipOut"].value = 1
+            if 'MouthWhistle_NarrowAdjust_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Right"].value = 1
+            if 'MouthWhistle_NarrowAdjust_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Left"].value = 1
+            if 'Midmouth_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Left"].value = 0.1
+            if 'Midmouth_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Right"].value = 0.1
+
+            if 'WQ' in bpy.data.objects[name].data.shape_keys.key_blocks:
+                bpy.data.objects[name].shape_key_remove(bpy.data.objects[name].data.shape_keys.key_blocks['WQ'])
+
+            if (not 'WQ' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='WQ',from_mix=True)
+
+            if 'MouthNarrow_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Left"].value = 0
+            if 'MouthNarrow_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Right"].value = 0
+            if 'LowerLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipOut"].value = 0
+            if 'UpperLipOut' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["UpperLipOut"].value = 0
+            if 'MouthWhistle_NarrowAdjust_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Right"].value = 0
+            if 'MouthWhistle_NarrowAdjust_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthWhistle_NarrowAdjust_Left"].value = 0
+            if 'Midmouth_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Left"].value = 0
+            if 'Midmouth_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Midmouth_Right"].value = 0
+
+            # FV
+            if 'Jaw_Up' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Jaw_Up"].value = 1
+            if 'LowerLipIn' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipIn"].value = 1
+            if 'MouthOpen' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthOpen"].value = 0.3
+            if 'JawBackward' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["JawBackward"].value = 0.2
+
+            if 'FV' in bpy.data.objects[name].data.shape_keys.key_blocks:
+                bpy.data.objects[name].shape_key_remove(bpy.data.objects[name].data.shape_keys.key_blocks['FV'])
+
+            if (not 'FV' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='FV',from_mix=True)
+
+            if 'Jaw_Up' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Jaw_Up"].value = 0
+            if 'LowerLipIn' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["LowerLipIn"].value = 0
+            if 'MouthOpen' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthOpen"].value = 0
+            if 'JawBackward' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["JawBackward"].value = 0
+
+            # L
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0.4
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0.4
+            if 'MouthNarrow_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Left"].value = 0.5
+            if 'MouthNarrow_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Right"].value = 0.5
+            if 'MouthOpen' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthOpen"].value = 0.4
+            if 'MouthUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthUp"].value = 0.4
+            if 'TongueUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["TongueUp"].value = 0.6
+            if 'L' in bpy.data.objects[name].data.shape_keys.key_blocks:
+                bpy.data.objects[name].shape_key_remove(bpy.data.objects[name].data.shape_keys.key_blocks['L'])
+
+            if (not 'L' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='L',from_mix=True)
+
+            if 'Smile_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Left"].value = 0
+            if 'Smile_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["Smile_Right"].value = 0
+            if 'MouthNarrow_Left' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Left"].value = 0
+            if 'MouthNarrow_Right' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthNarrow_Right"].value = 0
+            if 'MouthOpen' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthOpen"].value = 0
+            if 'MouthUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["MouthUp"].value = 0
+            if 'TongueUp' in bpy.data.objects[name].data.shape_keys.key_blocks: 
+                bpy.data.objects[name].data.shape_keys.key_blocks["TongueUp"].value = 0
+            
+            if (not 'rest' in bpy.data.objects[name].data.shape_keys.key_blocks):
+                bpy.data.objects[name].shape_key_add(name='rest',from_mix=True)
+
 def file_hip_to_root(file_path, dest_path, use_x=True, use_y=True, use_z=True, on_ground=True, scale=1.0,
                       restoffset=(0, 0, 0), hipname='', fixbind=True, apply_rotation=True, apply_scale=False,
                       b_remove_namespace=True, b_unreal_bones=False, add_leaf_bones=False, knee_offset=(0, 0, 0), ignore_leaf_bones=True):
@@ -370,38 +670,58 @@ def file_hip_to_root(file_path, dest_path, use_x=True, use_y=True, use_z=True, o
         # import FBX
         file_loader[file_ext](file_path)
 
-        # namespace removal
-        if b_remove_namespace:
-            for obj in bpy.context.selected_objects:
-                remove_namespace(obj)
-        # namespace removal
-        elif b_unreal_bones:
-            for obj in bpy.context.selected_objects:
-                rename_bones(obj, 'unreal')
+        if "root" in bpy.data.objects:
+            print("root exists, no need to convert")
+        else:
+            # namespace removal
+            if b_remove_namespace:
+                for obj in bpy.context.selected_objects:
+                    remove_namespace(obj)
+            # namespace removal
+            elif b_unreal_bones:
+                for obj in bpy.context.selected_objects:
+                    rename_bones(obj, 'unreal')
 
-        def getArmature(objects):
-            for a in objects:
-                if a.type == 'ARMATURE':
-                    return a
+            def getArmature(objects):
+                for a in objects:
+                    if a.type == 'ARMATURE':
+                        return a
 
-        armature = getArmature(bpy.context.selected_objects)
+            armature = getArmature(bpy.context.selected_objects)
 
-        # do hip to Root conversion
-        if hip_to_root(armature, use_x=use_x, use_y=use_y, use_z=use_z, on_ground=on_ground, scale=scale,
-                       restoffset=restoffset, hipname=hipname, fixbind=fixbind, apply_rotation=apply_rotation,
-                       apply_scale=apply_scale) == -1:
-            return -1
+            # do hip to Root conversion
+            if hip_to_root(armature, use_x=use_x, use_y=use_y, use_z=use_z, on_ground=on_ground, scale=scale,
+                           restoffset=restoffset, hipname=hipname, fixbind=fixbind, apply_rotation=apply_rotation,
+                           apply_scale=apply_scale) == -1:
+                return -1
 
 
-        if (knee_offset != (0.0, 0.0, 0.0)):
-            apply_kneefix(armature, knee_offset,
-                          bonenames=bpy.context.scene.mixamo.knee_bones.decode('utf-8').split(','))
+            if (knee_offset != (0.0, 0.0, 0.0)):
+                apply_kneefix(armature, knee_offset,
+                              bonenames=bpy.context.scene.mixamo.knee_bones.decode('utf-8').split(','))
 
-        # remove newly created orphan actions
-        for action in bpy.data.actions:
-            if action != armature.animation_data.action:
-                bpy.data.actions.remove(action, do_unlink=True)
+            # remove newly created orphan actions
+            for action in bpy.data.actions:
+                if action != armature.animation_data.action:
+                    bpy.data.actions.remove(action, do_unlink=True)
+        
 
+        # facial rig
+        facial_rig()
+
+        # add eyelashes mat
+        mat_name = "Eyelashesmat"
+        if mat_name in bpy.data.materials:
+            print(mat_name + " exists")
+        else:
+            print("create a new " + mat_name)
+            mat = bpy.data.materials.new(mat_name)
+            bpy.data.objects["Eyelashes"].data.materials.clear()
+            bpy.data.objects["Eyelashes"].data.materials.append(mat)
+
+        # add eyelashes material
+        mat = bpy.data.materials.new("Eyelashesmat")
+        
         # store file to disk
         output_file = dest_path
         bpy.ops.export_scene.fbx(filepath=output_file,

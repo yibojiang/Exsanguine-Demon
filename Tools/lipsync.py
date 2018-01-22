@@ -417,7 +417,6 @@ def lipsyncer(obj):
 
         for key in obj.data.shape_keys.key_blocks:
             if lst[1] == key.name:
-                print("create key")
                 createShapekey(obj, key.name, frame)
 
 # creating keys with offset and eases for a phonem @ the frame
@@ -472,6 +471,27 @@ def lipsync_batch():
     # scn.fpath = "/var/ninja/Documents/Projects/Psycho/Sounds/Chapter1_data/Adam1.dat"
     # scn.fpath = sys.argv[-2::][0]
     print("dat file: ", scn.fpath)
+    bpy.context.scene.unit_settings.system = 'METRIC'
+    bpy.context.scene.unit_settings.scale_length = 1
+    bpy.ops.object.select_all(action='SELECT')
+    bpy.ops.object.delete(use_global=True)
+    bpy.ops.import_scene.fbx(filepath=sys.argv[-3::][2], axis_forward='-Z',
+                              axis_up='Y', directory="",
+                              filter_glob="*.fbx", ui_tab='MAIN',
+                              use_manual_orientation=False, global_scale=1.0,
+                              bake_space_transform=False,
+                              use_custom_normals=True,
+                              use_image_search=True,
+                              use_alpha_decals=False, decal_offset=0.0,
+                              use_anim=False, anim_offset=1.0,
+                              use_custom_props=True,
+                              use_custom_props_enum_as_string=True,
+                              ignore_leaf_bones=False,
+                              force_connect_children=False,
+                              automatic_bone_orientation=True,
+                              primary_bone_axis='Y',
+                              secondary_bone_axis='X',
+                              use_prepost_rot=True),
     for obj in scn.objects:
         if obj.type=="MESH":
             scn.objects.active = obj
@@ -497,14 +517,14 @@ def lipsync_batch():
 
     # output_file = "/var/ninja/Desktop/lipsync/test.fbx"
     # print(output_file)
-    output_file = sys.argv[-2::][1]
+    output_file = sys.argv[-3::][1]
     print("output file: ", output_file)
 
     bpy.ops.export_scene.fbx(filepath=output_file,
                              version='BIN7400',
                              use_selection=False,
                              apply_unit_scale=False,
-                             add_leaf_bones=True,
+                             add_leaf_bones=False,
                              axis_forward='-Z',
                              axis_up='Y',
                              mesh_smooth_type='FACE',
@@ -520,5 +540,5 @@ def lipsync_batch():
     return {'FINISHED'}
 
 scn = bpy.context.scene
-scn.fpath = sys.argv[-2::][0]
+scn.fpath = sys.argv[-3::][0]
 lipsync_batch()

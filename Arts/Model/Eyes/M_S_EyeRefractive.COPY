@@ -1,0 +1,1333 @@
+Begin Object Class=/Script/Engine.Material Name="M_S_EyeRefractive"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCustom Name="MaterialExpressionCustom_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_26"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReflectionVectorWS Name="MaterialExpressionReflectionVectorWS_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionRotateAboutAxis Name="MaterialExpressionRotateAboutAxis_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_14"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_15"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_21"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_22"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_23"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_28"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_29"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_32"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSphereMask Name="MaterialExpressionSphereMask_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionStaticSwitchParameter Name="MaterialExpressionStaticSwitchParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTangentOutput Name="MaterialExpressionTangentOutput_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameterCube Name="MaterialExpressionTextureSampleParameterCube_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTransform Name="MaterialExpressionTransform_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_5"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_3')
+      B=(Expression=MaterialExpressionConstant'M_S_EyeRefractive:MaterialExpressionConstant_0')
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=-1040
+      MaterialExpressionGuid=A602A56040988B82E02106BB34C355AE
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_5')
+      ConstB=0.500000
+      MaterialExpressionEditorX=-2688
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=A99FD78D42681E5833A7AC82CD29A03D
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_2"
+      A=(Expression=MaterialExpressionReflectionVectorWS'M_S_EyeRefractive:MaterialExpressionReflectionVectorWS_0')
+      B=(Expression=MaterialExpressionRotateAboutAxis'M_S_EyeRefractive:MaterialExpressionRotateAboutAxis_1')
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=-2288
+      MaterialExpressionGuid=5883FE2A44A595D95A8ADF98B6AE35C2
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_3"
+      A=(Expression=MaterialExpressionCustom'M_S_EyeRefractive:MaterialExpressionCustom_0')
+      ConstB=-0.500000
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=-816
+      MaterialExpressionGuid=175150A74E85F29EC2F21E835EFF02E3
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.500000
+      MaterialExpressionEditorX=-1248
+      MaterialExpressionEditorY=-944
+      MaterialExpressionGuid=FF3BCA594392D3A9278ACC8492FA16B9
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_10"
+      R=360.000000
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=-2400
+      MaterialExpressionGuid=26509F604867C21AA7BEF9BDBB3D7F4B
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=0.500000
+      MaterialExpressionEditorX=-703
+      MaterialExpressionEditorY=750
+      MaterialExpressionGuid=8500A5E44BDB6E08188A449190AC6FFD
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=1.000000
+      MaterialExpressionEditorX=-544
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=6BCAE9E0405C07E127B44CABEA529288
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      R=0.500000
+      MaterialExpressionEditorX=-1216
+      MaterialExpressionEditorY=-1648
+      MaterialExpressionGuid=453B1B274E8A4EFBBC41878D5454569B
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=2.000000
+      MaterialExpressionEditorX=-1584
+      MaterialExpressionEditorY=-1104
+      MaterialExpressionGuid=C199FC474F1E1C11BD7362B896A7DCF9
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=1.000000
+      MaterialExpressionEditorX=-1440
+      MaterialExpressionEditorY=-1232
+      MaterialExpressionGuid=F3198C8D418D787D87C14B833AD7CE4B
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_8"
+      R=0.500000
+      MaterialExpressionEditorX=-2656
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=D8A1CDA748481ABA094A1FA61B987544
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_2"
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-2368
+      MaterialExpressionGuid=7B45C9CF410B11A0837B63A0CB28EF85
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionCustom_0"
+      Code="// Scale UVs from from unit circle in or out from center\r\n// float2 UV, float PupilScale\r\n\r\nfloat2 UVcentered = UV - float2(0.5f, 0.5f);\r\nfloat UVlength = length(UVcentered);\r\n// UV on circle at distance 0.5 from the center, in direction of original UV\r\nfloat2 UVmax = normalize(UVcentered)*0.5f;\r\n\r\nfloat2 UVscaled = lerp(UVmax, float2(0.f, 0.f), saturate((1.f - UVlength*2.f)*PupilScale));\r\nreturn UVscaled + float2(0.5f, 0.5f);"
+      OutputType=CMOT_Float2
+      Inputs(0)=(InputName="UV",Input=(Expression=MaterialExpressionAdd'M_S_EyeRefractive:MaterialExpressionAdd_0'))
+      Inputs(1)=(InputName="PupilScale",Input=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_5'))
+      MaterialExpressionEditorX=-1024
+      MaterialExpressionEditorY=-1040
+      MaterialExpressionGuid=C2F738994C8717BA313845B2997D4D8A
+      Material=Material'M_S_EyeRefractive'
+      Desc="Scale Pupils"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionDivide_0"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_1')
+      B=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_18')
+      MaterialExpressionEditorX=-224
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=6A6798DB4DFED837FC1C54B0E5B5F58D
+      Material=Material'M_S_EyeRefractive'
+      Desc="Scale UV distance to match Iris size in UV space"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionDivide_1"
+      A=(Expression=MaterialExpressionConstant'M_S_EyeRefractive:MaterialExpressionConstant_6')
+      B=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_4')
+      MaterialExpressionEditorX=-1360
+      MaterialExpressionEditorY=-1184
+      MaterialExpressionGuid=FE4C6F2343A9A0643585D2A9F72003D0
+      Material=Material'M_S_EyeRefractive'
+      Desc="Scale Iris texture coordinates up by this amount before sampling iris"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionDivide_2"
+      A=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_2')
+      B=(Expression=MaterialExpressionConstant'M_S_EyeRefractive:MaterialExpressionConstant_10')
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-2480
+      MaterialExpressionGuid=71B9129C44E72674937C4BA45F9A7FB9
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_12')
+      B=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_11')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_11')
+      MaterialExpressionEditorX=16
+      MaterialExpressionEditorY=-1168
+      MaterialExpressionGuid=DBCA19104CD9449621FA40B778210475
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_29')
+      B=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_28')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_11')
+      MaterialExpressionEditorX=-80
+      MaterialExpressionEditorY=-608
+      MaterialExpressionGuid=2F75B3B3473FE9DBCDBB38BE73F2D963
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_15"
+      A=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_20')
+      B=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_19')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_11')
+      MaterialExpressionEditorX=-112
+      MaterialExpressionEditorY=-352
+      MaterialExpressionGuid=2B6A9A784210A01C7A41688B26B7BAD5
+      Material=Material'M_S_EyeRefractive'
+      Desc="r"
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_7')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_10')
+      Alpha=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_17')
+      ConstA=1.000000
+      MaterialExpressionEditorX=-1824
+      MaterialExpressionEditorY=-912
+      MaterialExpressionGuid=76A8231E4316C90B56D9C6889F1E8AF0
+      Material=Material'M_S_EyeRefractive'
+      Desc="UVs with Refraction or not"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_3"
+      A=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_23')
+      B=(Expression=MaterialExpressionConstant'M_S_EyeRefractive:MaterialExpressionConstant_3')
+      Alpha=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_11')
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=F7988F0A4F6529542BBAA09827B34619
+      Material=Material'M_S_EyeRefractive'
+      Desc="Flatten completely over Iris as this normal will be used for the cornea shading"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_4"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_S_EyeRefractive:MaterialExpressionLinearInterpolate_5')
+      B=(Expression=MaterialExpressionLinearInterpolate'M_S_EyeRefractive:MaterialExpressionLinearInterpolate_6')
+      Alpha=(Expression=MaterialExpressionSphereMask'M_S_EyeRefractive:MaterialExpressionSphereMask_2')
+      MaterialExpressionEditorX=-736
+      MaterialExpressionEditorY=-1824
+      MaterialExpressionGuid=B9CBF88E4D41FEBAEB738588BDA57D6B
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_5"
+      A=(Expression=MaterialExpressionVectorParameter'M_S_EyeRefractive:MaterialExpressionVectorParameter_2',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionSphereMask'M_S_EyeRefractive:MaterialExpressionSphereMask_2')
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=-1888
+      MaterialExpressionGuid=69855BF349CE95DA6E71F8B6D678A8BD
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_6"
+      B=(Expression=MaterialExpressionVectorParameter'M_S_EyeRefractive:MaterialExpressionVectorParameter_5',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionSphereMask'M_S_EyeRefractive:MaterialExpressionSphereMask_2')
+      ConstA=1.000000
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=-1760
+      MaterialExpressionGuid=7395CBF34B781E8CBC644B815FA4DAA3
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_7"
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'M_S_EyeRefractive:MaterialExpressionTextureSampleParameter2D_7',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_0')
+      ConstA=1.000000
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=-1376
+      MaterialExpressionGuid=6A676BA948CFA37DD83A46824D540074
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/SplitComponents.SplitComponents'
+      FunctionInputs(0)=(ExpressionInputId=6867ABD54EFEB1A9617F1F8C5D05CEB9,Input=(Expression=MaterialExpressionTextureSampleParameter2D'M_S_EyeRefractive:MaterialExpressionTextureSampleParameter2D_0',InputName="Color",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionOutputs(0)=(ExpressionOutputId=4B58FE2B4A996EBB215C1DAFD4CBEE13,Output=(OutputName="RGB"))
+      FunctionOutputs(1)=(ExpressionOutputId=D1562D5E460B49635956528A6AA27FCB,Output=(OutputName="R"))
+      FunctionOutputs(2)=(ExpressionOutputId=3FF2AEEC42C59C1920805C81F7FE2DE4,Output=(OutputName="G"))
+      FunctionOutputs(3)=(ExpressionOutputId=C284D36346E6D2F0004C84913B4F77E2,Output=(OutputName="B"))
+      MaterialExpressionEditorX=64
+      MaterialExpressionEditorY=1296
+      MaterialExpressionGuid=D808AC7C45BEF7EEA82856A2DE606465
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="RGB")
+      Outputs(1)=(OutputName="R")
+      Outputs(2)=(OutputName="G")
+      Outputs(3)=(OutputName="B")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength.VectorLength'
+      FunctionInputs(0)=(ExpressionInputId=E06081AD4255F67C6D398889E3CE73BA,Input=(Expression=MaterialExpressionSubtract'M_S_EyeRefractive:MaterialExpressionSubtract_3',InputName="Vector 2"))
+      FunctionInputs(1)=(ExpressionInputId=1F411C544AE4A9ACC5F5F8A2A099B309,Input=(OutputIndex=-1,InputName="Vector 3"))
+      FunctionOutputs(0)=(ExpressionOutputId=3C53F2D54FE1029372151E82C85F7755,Output=(OutputName="V2 Length"))
+      FunctionOutputs(1)=(ExpressionOutputId=F186F43445EF47104CD650A242DEAECE,Output=(OutputName="V3 Length"))
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=784
+      MaterialExpressionGuid=5F81AB8045D8A82D9FD76DBBF2269A27
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="V2 Length")
+      Outputs(1)=(OutputName="V3 Length")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_10"
+      MaterialFunction=MaterialFunction'/Game/Characters/Global/Eyes/MaterialFunctions/ML_EyeRefraction.ML_EyeRefraction'
+      FunctionInputs(0)=(ExpressionInputId=8F236A654DACFE8D7B9ACEB2F5D8AFAD,Input=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_16',InputName="InternalIoR"))
+      FunctionInputs(1)=(ExpressionInputId=A466DFFF443D8417CB7DCD8A0EA85574,Input=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_4',InputName="ScaleByCenter"))
+      FunctionInputs(2)=(ExpressionInputId=7220EEA94FD33533BDBCA09A65E36290,Input=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_12',InputName="LimbusUVWidth"))
+      FunctionInputs(3)=(ExpressionInputId=39B51E9D4B68A53E646547B1816B1044,Input=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_7',InputName="DepthScale"))
+      FunctionInputs(4)=(ExpressionInputId=3BD255394BFC26AE799CA0A6F5EF0742,Input=(Expression=MaterialExpressionTextureSample'M_S_EyeRefractive:MaterialExpressionTextureSample_2',OutputIndex=1,InputName="DepthPlaneOffset",Mask=1,MaskR=1))
+      FunctionInputs(5)=(ExpressionInputId=946956E243C3A5B38C173785CB8CA97C,Input=(Expression=MaterialExpressionTextureSample'M_S_EyeRefractive:MaterialExpressionTextureSample_1',InputName="MidPlaneDisplacement",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(6)=(ExpressionInputId=7D1B161D45F2083D083D6AA069042BFE,Input=(Expression=MaterialExpressionTransform'M_S_EyeRefractive:MaterialExpressionTransform_0',InputName="EyeDirectionWorld"))
+      FunctionInputs(7)=(ExpressionInputId=0E8B0B4946FE6B39F697D781F6C47553,Input=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_18',InputName="IrisUVRadius"))
+      FunctionOutputs(0)=(ExpressionOutputId=E7B6B75B491914BE13A5B59379A2182B,Output=(OutputName="RefractedUV"))
+      FunctionOutputs(1)=(ExpressionOutputId=D2908D4A4E9C40A014CAE9A5C502C985,Output=(OutputName="Transparency"))
+      FunctionOutputs(2)=(ExpressionOutputId=0A9115B44527B70C50E3D9A5AA691798,Output=(OutputName="IrisMask"))
+      MaterialExpressionEditorX=-2128
+      MaterialExpressionEditorY=-672
+      MaterialExpressionGuid=3E5BA5E34743845E4B5741B82DC597C3
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="RefractedUV")
+      Outputs(1)=(OutputName="Transparency")
+      Outputs(2)=(OutputName="IrisMask")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_11"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.BreakOutFloat2Components'
+      FunctionInputs(0)=(ExpressionInputId=0FC5C56B4335798F20CB928CF1C87421,Input=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_10',OutputIndex=2,InputName="Float2"))
+      FunctionOutputs(0)=(ExpressionOutputId=6BC893C247FCFC567178CE944E213385,Output=(OutputName="R"))
+      FunctionOutputs(1)=(ExpressionOutputId=9720C81E449DF8E5514FCB8A80FD5FA3,Output=(OutputName="G"))
+      MaterialExpressionEditorX=-1744
+      MaterialExpressionEditorY=-624
+      MaterialExpressionGuid=1C092C8D4F703EA81DB516A17468C4B4
+      Material=Material'M_S_EyeRefractive'
+      Desc="R = Color, G = Shading"
+      Outputs(0)=(OutputName="R")
+      Outputs(1)=(OutputName="G")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_12"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.MakeFloat2'
+      FunctionInputs(0)=(ExpressionInputId=529C1D96441E07EB03A9E59B8A7F67B6,Input=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_11',InputName="X"))
+      FunctionInputs(1)=(ExpressionInputId=B5BD7D1B494F6928732CCDA1C63D8E15,Input=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_21',InputName="Y"))
+      FunctionOutputs(0)=(ExpressionOutputId=0DD6F9954C067C3E5DDBBBA0D6910DD2,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-2720
+      MaterialExpressionEditorY=-880
+      MaterialExpressionGuid=5293049A473353A2942C1DBFD5A41FA2
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_13"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.FlattenNormal'
+      FunctionInputs(0)=(ExpressionInputId=28AAF19044840619BEBDFC824A64C7A0,Input=(Expression=MaterialExpressionTextureSampleParameter2D'M_S_EyeRefractive:MaterialExpressionTextureSampleParameter2D_6',InputName="Normal",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=03CE862F4BD8BFCC0550048115A40E71,Input=(Expression=MaterialExpressionLinearInterpolate'M_S_EyeRefractive:MaterialExpressionLinearInterpolate_3',InputName="Flatness"))
+      FunctionOutputs(0)=(ExpressionOutputId=CF2DF7CD446736F3FF50B0A17088C5A7,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-96
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=BBA7BD16432F5BEBB0292FA85B6EB71D
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_14"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter'
+      FunctionInputs(0)=(ExpressionInputId=395E1DA54D9791A8DB7094B52B0509C3,Input=(OutputIndex=-1,InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9E726E4E4FF0FCD65D606FB9CE123842,Input=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_22',InputName="Texture Scale"))
+      FunctionOutputs(0)=(ExpressionOutputId=94A339B248B805839CF8F28B335D4E1D,Output=(OutputName="UVs"))
+      FunctionOutputs(1)=(ExpressionOutputId=2DFD3EF340552A23494E8D987C76BC0D,Output=(OutputName="0-1 mask"))
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=5D34685E47F78CE6D097E19E0D63E7D6
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="UVs")
+      Outputs(1)=(OutputName="0-1 mask")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.MakeFloat2'
+      FunctionInputs(0)=(ExpressionInputId=529C1D96441E07EB03A9E59B8A7F67B6,Input=(Expression=MaterialExpressionAdd'M_S_EyeRefractive:MaterialExpressionAdd_1',InputName="X"))
+      FunctionInputs(1)=(ExpressionInputId=B5BD7D1B494F6928732CCDA1C63D8E15,Input=(Expression=MaterialExpressionConstant'M_S_EyeRefractive:MaterialExpressionConstant_8',InputName="Y"))
+      FunctionOutputs(0)=(ExpressionOutputId=0DD6F9954C067C3E5DDBBBA0D6910DD2,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-2576
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=306028254F2901660E045B8658667A25
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_5"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength.VectorLength'
+      FunctionInputs(0)=(ExpressionInputId=E06081AD4255F67C6D398889E3CE73BA,Input=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_10',InputName="Vector 2"))
+      FunctionInputs(1)=(ExpressionInputId=1F411C544AE4A9ACC5F5F8A2A099B309,Input=(OutputIndex=-1,InputName="Vector 3"))
+      FunctionOutputs(0)=(ExpressionOutputId=3C53F2D54FE1029372151E82C85F7755,Output=(OutputName="V2 Length"))
+      FunctionOutputs(1)=(ExpressionOutputId=F186F43445EF47104CD650A242DEAECE,Output=(OutputName="V3 Length"))
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=-816
+      MaterialExpressionGuid=8FEE75A343C2458B9DCB1EBEAC214F5D
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="V2 Length")
+      Outputs(1)=(OutputName="V3 Length")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_6"
+      MaterialFunction=MaterialFunction'/Game/Bust/MaterialFunctions/MF_SFace_EnvironmentColorScale.MF_SFace_EnvironmentColorScale'
+      FunctionOutputs(0)=(ExpressionOutputId=047933EF42E73551940F8FB24E7EA6BF,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=816
+      MaterialExpressionEditorY=-368
+      MaterialExpressionGuid=6E63FC39460C8F88815C2798CAAFE416
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_7"
+      MaterialFunction=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter'
+      FunctionInputs(0)=(ExpressionInputId=395E1DA54D9791A8DB7094B52B0509C3,Input=(OutputIndex=-1,InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9E726E4E4FF0FCD65D606FB9CE123842,Input=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_4',InputName="Texture Scale"))
+      FunctionOutputs(0)=(ExpressionOutputId=94A339B248B805839CF8F28B335D4E1D,Output=(OutputName="UVs"))
+      FunctionOutputs(1)=(ExpressionOutputId=2DFD3EF340552A23494E8D987C76BC0D,Output=(OutputName="0-1 mask"))
+      MaterialExpressionEditorX=-2144
+      MaterialExpressionEditorY=-1184
+      MaterialExpressionGuid=5D34685E47F78CE6D097E19E0D63E7D6
+      Material=Material'M_S_EyeRefractive'
+      Outputs(0)=(OutputName="UVs")
+      Outputs(1)=(OutputName="0-1 mask")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_S_EyeRefractive:MaterialExpressionLinearInterpolate_0')
+      MaterialExpressionEditorX=160
+      MaterialExpressionEditorY=-1168
+      MaterialExpressionGuid=1828901A4896F1567BD4CEB45D2C9604
+      Material=Material'M_S_EyeRefractive'
+      Desc="Composited Base Color"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_S_EyeRefractive:MaterialExpressionLinearInterpolate_7')
+      B=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_15')
+      MaterialExpressionEditorX=-400
+      MaterialExpressionEditorY=-1312
+      MaterialExpressionGuid=D13D01AA455967DBFE28E5B5808C4DEA
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_10"
+      A=(Expression=MaterialExpressionAdd'M_S_EyeRefractive:MaterialExpressionAdd_3')
+      B=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_9')
+      ConstB=2.000000
+      MaterialExpressionEditorX=-784
+      MaterialExpressionEditorY=-816
+      MaterialExpressionGuid=8875C1654412787DA31747B7F1C3E2F8
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_11"
+      A=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_7')
+      B=(Expression=MaterialExpressionOneMinus'M_S_EyeRefractive:MaterialExpressionOneMinus_0')
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=-992
+      MaterialExpressionGuid=B0C491D448BC8EFE6457B8AE1F4A357F
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_12"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_S_EyeRefractive:MaterialExpressionLinearInterpolate_4')
+      B=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_1')
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=-1360
+      MaterialExpressionGuid=130417DB4A5870489CAE93B98F4B2804
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionDivide'M_S_EyeRefractive:MaterialExpressionDivide_0')
+      B=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_3')
+      MaterialExpressionEditorX=-96
+      MaterialExpressionEditorY=880
+      MaterialExpressionGuid=D09F38D543109194A1F71CA82019A9A8
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_26"
+      A=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_32')
+      B=(Expression=MaterialExpressionVectorParameter'M_S_EyeRefractive:MaterialExpressionVectorParameter_3',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=112
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=382EA7E7403FFABBD8489C8A2A3F3974
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionSubtract'M_S_EyeRefractive:MaterialExpressionSubtract_0')
+      B=(Expression=MaterialExpressionDivide'M_S_EyeRefractive:MaterialExpressionDivide_1')
+      MaterialExpressionEditorX=-1248
+      MaterialExpressionEditorY=-1040
+      MaterialExpressionGuid=8A15A08044D9E98C47714BB08CDAF5B1
+      Material=Material'M_S_EyeRefractive'
+      Desc="Centered Scale"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_18')
+      B=(Expression=MaterialExpressionConstant'M_S_EyeRefractive:MaterialExpressionConstant_5')
+      MaterialExpressionEditorX=-1504
+      MaterialExpressionEditorY=-1136
+      MaterialExpressionGuid=2F7A1CBB40886F3990BCF8B23D957398
+      Material=Material'M_S_EyeRefractive'
+      Desc="Radius to diameter"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_5"
+      A=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_18')
+      B=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_4')
+      MaterialExpressionEditorX=-2800
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=662156E549A09F85A8A91C8B177078C6
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_6"
+      A=(Expression=MaterialExpressionTextureSampleParameterCube'M_S_EyeRefractive:MaterialExpressionTextureSampleParameterCube_0',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'M_S_EyeRefractive:MaterialExpressionVectorParameter_4',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-80
+      MaterialExpressionEditorY=-2096
+      MaterialExpressionGuid=BC87B554437863BE1D5A1DA756413FB1
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_7"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'M_S_EyeRefractive:MaterialExpressionTextureSampleParameter2D_4',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_14')
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=-1008
+      MaterialExpressionGuid=37D0442B4FFDAD87A97C479CF616A7BC
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_9"
+      A=(Expression=MaterialExpressionTransform'M_S_EyeRefractive:MaterialExpressionTransform_0')
+      MaterialExpressionEditorX=1120
+      MaterialExpressionEditorY=-480
+      MaterialExpressionGuid=C43DCAF94640B08BE6C9A09A141B1151
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_0"
+      VectorInput=(Expression=MaterialExpressionAdd'M_S_EyeRefractive:MaterialExpressionAdd_2')
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=-2288
+      MaterialExpressionGuid=605AE1664C00076018F05C835533E5D1
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=MaterialExpressionPower'M_S_EyeRefractive:MaterialExpressionPower_2')
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=-816
+      MaterialExpressionGuid=DFCF12B34C953288A3A126801DC7DE23
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionPower_0"
+      Base=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_2')
+      Exponent=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_1')
+      MaterialExpressionEditorX=32
+      MaterialExpressionEditorY=896
+      MaterialExpressionGuid=7221DBEA4EA4C56A970AB2AE41A30FE8
+      Material=Material'M_S_EyeRefractive'
+      Desc="Adjust distance - Drives concavity"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionPower_1"
+      Exponent=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_6')
+      MaterialExpressionEditorX=1456
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=946D35F2468DF0472378D3941B0EFF51
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionPower_2"
+      Base=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_5')
+      Exponent=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_8')
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=-816
+      MaterialExpressionGuid=5D983EE14AE789CC0F1F2E932D5A3E55
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionReflectionVectorWS_0"
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-2160
+      MaterialExpressionGuid=0DC80F764A4E4787245F24B8ADF90641
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionRotateAboutAxis_1"
+      NormalizedRotationAxis=(Expression=MaterialExpressionVectorParameter'M_S_EyeRefractive:MaterialExpressionVectorParameter_1',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      RotationAngle=(Expression=MaterialExpressionDivide'M_S_EyeRefractive:MaterialExpressionDivide_2')
+      PivotPoint=(Expression=MaterialExpressionConstant3Vector'M_S_EyeRefractive:MaterialExpressionConstant3Vector_2')
+      Position=(Expression=MaterialExpressionReflectionVectorWS'M_S_EyeRefractive:MaterialExpressionReflectionVectorWS_0')
+      MaterialExpressionEditorX=-864
+      MaterialExpressionEditorY=-2576
+      MaterialExpressionGuid=0C78D5654761DEBE242C2A81F67B4105
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=1.000000
+      ParameterName="Veins"
+      ExpressionGUID=44C725F8429A652CE4865EA5E97D0546
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=-1280
+      MaterialExpressionGuid=FA3876BC4589F417BA7CE9B4F33D4EEC
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.276744
+      SliderMin=0.100000
+      SliderMax=2.000000
+      ParameterName="Iris Concavity Power"
+      ExpressionGUID=1F8EE67C46E065015D4EBFB61F5BCB83
+      MaterialExpressionEditorX=-128
+      MaterialExpressionEditorY=1024
+      MaterialExpressionGuid=FFA74ED94E8F4E421DAEA18154EB8D99
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_11"
+      DefaultValue=0.035000
+      ParameterName="LimbusUVWidthColor"
+      ExpressionGUID=AF8F9C0A473517D5F7B8319D038134CD
+      MaterialExpressionEditorX=-2960
+      MaterialExpressionEditorY=-976
+      MaterialExpressionGuid=127EBB244431DFE26D235988A83ADFCB
+      Material=Material'M_S_EyeRefractive'
+      Desc="Color transition range width"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_12"
+      DefaultValue=0.650000
+      ParameterName="ShadowRadius"
+      ExpressionGUID=185F325B432F9AF170AE8E89BFFCC743
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=-1568
+      MaterialExpressionGuid=B518A6AE436222135373B7B883D8404A
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_13"
+      DefaultValue=0.100000
+      ParameterName="ShadowHardness"
+      ExpressionGUID=9DD8E6504381C22D7F37379C4B5DC78F
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=-1472
+      MaterialExpressionGuid=4DC51E734183B7788973E6844270CA60
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_14"
+      DefaultValue=1.000000
+      ParameterName="IrisBRightness"
+      ExpressionGUID=241ACA254B1DB6392D70A3A7A685291F
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=-896
+      MaterialExpressionGuid=81E79159472D19801BCE2383FD4BB579
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_15"
+      DefaultValue=0.900000
+      ParameterName="ScleraBrightness"
+      ExpressionGUID=2843F3974F66EDA7E29C1998973C6EF5
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=-1200
+      MaterialExpressionGuid=A479A1F346197EE0A762CF88CB6B6180
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_16"
+      DefaultValue=1.336000
+      SliderMin=1.000290
+      SliderMax=10.000000
+      ParameterName="IoR"
+      ExpressionGUID=55E3307B4E998C4D7264549D7716ABDC
+      MaterialExpressionEditorX=-2432
+      MaterialExpressionEditorY=-496
+      MaterialExpressionGuid=28E730DB458FD8643AF4A4A6C9B268BA
+      Material=Material'M_S_EyeRefractive'
+      Desc="Internal IoR"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_17"
+      DefaultValue=1.000000
+      SliderMax=1.000000
+      ParameterName="Refraction On/Off"
+      ExpressionGUID=B35F64E5465EC0D65FACB5BEDE3F75EA
+      MaterialExpressionEditorX=-2432
+      MaterialExpressionEditorY=-896
+      MaterialExpressionGuid=5F55BB8E41E77DDC0D653EA41B9FBDB9
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_18"
+      DefaultValue=0.150000
+      ParameterName="Iris UV Radius"
+      ExpressionGUID=E9BEC1BC4F39E1D4C27A0BAC57616B21
+      MaterialExpressionEditorX=-2432
+      MaterialExpressionEditorY=-784
+      MaterialExpressionGuid=B5C821EE4A27B3F29C88ED851E27C41A
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_19"
+      DefaultValue=0.100000
+      ParameterName="IrisRoughness"
+      ExpressionGUID=B2A3980F49E404E1D0D137A8EE4A99A5
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=-288
+      MaterialExpressionGuid=39D8A37747BB37627DA2C993E89B01B5
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      SliderMax=360.000000
+      ParameterName="SecondaryEnvRotation"
+      ExpressionGUID=5A6C0D904958EE9D2D87848A9359ABED
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=-2496
+      MaterialExpressionGuid=D937B67944576C2B482556A76915EF48
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_20"
+      DefaultValue=0.100000
+      ParameterName="ScleraRougness"
+      ExpressionGUID=2AB785784B2CC089E3371CA9E7E8CE03
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=-384
+      MaterialExpressionGuid=39D8A37747BB37627DA2C993E89B01B5
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_21"
+      DefaultValue=0.045000
+      ParameterName="LimbusUVWidthShading"
+      ExpressionGUID=BFA969EE439AA6CC2905B08B0240FDAB
+      MaterialExpressionEditorX=-2960
+      MaterialExpressionEditorY=-864
+      MaterialExpressionGuid=127EBB244431DFE26D235988A83ADFCB
+      Material=Material'M_S_EyeRefractive'
+      Desc="Shading transition range width"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_22"
+      DefaultValue=2.400000
+      ParameterName="NormalUVScale"
+      ExpressionGUID=F040C4F9419A1202A051F59586E162D2
+      MaterialExpressionEditorX=-752
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=89E7249940EA27A582E3D8A9D85E4F4E
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_23"
+      DefaultValue=0.950000
+      ParameterName="FlattenNormal"
+      ExpressionGUID=F26F95C6448D7E19FEFF9AAA095C17C8
+      MaterialExpressionEditorX=-544
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=40BD3F4B4FE852F265118B861A43A0A6
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_28"
+      DefaultValue=0.300000
+      ParameterName="SpecularityIris"
+      ExpressionGUID=19DBF0254EB670CB0BBDF4B89315FED8
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=-592
+      MaterialExpressionGuid=F309D8FE4DBD688DF38CCAA2838E2CCB
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_29"
+      DefaultValue=0.300000
+      ParameterName="SpecularityScelera"
+      ExpressionGUID=B884882845A6D4CB360E3E90A58F6018
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=-688
+      MaterialExpressionGuid=3B9DE5B8496C33A3483D6D9FB710A748
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=0.111628
+      SliderMax=4.000000
+      ParameterName="Iris Concavity Scale"
+      ExpressionGUID=645C78C844AAB1B3A4747AA5AFCF2DD3
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=944
+      MaterialExpressionGuid=36EB6DE44E37AEC689809191016FE248
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_32"
+      ParameterName="EmissiveStrengthScalar"
+      ExpressionGUID=81D97FD448BBF52FF5BA9FB841FB3D15
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=A8C7F76349BC3E97D2873291799C1815
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=1.000000
+      ParameterName="ScaleByCenter"
+      ExpressionGUID=EC86A86B4863002B792A2486B18876E9
+      MaterialExpressionEditorX=-2448
+      MaterialExpressionEditorY=-1168
+      MaterialExpressionGuid=6C08579440D013DDACF2279F9DC1504B
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=0.700000
+      SliderMax=1.000000
+      ParameterName="PupilScale"
+      ExpressionGUID=22262F5348FF0D93D157E4B5F21C9A73
+      MaterialExpressionEditorX=-2432
+      MaterialExpressionEditorY=-1024
+      MaterialExpressionGuid=7EF7BEF741CF432F360512888FC4C330
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_6"
+      DefaultValue=1.000000
+      ParameterName="IrisOffset"
+      ExpressionGUID=04FC01864CA03C3B1D3577B03A9A2530
+      MaterialExpressionEditorX=1280
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=3B1E96D045FE3F37D9F4C98DD39EB200
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_7"
+      DefaultValue=1.200000
+      ParameterName="DepthScale"
+      ExpressionGUID=07546D10472E3EF227A0FA9BB2C6099C
+      MaterialExpressionEditorX=-2432
+      MaterialExpressionEditorY=-400
+      MaterialExpressionGuid=E54F20B2469365D75DF494BA1759E74C
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      DefaultValue=8.000000
+      ParameterName="LimbusPow"
+      ExpressionGUID=A5284EE143933435A7E5D5B5C4F51513
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=-720
+      MaterialExpressionGuid=25DFB091424E42E380758AA754414D89
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_9"
+      DefaultValue=2.150000
+      ParameterName="LimbusDarkScale"
+      ExpressionGUID=7B0E8B204945CBF3F6AAE7A8FCD06B6F
+      MaterialExpressionEditorX=-944
+      MaterialExpressionEditorY=-720
+      MaterialExpressionGuid=5DB05B9045A176444AF5778C73548451
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionSphereMask_2"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_7')
+      B=(Expression=MaterialExpressionConstant'M_S_EyeRefractive:MaterialExpressionConstant_4')
+      Radius=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_12')
+      Hardness=(Expression=MaterialExpressionScalarParameter'M_S_EyeRefractive:MaterialExpressionScalarParameter_13')
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-1600
+      MaterialExpressionGuid=3BB05D2D4A500964C7CE1CB2EC2F6A31
+      Material=Material'M_S_EyeRefractive'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionStaticSwitchParameter_0"
+      A=(Expression=MaterialExpressionTextureSample'M_S_EyeRefractive:MaterialExpressionTextureSample_4',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSample'M_S_EyeRefractive:MaterialExpressionTextureSample_4',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      DefaultValue=True
+      ParameterName="UseEyeBuldge"
+      ExpressionGUID=65D48F52488719CAC5E823BB9972C4F3
+      MaterialExpressionEditorX=-2976
+      MaterialExpressionEditorY=-640
+      MaterialExpressionGuid=5AB200394A1D16997B5016A01D3D8C8E
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_0"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_S_EyeRefractive:MaterialExpressionLinearInterpolate_2')
+      B=(Expression=MaterialExpressionConstant'M_S_EyeRefractive:MaterialExpressionConstant_0')
+      MaterialExpressionEditorX=-1360
+      MaterialExpressionEditorY=-1040
+      MaterialExpressionGuid=C85173BA46E084A50CDA7E9DFADB2635
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_3"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_10')
+      B=(Expression=MaterialExpressionConstant'M_S_EyeRefractive:MaterialExpressionConstant_2')
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=CC68EE7947332C2EB2205983A385906F
+      Material=Material'M_S_EyeRefractive'
+      Desc="Center Refracted UVs"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionTangentOutput_0"
+      Input=(Expression=MaterialExpressionMultiply'M_S_EyeRefractive:MaterialExpressionMultiply_9')
+      MaterialExpressionEditorX=1264
+      MaterialExpressionEditorY=-608
+      MaterialExpressionGuid=1E295B184914D155DDCDF68450D5CD18
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'/Game/Bust/Textures/S_EyeMidPlaneDisplacement.S_EyeMidPlaneDisplacement'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-2432
+      MaterialExpressionEditorY=-288
+      MaterialExpressionGuid=1A4EEC304E714B31DCBBAD9E1E29D610
+      Material=Material'M_S_EyeRefractive'
+      Desc="UVs not scaled by center as the base UVs are a ortho projection and this depth needs to stay in that space"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_2')
+      Texture=Texture2D'/Game/Bust/Textures/S_EyeMidPlaneDisplacement.S_EyeMidPlaneDisplacement'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-2432
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=1A4EEC304E714B31DCBBAD9E1E29D610
+      Material=Material'M_S_EyeRefractive'
+      Desc="Sample Displacement map as above, sampled at the Iris Radius"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'/Game/Bust/Textures/S_EyeIrisPlaneNormals.S_EyeIrisPlaneNormals'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-3184
+      MaterialExpressionEditorY=-512
+      MaterialExpressionGuid=EC877BF0458760F9B289809A10353A64
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Texture=Texture2D'/Game/Bust/Textures/S_EyeIrisPlaneNormals.S_EyeIrisPlaneNormals'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-3200
+      MaterialExpressionEditorY=-736
+      MaterialExpressionGuid=3D96D5FB431EE556C034F79F8D219C11
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="CausticsMap"
+      ExpressionGUID=892A4FDC4C566FF896A7398A4A122870
+      Texture=None
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=1280
+      MaterialExpressionGuid=CB4A1B5E42FCC8D2AC74FC86054F5E79
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_4"
+      ParameterName="IrisColor"
+      ExpressionGUID=00E78A4B4B1A5CE53EEBA691B4D1718E
+      Coordinates=(Expression=MaterialExpressionCustom'M_S_EyeRefractive:MaterialExpressionCustom_0')
+      SamplerSource=SSM_Clamp_WorldGroupSettings
+      Texture=Texture2D'/Game/Bust/Textures/S_EyeIrisBaseColor.S_EyeIrisBaseColor'
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=-1104
+      MaterialExpressionGuid=C8EF79EA413A80620FFC5E96A9D33CE4
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_6"
+      ParameterName="NormalMap"
+      ExpressionGUID=FCEAEE024158A0FDB0A1DCAD9E899A00
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_14')
+      SamplerSource=SSM_Clamp_WorldGroupSettings
+      Texture=Texture2D'/Game/Bust/Textures/S_Eye_Wet_Normal.S_Eye_Wet_Normal'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-336
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=EE35B5274FCCB37620EAE1801C861B0B
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_7"
+      ParameterName="ScleraColor"
+      ExpressionGUID=1C0F41B44741D8496AA8FFABA5F8B40B
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'M_S_EyeRefractive:MaterialExpressionMaterialFunctionCall_7')
+      SamplerSource=SSM_Clamp_WorldGroupSettings
+      Texture=Texture2D'/Game/Bust/Textures/S_EyeScleraBaseColor.S_EyeScleraBaseColor'
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=-1488
+      MaterialExpressionGuid=C8EF79EA413A80620FFC5E96A9D33CE4
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameterCube_0"
+      ParameterName="SecondaryEnv"
+      ExpressionGUID=9DF43A1E4ACDD01242AC61932EE3F59B
+      Coordinates=(Expression=MaterialExpressionNormalize'M_S_EyeRefractive:MaterialExpressionNormalize_0')
+      Texture=TextureCube'/Game/Bust/Textures/CubeMap_Base.CubeMap_Base'
+      MaterialExpressionEditorX=-288
+      MaterialExpressionEditorY=-2304
+      MaterialExpressionGuid=F3262F3F4B1CA6C14628CE91F3EFB455
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionTransform_0"
+      Input=(Expression=MaterialExpressionStaticSwitchParameter'M_S_EyeRefractive:MaterialExpressionStaticSwitchParameter_0')
+      MaterialExpressionEditorX=-2736
+      MaterialExpressionEditorY=-704
+      MaterialExpressionGuid=22E3A0F24C18E47D77C0928C129FC144
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.000000,G=0.000000,B=1.000000,A=1.000000)
+      ExpressionGUID=36FA788944E29EFBA26C788967D165F5
+      MaterialExpressionEditorX=1264
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=B75145E3423CDC21AEAE66BB575990FC
+      Material=Material'M_S_EyeRefractive'
+      Desc="WorldSpace - Needs to rotate with object"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      DefaultValue=(R=0.000000,G=0.000000,B=1.000000,A=1.000000)
+      ParameterName="SecondaryEnvRotationAxis"
+      ExpressionGUID=8951AEC4428E745219B0ACA28778DBAE
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-2672
+      MaterialExpressionGuid=961A8DCF4540EE9B9FE1A8BAEABE08C1
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+      ParameterName="Sclera outer color"
+      ExpressionGUID=26A074FE4E1B83816758AEB7B227B9BB
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-1984
+      MaterialExpressionGuid=4DBBA5884E8794E7DBB87582D45ACB22
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+      ParameterName="EmissiveColor"
+      ExpressionGUID=4FC90E914963EA66DB45C49FAD8F7C16
+      MaterialExpressionEditorX=-80
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=4DBBA5884E8794E7DBB87582D45ACB22
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_4"
+      DefaultValue=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+      ParameterName="SecondaryEnvBalance"
+      ExpressionGUID=80D0312D44992EAB135F73805478B5A2
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=-2048
+      MaterialExpressionGuid=A23291B7478220B48CE19687B43C3767
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_5"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+      ParameterName="Sclera inner color"
+      ExpressionGUID=8D6C877144B8A4DA2078FB97BF17CE0B
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-1792
+      MaterialExpressionGuid=4DBBA5884E8794E7DBB87582D45ACB22
+      Material=Material'M_S_EyeRefractive'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_0')
+   Specular=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_1')
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_15')
+   Normal=(Expression=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_13')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_6')
+   ShadingModel=MSM_Eye
+   ClearCoat=(Expression=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_11',OutputIndex=1)
+   ClearCoatRoughness=(Expression=MaterialExpressionPower'MaterialExpressionPower_0')
+   AmbientOcclusion=(Expression=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_6')
+   bUsedWithSkeletalMesh=True
+   bUsedWithStaticLighting=True
+   bUsedWithMorphTargets=True
+   EditorX=1264
+   EditorY=-1088
+   Expressions(0)=MaterialExpressionMultiply'MaterialExpressionMultiply_0'
+   Expressions(1)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_1'
+   Expressions(2)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_15'
+   Expressions(3)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_13'
+   Expressions(4)=MaterialExpressionMultiply'MaterialExpressionMultiply_6'
+   Expressions(5)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_11'
+   Expressions(6)=MaterialExpressionPower'MaterialExpressionPower_0'
+   Expressions(7)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_6'
+   Expressions(8)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_10'
+   Expressions(9)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_1'
+   Expressions(10)=MaterialExpressionMultiply'MaterialExpressionMultiply_26'
+   Expressions(11)=MaterialExpressionSphereMask'MaterialExpressionSphereMask_2'
+   Expressions(12)=MaterialExpressionConstant'MaterialExpressionConstant_4'
+   Expressions(13)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_12'
+   Expressions(14)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_13'
+   Expressions(15)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_4'
+   Expressions(16)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_2'
+   Expressions(17)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_14'
+   Expressions(18)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_15'
+   Expressions(19)=MaterialExpressionMultiply'MaterialExpressionMultiply_1'
+   Expressions(20)=MaterialExpressionMultiply'MaterialExpressionMultiply_7'
+   Expressions(21)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_7'
+   Expressions(22)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_4'
+   Expressions(23)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_16'
+   Expressions(24)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_17'
+   Expressions(25)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_18'
+   Expressions(26)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_2'
+   Expressions(27)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_19'
+   Expressions(28)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_20'
+   Expressions(29)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_6'
+   Expressions(30)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_23'
+   Expressions(31)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_28'
+   Expressions(32)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_29'
+   Expressions(33)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_3'
+   Expressions(34)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_32'
+   Expressions(35)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_0'
+   Expressions(36)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_11'
+   Expressions(37)=MaterialExpressionTangentOutput'MaterialExpressionTangentOutput_0'
+   Expressions(38)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_0'
+   Expressions(39)=MaterialExpressionConstant'MaterialExpressionConstant_3'
+   Expressions(40)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_3'
+   Expressions(41)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_7'
+   Expressions(42)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_0'
+   Expressions(43)=MaterialExpressionSubtract'MaterialExpressionSubtract_3'
+   Expressions(44)=MaterialExpressionConstant'MaterialExpressionConstant_2'
+   Expressions(45)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_1'
+   Expressions(46)=MaterialExpressionDivide'MaterialExpressionDivide_0'
+   Expressions(47)=MaterialExpressionMultiply'MaterialExpressionMultiply_2'
+   Expressions(48)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_3'
+   Expressions(49)=MaterialExpressionTransform'MaterialExpressionTransform_0'
+   Expressions(50)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_4'
+   Expressions(51)=MaterialExpressionTextureSampleParameter2D'MaterialExpressionTextureSampleParameter2D_7'
+   Expressions(52)=MaterialExpressionSubtract'MaterialExpressionSubtract_0'
+   Expressions(53)=MaterialExpressionAdd'MaterialExpressionAdd_0'
+   Expressions(54)=MaterialExpressionConstant'MaterialExpressionConstant_0'
+   Expressions(55)=MaterialExpressionMultiply'MaterialExpressionMultiply_3'
+   Expressions(56)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   Expressions(57)=MaterialExpressionMultiply'MaterialExpressionMultiply_4'
+   Expressions(58)=MaterialExpressionConstant'MaterialExpressionConstant_5'
+   Expressions(59)=MaterialExpressionConstant'MaterialExpressionConstant_6'
+   Expressions(60)=MaterialExpressionDivide'MaterialExpressionDivide_1'
+   Expressions(61)=MaterialExpressionCustom'MaterialExpressionCustom_0'
+   Expressions(62)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_5'
+   Expressions(63)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_1'
+   Expressions(64)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_2'
+   Expressions(65)=MaterialExpressionMultiply'MaterialExpressionMultiply_5'
+   Expressions(66)=MaterialExpressionAdd'MaterialExpressionAdd_1'
+   Expressions(67)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_2'
+   Expressions(68)=MaterialExpressionConstant'MaterialExpressionConstant_8'
+   Expressions(69)=MaterialExpressionMultiply'MaterialExpressionMultiply_9'
+   Expressions(70)=MaterialExpressionPower'MaterialExpressionPower_1'
+   Expressions(71)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_6'
+   Expressions(72)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_21'
+   Expressions(73)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_12'
+   Expressions(74)=MaterialExpressionAdd'MaterialExpressionAdd_3'
+   Expressions(75)=MaterialExpressionMultiply'MaterialExpressionMultiply_10'
+   Expressions(76)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_5'
+   Expressions(77)=MaterialExpressionOneMinus'MaterialExpressionOneMinus_0'
+   Expressions(78)=MaterialExpressionMultiply'MaterialExpressionMultiply_11'
+   Expressions(79)=MaterialExpressionPower'MaterialExpressionPower_2'
+   Expressions(80)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_8'
+   Expressions(81)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_9'
+   Expressions(82)=MaterialExpressionMaterialFunctionCall'MaterialExpressionMaterialFunctionCall_14'
+   Expressions(83)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_22'
+   Expressions(84)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_3'
+   Expressions(85)=MaterialExpressionStaticSwitchParameter'MaterialExpressionStaticSwitchParameter_0'
+   Expressions(86)=MaterialExpressionReflectionVectorWS'MaterialExpressionReflectionVectorWS_0'
+   Expressions(87)=MaterialExpressionTextureSampleParameterCube'MaterialExpressionTextureSampleParameterCube_0'
+   Expressions(88)=MaterialExpressionRotateAboutAxis'MaterialExpressionRotateAboutAxis_1'
+   Expressions(89)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_1'
+   Expressions(90)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_2'
+   Expressions(91)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_4'
+   Expressions(92)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_2'
+   Expressions(93)=MaterialExpressionAdd'MaterialExpressionAdd_2'
+   Expressions(94)=MaterialExpressionNormalize'MaterialExpressionNormalize_0'
+   Expressions(95)=MaterialExpressionDivide'MaterialExpressionDivide_2'
+   Expressions(96)=MaterialExpressionConstant'MaterialExpressionConstant_10'
+   Expressions(97)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_4'
+   Expressions(98)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_5'
+   Expressions(99)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_5'
+   Expressions(100)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_6'
+   Expressions(101)=MaterialExpressionMultiply'MaterialExpressionMultiply_12'
+   Expressions(102)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_7'
+   Expressions(103)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0'
+   MaterialFunctionInfos(0)=(StateId=FE67B48A44296B30FBF15EBB0FC10ADF,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.FlattenNormal')
+   MaterialFunctionInfos(1)=(StateId=2C1DDB6E406BC9FC1D4141A17C82122A,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.BreakOutFloat2Components')
+   MaterialFunctionInfos(2)=(StateId=F73B025D4EDD214BBDC5229C56003DFA,Function=MaterialFunction'/Game/Bust/MaterialFunctions/MF_SFace_EnvironmentColorScale.MF_SFace_EnvironmentColorScale')
+   MaterialFunctionInfos(3)=(StateId=FA9651BB408B502D844F5F87BB9963DB,Function=MaterialFunction'/Game/Characters/Global/Eyes/MaterialFunctions/ML_EyeRefraction.ML_EyeRefraction')
+   MaterialFunctionInfos(4)=(StateId=7560E2DA4356343C18E6818AA015BAC5,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.MakeFloat2')
+   MaterialFunctionInfos(5)=(StateId=2C1DDB6E406BC9FC1D4141A17C82122A,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.BreakOutFloat2Components')
+   MaterialFunctionInfos(6)=(StateId=B2F4A5A74EDE33D8E70A4A83A28D1503,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter')
+   MaterialFunctionInfos(7)=(StateId=162D6D2B48CD8C456AA56F8E93FB317B,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength.VectorLength')
+   MaterialFunctionInfos(8)=(StateId=2C0AFCEF4B67951F85943A898827DBDF,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/TangentBasis.TangentBasis')
+   MaterialFunctionInfos(9)=(StateId=162D6D2B48CD8C456AA56F8E93FB317B,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength.VectorLength')
+   MaterialFunctionInfos(10)=(StateId=B2F4A5A74EDE33D8E70A4A83A28D1503,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter')
+   MaterialFunctionInfos(11)=(StateId=2C1DDB6E406BC9FC1D4141A17C82122A,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.BreakOutFloat2Components')
+   MaterialFunctionInfos(12)=(StateId=A9E4F02146161CC9A22A4F96722D7232,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/SplitComponents.SplitComponents')
+   MaterialFunctionInfos(13)=(StateId=7560E2DA4356343C18E6818AA015BAC5,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.MakeFloat2')
+   MaterialFunctionInfos(14)=(StateId=7560E2DA4356343C18E6818AA015BAC5,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.MakeFloat2')
+   MaterialFunctionInfos(15)=(StateId=162D6D2B48CD8C456AA56F8E93FB317B,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength.VectorLength')
+   MaterialFunctionInfos(16)=(StateId=B2F4A5A74EDE33D8E70A4A83A28D1503,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter')
+   MaterialFunctionInfos(17)=(StateId=2C1DDB6E406BC9FC1D4141A17C82122A,Function=MaterialFunction'/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.BreakOutFloat2Components')
+   MaterialParameterCollectionInfos(0)=(StateId=1F7C1BB3492E6D3EE2D1899FDB9CC548,ParameterCollection=MaterialParameterCollection'/Game/Bust/MaterialParameterCollections/MPC_SFace_EnvironmentColor.MPC_SFace_EnvironmentColor')
+   bCanMaskedBeAssumedOpaque=True
+   StateId=C032EEE542F114529A62D0A73395017B
+   ReferencedTextureGuids(0)=02B123404DE9C65F21409B96A7347A90
+   ReferencedTextureGuids(1)=0F12149E46D6C86058D450BDA3DCFFBB
+   ReferencedTextureGuids(2)=F9A0D1E64D77F6A0EBFF7883C57290DF
+   ReferencedTextureGuids(3)=E9E205C845A3537F1605E6B6A9F254C8
+   ReferencedTextureGuids(4)=195F980F46378A684F1C08835F438101
+   ReferencedTextureGuids(5)=9939B217411D0DE912E9AE8069C54381
+   SubsurfaceProfile=SubsurfaceProfile'/Game/Characters/Global/Eyes/Textures/Example/EyeInner_Profile.EyeInner_Profile'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=8BFD78A5487E75095928FB9D3127708A
+End Object

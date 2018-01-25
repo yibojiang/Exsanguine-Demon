@@ -1,0 +1,66 @@
+lipsync version 1
+/private/var/ninja/Documents/Projects/Psycho/Sounds/Characters/Adam/Story/Adam_DoctorRoom_3.wav
+24
+140
+1
+	Voice 1
+	Last time I saw him, he was … he was walking. In front of me.
+	1
+		Last time I saw him, he was … he was walking. In front of me.
+		0
+		139
+		15
+			Last 3 9 4
+				3 L
+				5 AI
+				7 etc
+				8 etc
+			time 10 13 3
+				10 etc
+				11 AI
+				13 MBP
+			I 14 15 1
+				14 AI
+			saw 16 20 2
+				16 etc
+				19 O
+			him, 21 28 3
+				21 etc
+				24 AI
+				26 MBP
+			he 50 53 2
+				50 etc
+				52 E
+			was 54 57 3
+				54 WQ
+				55 AI
+				57 etc
+			… 59 60 0
+			he 83 86 2
+				83 etc
+				85 E
+			was 87 89 3
+				87 WQ
+				88 AI
+				89 etc
+			walking. 90 99 5
+				90 WQ
+				92 O
+				94 etc
+				96 AI
+				98 etc
+			In 110 113 2
+				110 AI
+				112 etc
+			front 114 117 5
+				114 FV
+				115 etc
+				116 AI
+				117 etc
+				117 etc
+			of 118 123 2
+				118 AI
+				121 FV
+			me. 124 130 2
+				124 MBP
+				128 E

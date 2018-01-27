@@ -77,3 +77,8 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+Tools/Include/
+Tools/Lib/
+Tools/Scripts/
+Tools/tcl/

@@ -14,16 +14,22 @@ class FBXEvnetHandler(FileSystemEventHandler):
         extension = os.path.splitext(abs_src_path)[1]
         # logging.info("dispatch_task")
             
-        if extension == ".fbx":
+        if extension == ".fbx" or extension == ".dae":
             if '\\Model' in abs_src_path:
+                if not '_root' in abs_src_path:
+                    self.fix_rootmotion(abs_src_path)
+        if extension == ".fbx" or extension == ".dae":
+            if '\\Animations' in abs_src_path:
                 if not '_root' in abs_src_path:
                     self.fix_rootmotion(abs_src_path)
         elif extension == ".dat":
             logging.info("dat")
             if '\\Adam' in abs_src_path:
-                self.generate_lipsync_fbx(abs_src_path, os.path.abspath("../Arts/Model/RootMotion/adam_nofoot_root.fbx"))
+                self.generate_lipsync_fbx(abs_src_path, os.path.abspath("../Arts/Model/RootMotion/adam_normalize_root.fbx"))
             elif '\\Doctor' in abs_src_path:
-                self.generate_lipsync_fbx(abs_src_path, os.path.abspath("../Arts/Model/RootMotion//doctor_root.fbx"))
+                self.generate_lipsync_fbx(abs_src_path, os.path.abspath("../Arts/Model/RootMotion//doctor_normalize_root.fbx"))
+            elif '\\Amy' in abs_src_path:
+                self.generate_lipsync_fbx(abs_src_path, os.path.abspath("../Arts/Model/RootMotion//amy_normalize_root.fbx"))
             
 
     def fix_rootmotion(self, input_path):

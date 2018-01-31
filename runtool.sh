@@ -1,4 +1,2 @@
 #!/bin/bash -e
-cd Tools
-source Scripts/activate
-python Tools/watch.py ..
+cd `pwd`/Tools;pwd;source Scripts/activate;python watch.py ..

@@ -53,15 +53,25 @@ global createBoneKeys
 global lipsyncer
 global createShapekey
 global lipsync_batch
+
+global fpath
+global scn_offset
+global scn_easeIn
+global scn_easeOut
+global scn_holdGap
+global skscale
+global enumFileTypes
+global enumModeTypes
+global enumBlinkTypes
 # add blinking
 def blinker(obj):
 
     # scn = bpy.context.scene
     # obj = bpy.context.object
 
-    if scn.regMenuTypes.enumBlinkTypes == '0':
+    if enumBlinkTypes == '0':
         modifier = 0
-    elif scn.regMenuTypes.enumBlinkTypes == '1':
+    elif enumBlinkTypes == '1':
         modifier = scn.blinkMod
 
     #creating keys with blinkNm count
@@ -83,9 +93,9 @@ def blinkerFlexRig(obj):
     state_frame = scn.frame_current
     state_poselib = obj.pose_library
 
-    if scn.regMenuTypes.enumBlinkTypes == '0':
+    if enumBlinkTypes == '0':
         modifier = 0
-    elif scn.regMenuTypes.enumBlinkTypes == '1':
+    elif enumBlinkTypes == '1':
         modifier = scn.blinkMod
     
     
@@ -108,10 +118,10 @@ def blinkerFlexRig(obj):
         else:
             obj.data.bones[bone_name].select=False
     
-    offst = scn.offset     # offset value
-    frmIn = scn.easeIn     # ease in value
-    frmOut = scn.easeOut   # ease out value
-    hldIn = scn.holdGap    # holding time value
+    offst = scn_offset     # offset value
+    frmIn = scn_easeIn     # ease in value
+    frmOut = scn_easeOut   # ease out value
+    hldIn = scn_holdGap    # holding time value
     
     
     
@@ -121,7 +131,7 @@ def blinkerFlexRig(obj):
         #createShapekey('blink', frame)
         
         # inserting the In key only when phonem change or when blinking
-        #if lastPhoneme!=phoneme or eval(scn.regMenuTypes.enumModeTypes) == 1:
+        #if lastPhoneme!=phoneme or eval(enumModeTypes) == 1:
         #    addFlexRigKey(offst+frame-frmIn, phoneme)
         
         addFlexRigKey(offst+frame-frmIn, 'rest')
@@ -151,13 +161,13 @@ def lipsyncerFlexRig(obj):
     skVlu = scene.skscale    # shape key value
     
     #in case of Papagayo format
-    if scene.regMenuTypes.enumFileTypes == '0' :
+    if enumFileTypes == '0' :
         frmIn = scene.easeIn     # ease in value
         frmOut = scene.easeOut   # ease out value
         hldIn = scene.holdGap    # holding time value
         
     #in case of Jlipsync format or Yolo
-    elif scene.regMenuTypes.enumFileTypes == '1' :
+    elif enumFileTypes == '1' :
         frmIn = 1
         frmOut = 1
         hldIn = 0
@@ -206,7 +216,7 @@ def lipsyncerFlexRig(obj):
         pl = obj.pose_library
         
         # inserting the In key only when phonem change or when blinking
-        #if lastPhoneme[-1]!=phoneme or eval(scene.regMenuTypes.enumModeTypes) == 1:
+        #if lastPhoneme[-1]!=phoneme or eval(enumModeTypes) == 1:
         #    addFlexRigKey(offst+frame-frmIn, phoneme)
         
         # add rest position right before the first phoneme
@@ -345,23 +355,23 @@ def createBoneKeys(phoneme, bone, attribute, frame):
     scene = bpy.context.scene
     object = bpy.context.object
 
-    offst = scene.offset     # offset value
-    skVlu = scene.skscale    # shape key value
+    offst = scn_offset     # offset value
+    skVlu = skscale    # shape key value
 
     #in case of Papagayo format
-    if scene.regMenuTypes.enumFileTypes == '0' :
+    if enumFileTypes == '0' :
         frmIn = scene.easeIn     # ease in value
         frmOut = scene.easeOut   # ease out value
         hldIn = scene.holdGap    # holding time value
 
     #in case of Jlipsync format or Yolo
-    elif scene.regMenuTypes.enumFileTypes == '1' :
+    elif enumFileTypes == '1' :
         frmIn = 1
         frmOut = 1
         hldIn = 0
 
     # inserting the In key only when phonem change or when blinking
-    if lastPhoneme!=phoneme or eval(scene.regMenuTypes.enumModeTypes) == 1:
+    if lastPhoneme!=phoneme or eval(enumModeTypes) == 1:
         addBoneKey(bone, attribute[0], attribute[1], 0.0, offst+frame-frmIn, "Lipsync")
 
     addBoneKey(bone, attribute[0], attribute[1], skVlu, offst+frame, "Lipsync")
@@ -378,7 +388,7 @@ def lipsyncer(obj):
     # obj = bpy.context.object
     scn = bpy.context.scene
 
-    f=open(bpy.path.abspath(scn.fpath)) # importing file
+    f=open(bpy.path.abspath(fpath)) # importing file
     f.readline() # reading the 1st line that we don"t need
 
     min_frame = 9999
@@ -396,15 +406,17 @@ def lipsyncer(obj):
 
         if (frame > max_frame):
             max_frame = frame
-        
-    scn.offset = -min_frame + scn.easeIn;
-    scn.frame_end = (max_frame - min_frame) + scn.easeIn + scn.easeOut
+    
+    global scn_offset
+    scn_offset = -min_frame + scn_easeIn + 1;
+    scn.frame_end = (max_frame - min_frame) + scn_easeIn + scn_easeOut
+    bpy.context.scene.render.fps = 24
     print("min_frame: ", min_frame)
     print("max_frame: ", max_frame)
-    print("offset: ", scn.offset)
+    print("offset: ", scn_offset)
     print("frame_end: ", scn.frame_end)
 
-    f=open(bpy.path.abspath(scn.fpath)) # importing file
+    f=open(bpy.path.abspath(fpath)) # importing file
     f.readline() # reading the 1st line that we don"t need
     for line in f:
 
@@ -428,23 +440,26 @@ def createShapekey(obj, phoneme, frame):
     # obj = bpy.context.object
     objSK = obj.data.shape_keys
 
-    offst = scn.offset     # offset value
-    skVlu = scn.skscale    # shape key value
+    offst = scn_offset     # offset value
+    # print('offset: ', offst)
+    # print('fps:', bpy.context.scene.render.fps)
+    # skVlu = scn.skscale    # shape key value
+    skVlu = skscale
 
     #in case of Papagayo format
-    if scn.regMenuTypes.enumFileTypes == '0' :
-        frmIn = scn.easeIn     # ease in value
-        frmOut = scn.easeOut   # ease out value
-        hldIn = scn.holdGap    # holding time value
+    if enumFileTypes == '0' :
+        frmIn = scn_easeIn     # ease in value
+        frmOut = scn_easeOut   # ease out value
+        hldIn = scn_holdGap    # holding time value
 
     #in case of Jlipsync format or Yolo
-    elif scn.regMenuTypes.enumFileTypes == '1' :
+    elif enumFileTypes == '1' :
         frmIn = 1
         frmOut = 1
         hldIn = 0
 
     # inserting the In key only when phonem change or when blinking
-    if lastPhoneme!=phoneme or eval(scn.regMenuTypes.enumModeTypes) == 1:
+    if lastPhoneme!=phoneme or eval(enumModeTypes) == 1:
         objSK.key_blocks[phoneme].value=0.0
         objSK.key_blocks[phoneme].keyframe_insert("value",
             -1, offst+frame-frmIn, "Lipsync")
@@ -466,11 +481,11 @@ def createShapekey(obj, phoneme, frame):
 
 def lipsync_batch():
     scn = bpy.context.scene
-    scn.offset = 20
+    # scn_offset = 20
 
-    # scn.fpath = "/var/ninja/Documents/Projects/Psycho/Sounds/Chapter1_data/Adam1.dat"
-    # scn.fpath = sys.argv[-2::][0]
-    print("dat file: ", scn.fpath)
+    # fpath = "/var/ninja/Documents/Projects/Psycho/Sounds/Chapter1_data/Adam1.dat"
+    # fpath = sys.argv[-2::][0]
+    print("dat file: ", fpath)
     bpy.context.scene.unit_settings.system = 'METRIC'
     bpy.context.scene.unit_settings.scale_length = 1
     bpy.ops.object.select_all(action='SELECT')
@@ -499,17 +514,17 @@ def lipsync_batch():
             # bpy.context.active_object.animation_data_clear()
             if obj.type=="MESH":
                 if obj.data.shape_keys!=None:
-                    if scn.fpath!='': lipsyncer(obj)
+                    if fpath!='': lipsyncer(obj)
                     else: print ("select a Moho file")
                 else: print("No shape keys")
 
             elif obj.type=="ARMATURE":
-                if scn.regMenuTypes.enumBoneMethodTypes == '0':
-                    if scn.fpath!='': lipsyncerFlexRig(obj)
+                if enumBoneMethodTypes == '0':
+                    if fpath!='': lipsyncerFlexRig(obj)
                     else: print ("select a Moho file")
                 else:
                     if 1:#XXX add prop test
-                        if scn.fpath!='': lipsyncerBone(obj)
+                        if fpath!='': lipsyncerBone(obj)
                         else: print ("select a Moho file")
                     else: print("Create Pose properties")
                     
@@ -539,6 +554,15 @@ def lipsync_batch():
                              )
     return {'FINISHED'}
 
+
+scn_easeIn = 2
+scn_easeOut = 2
+scn_holdGap = 0
+scn_offset = 10
+skscale = 0.8
+enumBlinkTypes = '0'
+enumModeTypes = '0'
+enumFileTypes = '0'
 scn = bpy.context.scene
-scn.fpath = sys.argv[-3::][0]
+fpath = sys.argv[-3::][0]
 lipsync_batch()

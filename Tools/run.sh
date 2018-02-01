@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-BLENDER_PATH="/private/var/ninja/Applications/blender-2.79-macOS-10.6/blender.app/Contents/MacOS/blender"
+# BLENDER_PATH="/private/var/ninja/Applications/blender-2.79-macOS-10.6/blender.app/Contents/MacOS/blender"
 
 SRC_PATH=$1
 

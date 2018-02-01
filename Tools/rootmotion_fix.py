@@ -670,40 +670,40 @@ def file_hip_to_root(file_path, dest_path, use_x=True, use_y=True, use_z=True, o
         # import FBX
         file_loader[file_ext](file_path)
 
-        if "root" in bpy.data.objects:
-            print("root exists, no need to convert")
-        else:
-            # namespace removal
-            if b_remove_namespace:
-                for obj in bpy.context.selected_objects:
-                    remove_namespace(obj)
-            # namespace removal
-            elif b_unreal_bones:
-                for obj in bpy.context.selected_objects:
-                    rename_bones(obj, 'unreal')
+        # if "root" in bpy.data.objects:
+        #     print("root exists, no need to convert")
+        # else:
+        # namespace removal
+        if b_remove_namespace:
+            for obj in bpy.context.selected_objects:
+                remove_namespace(obj)
+        # namespace removal
+        elif b_unreal_bones:
+            for obj in bpy.context.selected_objects:
+                rename_bones(obj, 'unreal')
 
-            def getArmature(objects):
-                for a in objects:
-                    if a.type == 'ARMATURE':
-                        return a
+        def getArmature(objects):
+            for a in objects:
+                if a.type == 'ARMATURE':
+                    return a
 
-            armature = getArmature(bpy.context.selected_objects)
+        armature = getArmature(bpy.context.selected_objects)
 
-            # do hip to Root conversion
-            if hip_to_root(armature, use_x=use_x, use_y=use_y, use_z=use_z, on_ground=on_ground, scale=scale,
-                           restoffset=restoffset, hipname=hipname, fixbind=fixbind, apply_rotation=apply_rotation,
-                           apply_scale=apply_scale) == -1:
-                return -1
+        # do hip to Root conversion
+        if hip_to_root(armature, use_x=use_x, use_y=use_y, use_z=use_z, on_ground=on_ground, scale=scale,
+                       restoffset=restoffset, hipname=hipname, fixbind=fixbind, apply_rotation=apply_rotation,
+                       apply_scale=apply_scale) == -1:
+            return -1
 
 
-            if (knee_offset != (0.0, 0.0, 0.0)):
-                apply_kneefix(armature, knee_offset,
-                              bonenames=bpy.context.scene.mixamo.knee_bones.decode('utf-8').split(','))
+        if (knee_offset != (0.0, 0.0, 0.0)):
+            apply_kneefix(armature, knee_offset,
+                          bonenames=bpy.context.scene.mixamo.knee_bones.decode('utf-8').split(','))
 
-            # remove newly created orphan actions
-            for action in bpy.data.actions:
-                if action != armature.animation_data.action:
-                    bpy.data.actions.remove(action, do_unlink=True)
+        # remove newly created orphan actions
+        for action in bpy.data.actions:
+            if action != armature.animation_data.action:
+                bpy.data.actions.remove(action, do_unlink=True)
         
 
         # facial rig
@@ -715,9 +715,10 @@ def file_hip_to_root(file_path, dest_path, use_x=True, use_y=True, use_z=True, o
             print(mat_name + " exists")
         else:
             print("create a new " + mat_name)
-            mat = bpy.data.materials.new(mat_name)
-            bpy.data.objects["Eyelashes"].data.materials.clear()
-            bpy.data.objects["Eyelashes"].data.materials.append(mat)
+            if "Eyelashes" in bpy.data.objects:
+                mat = bpy.data.materials.new(mat_name)
+                bpy.data.objects["Eyelashes"].data.materials.clear()
+                bpy.data.objects["Eyelashes"].data.materials.append(mat)
 
         # add eyelashes material
         mat = bpy.data.materials.new("Eyelashesmat")

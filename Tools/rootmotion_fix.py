@@ -317,10 +317,11 @@ def hip_to_root(armature, use_x=True, use_y=True, use_z=True, on_ground=True, sc
     return 1
 
 def facial_rig():
-    mesh_name = ["Body", "Beards", 'Eyelashes', 'Moustaches', 'default']
-
+    mesh_name = ["Body", "Beards", 'Eyelashes', 'Moustaches', 'default']    
     for name in mesh_name:
         if name in bpy.data.objects:
+            if not bpy.data.objects[name].data.shape_keys:
+                continue
             for block_key, block_val in bpy.data.objects[name].data.shape_keys.key_blocks.items():
                 bpy.data.objects[name].data.shape_keys.key_blocks[block_key].value = 0
             # etc

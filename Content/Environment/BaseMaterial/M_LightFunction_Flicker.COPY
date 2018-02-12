@@ -1,0 +1,196 @@
+Begin Object Class=/Script/Engine.Material Name="M_LightFunction_Flicker"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSine Name="MaterialExpressionSine_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSine Name="MaterialExpressionSine_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionIf Name="MaterialExpressionIf_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionIf Name="MaterialExpressionIf_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionIf Name="MaterialExpressionIf_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFrac Name="MaterialExpressionFrac_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_2"
+   End Object
+   Begin Object Name="MaterialExpressionTime_2"
+      MaterialExpressionEditorX=-3041
+      MaterialExpressionEditorY=-125
+      MaterialExpressionGuid=89D0C58B41FECA4B79018F83ED4B047D
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      MaterialExpressionEditorX=-3472
+      MaterialExpressionEditorY=781
+      MaterialExpressionGuid=D2D7E9E9432B254FCDA5599234F944FC
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionSine_2"
+      Input=(Expression=MaterialExpressionMultiply'M_LightFunction_Flicker:MaterialExpressionMultiply_2')
+      MaterialExpressionEditorX=-2611
+      MaterialExpressionEditorY=66
+      MaterialExpressionGuid=106566D943F94DBBD61369BF1832D197
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionSine_0"
+      Input=(Expression=MaterialExpressionMultiply'M_LightFunction_Flicker:MaterialExpressionMultiply_1')
+      MaterialExpressionEditorX=-3092
+      MaterialExpressionEditorY=852
+      MaterialExpressionGuid=ABD830AB426177B890163480FC811296
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.125000
+      ParameterName="OnTime"
+      ExpressionGUID=BC682A924E0DF032F29D64AF2BBA3A68
+      MaterialExpressionEditorX=-3041
+      MaterialExpressionEditorY=12
+      MaterialExpressionGuid=434F62D7444B50CAC662F7859109C1C5
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=2.000000
+      ParameterName="FlickerSpeed"
+      ExpressionGUID=B113DE714582B5B0A5F41F849A648EBF
+      MaterialExpressionEditorX=-3496
+      MaterialExpressionEditorY=1015
+      MaterialExpressionGuid=DCB025FE4C8B0B1D013A14A696E89CD7
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionTime'M_LightFunction_Flicker:MaterialExpressionTime_2')
+      B=(Expression=MaterialExpressionScalarParameter'M_LightFunction_Flicker:MaterialExpressionScalarParameter_1')
+      MaterialExpressionEditorX=-2803
+      MaterialExpressionEditorY=-35
+      MaterialExpressionGuid=73F22A484B05F25CBD39A4956E5C88E6
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionTime'M_LightFunction_Flicker:MaterialExpressionTime_0')
+      B=(Expression=MaterialExpressionScalarParameter'M_LightFunction_Flicker:MaterialExpressionScalarParameter_0')
+      MaterialExpressionEditorX=-3278
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=7521B5E64D1881A326B88EBE85BBDB93
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionIf_5"
+      A=(Expression=MaterialExpressionSine'M_LightFunction_Flicker:MaterialExpressionSine_2')
+      B=(Expression=MaterialExpressionConstant'M_LightFunction_Flicker:MaterialExpressionConstant_10')
+      AGreaterThanB=(Expression=MaterialExpressionFrac'M_LightFunction_Flicker:MaterialExpressionFrac_0')
+      AEqualsB=(Expression=MaterialExpressionIf'M_LightFunction_Flicker:MaterialExpressionIf_1')
+      ALessThanB=(Expression=MaterialExpressionIf'M_LightFunction_Flicker:MaterialExpressionIf_1')
+      MaterialExpressionEditorX=-615
+      MaterialExpressionEditorY=430
+      MaterialExpressionGuid=D246C5A24E182866ADB1C2922D68D551
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionIf_1"
+      A=(Expression=MaterialExpressionSine'M_LightFunction_Flicker:MaterialExpressionSine_2')
+      B=(Expression=MaterialExpressionConstant'M_LightFunction_Flicker:MaterialExpressionConstant_5')
+      AGreaterThanB=(Expression=MaterialExpressionIf'M_LightFunction_Flicker:MaterialExpressionIf_0')
+      AEqualsB=(Expression=MaterialExpressionIf'M_LightFunction_Flicker:MaterialExpressionIf_0')
+      ALessThanB=(Expression=MaterialExpressionConstant'M_LightFunction_Flicker:MaterialExpressionConstant_6')
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=243
+      MaterialExpressionGuid=CC7418484372872F464992808DA3539D
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionIf_0"
+      A=(Expression=MaterialExpressionSine'M_LightFunction_Flicker:MaterialExpressionSine_2')
+      B=(Expression=MaterialExpressionConstant'M_LightFunction_Flicker:MaterialExpressionConstant_1')
+      AGreaterThanB=(Expression=MaterialExpressionConstant'M_LightFunction_Flicker:MaterialExpressionConstant_2')
+      AEqualsB=(Expression=MaterialExpressionConstant'M_LightFunction_Flicker:MaterialExpressionConstant_2')
+      ALessThanB=(Expression=MaterialExpressionFrac'M_LightFunction_Flicker:MaterialExpressionFrac_0')
+      MaterialExpressionEditorX=-1513
+      MaterialExpressionEditorY=398
+      MaterialExpressionGuid=12DB0CB546C0C40746A9DEABD9F8BE46
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionFrac_0"
+      Input=(Expression=MaterialExpressionSine'M_LightFunction_Flicker:MaterialExpressionSine_0')
+      MaterialExpressionEditorX=-2717
+      MaterialExpressionEditorY=990
+      MaterialExpressionGuid=01E5A41F43E05AC945D453829B6F8759
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      MaterialExpressionEditorX=-1315
+      MaterialExpressionEditorY=540
+      MaterialExpressionGuid=B94B1BA940FC166F74E0B394EE166B0B
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=-0.500000
+      MaterialExpressionEditorX=-1301
+      MaterialExpressionEditorY=318
+      MaterialExpressionGuid=C76D90694ADD127DA200DBB3AA189C50
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=1.000000
+      MaterialExpressionEditorX=-1958
+      MaterialExpressionEditorY=656
+      MaterialExpressionGuid=14308CBC44E8DFE84662D9B3C45D648F
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_10"
+      R=0.950000
+      MaterialExpressionEditorX=-828
+      MaterialExpressionEditorY=617
+      MaterialExpressionGuid=99A4E7FF46B4443EF12753B0520DC5E2
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      MaterialExpressionEditorX=-1882
+      MaterialExpressionEditorY=456
+      MaterialExpressionGuid=F4DB9F7D4BBC1FF2817D7391BEAB4727
+      Material=Material'M_LightFunction_Flicker'
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionIf'MaterialExpressionIf_5')
+   MaterialDomain=MD_LightFunction
+   ShadingModel=MSM_Unlit
+   Expressions(0)=MaterialExpressionSine'MaterialExpressionSine_0'
+   Expressions(1)=MaterialExpressionTime'MaterialExpressionTime_0'
+   Expressions(2)=MaterialExpressionFrac'MaterialExpressionFrac_0'
+   Expressions(3)=MaterialExpressionMultiply'MaterialExpressionMultiply_1'
+   Expressions(4)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0'
+   Expressions(5)=MaterialExpressionIf'MaterialExpressionIf_0'
+   Expressions(6)=MaterialExpressionSine'MaterialExpressionSine_2'
+   Expressions(7)=MaterialExpressionTime'MaterialExpressionTime_2'
+   Expressions(8)=MaterialExpressionConstant'MaterialExpressionConstant_1'
+   Expressions(9)=MaterialExpressionConstant'MaterialExpressionConstant_2'
+   Expressions(10)=MaterialExpressionMultiply'MaterialExpressionMultiply_2'
+   Expressions(11)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_1'
+   Expressions(12)=MaterialExpressionIf'MaterialExpressionIf_1'
+   Expressions(13)=MaterialExpressionConstant'MaterialExpressionConstant_5'
+   Expressions(14)=MaterialExpressionConstant'MaterialExpressionConstant_6'
+   Expressions(15)=MaterialExpressionIf'MaterialExpressionIf_5'
+   Expressions(16)=MaterialExpressionConstant'MaterialExpressionConstant_10'
+   StateId=6D5270F84A4CDE9BF1B9FD8B9393764D
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_2'
+   LightingGuid=DF7C908B42FE6A6B8674A586CA955071
+End Object

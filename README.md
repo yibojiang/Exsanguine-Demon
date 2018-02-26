@@ -1,2 +1,2 @@
-# Psycho
-A Psycho Project
+# Exsanguine Demon
+A survival game project.

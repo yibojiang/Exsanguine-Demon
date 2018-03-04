@@ -845,7 +845,7 @@ def batch_hip_to_root(source_dir, dest_dir, use_x=True, use_y=True, use_z=True, 
 print("file path: ", sys.argv[-2:][0])
 print("export path", sys.argv[-2:][1])
 
-file_hip_to_root(file_path=sys.argv[-2:][0], dest_path=sys.argv[-2:][1], use_x=True, use_y=True, use_z=True, on_ground=True, scale=1.0,
+file_hip_to_root(file_path=sys.argv[-2:][0], dest_path=sys.argv[-2:][1], use_x=True, use_y=True, use_z=True, on_ground=False, scale=1.0,
                       restoffset=(0, 0, 0), hipname='', fixbind=True, apply_rotation=True, apply_scale=False,
                       b_remove_namespace=False, b_unreal_bones=True, add_leaf_bones=False, knee_offset=(0, 0, 0), ignore_leaf_bones=True)
 # print(sys.argv[-2:][0][-4::])

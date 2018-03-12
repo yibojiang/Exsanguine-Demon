@@ -3,6 +3,7 @@ A survival game project.
 
 ## Keyboard:
 G: Use Health Potion
+
 Tab: Toggle Inventory
 Move: WSAD
 Crouch: C

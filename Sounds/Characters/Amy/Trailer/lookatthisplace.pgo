@@ -1,0 +1,43 @@
+lipsync version 1
+lookatthisplace.wav
+24
+101
+1
+	Voice 1
+	Come on Adam, this place is so good|
+	1
+		Come on Adam, this place is so good
+		0
+		91
+		8
+			Come 0 3 3
+				0 etc
+				1 AI
+				3 MBP
+			on 4 7 2
+				4 AI
+				6 etc
+			Adam, 10 20 4
+				10 AI
+				13 etc
+				16 AI
+				18 MBP
+			this 49 55 3
+				49 etc
+				51 AI
+				54 etc
+			place 56 63 4
+				56 MBP
+				58 L
+				60 E
+				62 etc
+			is 65 69 2
+				65 AI
+				68 etc
+			so 70 83 2
+				70 etc
+				77 O
+			good 84 91 3
+				84 etc
+				87 U
+				89 etc

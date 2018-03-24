@@ -1,0 +1,28 @@
+lipsync version 1
+lookatthisflower.wav
+24
+31
+1
+	Voice 1
+	look at that flower
+	1
+		look at that flower
+		0
+		35
+		4
+			look 0 2 3
+				0 L
+				1 U
+				2 etc
+			at 3 6 2
+				3 AI
+				5 etc
+			that 7 13 3
+				7 etc
+				9 AI
+				12 etc
+			flower 14 27 4
+				14 FV
+				17 L
+				19 O
+				21 E

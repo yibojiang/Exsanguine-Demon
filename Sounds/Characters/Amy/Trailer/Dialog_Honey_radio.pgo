@@ -1,0 +1,38 @@
+lipsync version 1
+Dialog_Honey_radio.wav
+24
+60
+1
+	Voice 1
+	Honey, give me one minute, OK?
+	1
+		Honey, give me one minute, OK?
+		0
+		55
+		6
+			Honey, 0 10 4
+				0 etc
+				3 AI
+				6 etc
+				8 E
+			give 24 25 3
+				24 etc
+				25 AI
+				25 FV
+			me 26 29 2
+				26 MBP
+				28 E
+			one 30 34 3
+				30 WQ
+				32 AI
+				33 etc
+			minute, 35 43 5
+				35 MBP
+				37 AI
+				39 etc
+				40 AI
+				42 etc
+			OK? 44 55 3
+				44 O
+				48 etc
+				52 E

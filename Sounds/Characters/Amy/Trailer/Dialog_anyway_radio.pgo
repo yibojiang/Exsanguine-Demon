@@ -1,0 +1,45 @@
+lipsync version 1
+Dialog_anyway_radio.wav
+24
+64
+1
+	Voice 1
+	Anyway you will see it next time, right|
+	1
+		Anyway you will see it next time, right
+		0
+		63
+		8
+			Anyway 0 10 5
+				0 E
+				2 etc
+				4 E
+				7 WQ
+				9 E
+			you 17 19 2
+				17 etc
+				19 U
+			will 20 22 3
+				20 WQ
+				21 AI
+				22 L
+			see 23 25 2
+				23 etc
+				25 E
+			it 26 29 2
+				26 AI
+				28 etc
+			next 30 37 5
+				30 etc
+				32 E
+				33 etc
+				35 etc
+				36 etc
+			time, 38 43 3
+				38 etc
+				40 AI
+				42 MBP
+			right 44 63 3
+				44 etc
+				48 AI
+				57 etc

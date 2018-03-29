@@ -1,0 +1,28 @@
+lipsync version 1
+/private/var/ninja/Documents/Projects/Psycho/Sounds/Characters/Adam/Story/Adam_DoctorRoom_5.wav
+24
+61
+1
+	Voice 1
+	Yeah, yeah, I know, I know
+	1
+		Yeah, yeah, I know, I know
+		0
+		59
+		6
+			Yeah, 0 10 2
+				0 etc
+				6 AI
+			yeah, 11 20 2
+				11 etc
+				16 AI
+			I 21 24 1
+				21 AI
+			know, 25 30 2
+				25 etc
+				28 O
+			I 32 37 1
+				32 AI
+			know 38 45 2
+				38 etc
+				42 O

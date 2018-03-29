@@ -33,11 +33,12 @@ bl_info = {
     "category": "Import-Export"}
 
 
+import os
 import bpy, re
 from random import random
 from bpy.props import *
 from bpy.props import IntProperty, FloatProperty, StringProperty
-
+# from bpy.types import EnumProperty
 global lastPhoneme
 lastPhoneme="nothing"
 
@@ -426,6 +427,127 @@ def createShapekey(phoneme, frame):
 
     lastPhoneme = phoneme
 
+
+# class btn_facial_rig(bpy.types.Operator):
+#     bl_idname = 'lipsync.facial.rig'
+#     bl_label = 'Start Processing'
+#     bl_description = 'Facial Rig for the character'
+
+#     def execute(self, context):
+#         print("facial rig")
+
+class btn_lipsyncer_batch_files(bpy.types.Operator):
+    bl_idname = 'lipsync.batchfiles'
+    bl_label = 'Start Processing'
+    bl_description = 'Batch generate animations'
+
+    def execute(self, context):
+        newType= bpy.types.Scene
+        if newType.inpath == '':
+            self.report({'ERROR_INVALID_INPUT'}, "Error: no Input Path set.")
+            return{ 'CANCELLED'}
+        if newType.outpath == '':
+            self.report({'ERROR_INVALID_INPUT'}, "Error: no Output Path set.")
+            return{ 'CANCELLED'}
+        
+        # print("fpath: ", bpy.context.scene.fpath)
+        # print("inpath: ", bpy.context.scene.inpath)
+        # print("outpath: ", bpy.context.scene.outpath)
+        print(bpy.path.abspath(bpy.context.scene.fpath))
+        source_dir = bpy.path.abspath(bpy.context.scene.inpath)
+        dest_dir = bpy.path.abspath(bpy.context.scene.outpath)
+
+        # todo add newType.model_path in menu
+        bpy.context.scene.model_path = "/private/var/ninja/Documents/Projects/Psycho/Arts/Model/adam.blend"
+
+        numfiles = 0
+        for file in os.scandir(source_dir):
+            print("filename: ", file.name)
+            print("filepath: ", file.path)
+
+            file_ext = file.name[-4::]
+            print("ext:", file_ext)
+            if (".dat" in file_ext):
+
+                bpy.context.scene.fpath = file.path
+
+
+                output_file = dest_dir + file.name[:-4] + ".fbx"
+
+                print("source file:", file)
+                print("output file:", output_file)
+                # remove all the datablocks
+                numfiles += 1
+                bpy.ops.object.select_all(action='SELECT')
+                bpy.ops.object.delete(use_global=True)
+
+                # remove all datablocks
+                for mesh in bpy.data.meshes:
+                    bpy.data.meshes.remove(mesh, do_unlink=True)
+                for material in bpy.data.materials:
+                    bpy.data.materials.remove(material, do_unlink=True)
+                for action in bpy.data.actions:
+                    bpy.data.actions.remove(action, do_unlink=True)
+
+                # import fbx
+                bpy.ops.import_scene.fbx(filepath=newType.model_path, axis_forward='-Z',
+                                                              axis_up='Y', directory="",
+                                                              filter_glob="*.fbx", ui_tab='MAIN',
+                                                              use_manual_orientation=False, global_scale=1.0,
+                                                              bake_space_transform=False,
+                                                              use_custom_normals=True,
+                                                              use_image_search=True,
+                                                              use_alpha_decals=False, decal_offset=0.0,
+                                                              use_anim=True, anim_offset=1.0,
+                                                              use_custom_props=True,
+                                                              use_custom_props_enum_as_string=True,
+                                                              ignore_leaf_bones=False,
+                                                              force_connect_children=False,
+                                                              automatic_bone_orientation=True,
+                                                              primary_bone_axis='Y',
+                                                              secondary_bone_axis='X',
+                                                              use_prepost_rot=True)
+                scn = context.scene
+                
+                scn.fpath = file.path
+                for obj in scn.objects:
+                    if obj.type=="MESH":
+                        scn.objects.active = obj
+                        print(bpy.context.active_object)
+                        bpy.context.active_object.animation_data_clear()
+                        if obj.type=="MESH":
+                            if obj.data.shape_keys!=None:
+                                if scn.fpath!='': lipsyncer()
+                                else: print ("select a Moho file")
+                            else: print("No shape keys")
+
+                        elif obj.type=="ARMATURE":
+                            if scn.regMenuTypes.enumBoneMethodTypes == '0':
+                                if scn.fpath!='': lipsyncerFlexRig()
+                                else: print ("select a Moho file")
+                            else:
+                                if 1:#XXX add prop test
+                                    if scn.fpath!='': lipsyncerBone()
+                                    else: print ("select a Moho file")
+                                else: print("Create Pose properties")
+                                
+                        else: print ("Object is not a mesh ot bone")
+
+                bpy.ops.export_scene.fbx(filepath=output_file,
+                                     version='BIN7400',
+                                     use_selection=False,
+                                     apply_unit_scale=False,
+                                     add_leaf_bones=False,
+                                     axis_forward='-Z',
+                                     axis_up='Y',
+                                     mesh_smooth_type='FACE')
+                
+                bpy.ops.object.select_all(action='SELECT')
+                bpy.ops.object.delete(use_global=False)
+
+        return numfiles
+        print("Batch generate animations")
+
 class btn_lipsyncer_batch(bpy.types.Operator):
     bl_idname = 'lipsync.gobatch'
     bl_label = 'Start Processing'
@@ -455,7 +577,7 @@ class btn_lipsyncer_batch(bpy.types.Operator):
                         else: print("Create Pose properties")
                         
                 else: print ("Object is not a mesh ot bone")
-
+        return {'FINISHED'}
                 
 
 # lipsyncer operation start
@@ -520,7 +642,6 @@ class btn_blinker(bpy.types.Operator):
 
 #defining custom enumeratos
 class menuTypes(bpy.types.PropertyGroup):
-
     enumFileTypes = EnumProperty(items =(('0', 'Papagayo', ''),
                                          ('1', 'Jlipsync Or Yolo', '')
                                        #,('2', 'Retarget', '')
@@ -605,6 +726,9 @@ class LipSyncUI(bpy.types.Panel):
     newType.phonemesLib = StringProperty(default="Lib_Phonemes")
     newType.eyesLib = StringProperty(default="Lib_Eyes")
 
+    newType.inpath = StringProperty(name="Import File ", description="Select your voice directory", subtype="FILE_PATH", default="/var/ninja/Documents/Projects/Psycho/Sounds/Chapter1_data/")
+
+    newType.outpath = StringProperty(name="Output File ", description="Select your output directory", subtype="FILE_PATH", default="/var/ninja/Documents/Projects/Psycho/Arts/Lipsync/")
 
     def draw(self, context):
 
@@ -613,6 +737,10 @@ class LipSyncUI(bpy.types.Panel):
 
         layout = self.layout
         col = layout.column()
+
+        col.prop(context.scene, "inpath")
+        col.prop(context.scene, "outpath")
+        col.operator('lipsync.batchfiles', text='batch generate')
 
         # showing the current object type
         if obj != None:
@@ -670,9 +798,16 @@ class LipSyncUI(bpy.types.Panel):
                 if scn.regMenuTypes.enumBoneMethodTypes == '0':
                     col.prop(context.scene, "phonemesLib", "Pose Library")
                 col.separator()
-                
+            
+            # col.operator('lipsync.facial.rig', text='facial rig')    
             col.operator('lipsync.go', text='Plot Keys to the Timeline')
             col.operator('lipsync.gobatch', text='Plot Keys to the Timeline (batch)')
+
+
+
+            
+
+            
         
         # the blinker panel
         elif scn.regMenuTypes.enumModeTypes == '1':
@@ -726,7 +861,7 @@ def clear_properties():
     if bpy.context.scene is None:
         return
      
-    props = ["fpath", "skscale", "offset", "easeIn", "easeOut", "holdGap", "blinkSp", "blinkNm", "blinkMod", "phonemesLib", "eyesLib"]
+    props = ["fpath", "skscale", "offset", "easeIn", "easeOut", "holdGap", "blinkSp", "blinkNm", "blinkMod", "phonemesLib", "eyesLib", "inpath", "outpath"]
     
     for p in props:
         if p in bpy.types.Scene.bl_rna.properties:
